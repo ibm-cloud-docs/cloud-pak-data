@@ -1,0 +1,11 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="cloud-pak-data" audience="oss" category="<category>" href="/docs/<folder_name>?topic=<subcollection>getting-started"}
+IBM Cloud Pak for Data
+
+    {: .navgroup id="learn"}
+    getting-started.md
+
+    {: .navgroup-end}
+
