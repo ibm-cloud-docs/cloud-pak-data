@@ -6,6 +6,5 @@ IBM Cloud Pak for Data
 
     {: .navgroup id="learn"}
     getting-started.md
-
     {: .navgroup-end}
 
