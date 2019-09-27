@@ -1,5 +1,3 @@
-<!-- Name your file `getting-started.md` and include it in the Learn navigation group in your toc file. -->
-
 ---
 
 copyright:
@@ -12,7 +10,6 @@ subcollection: cloud-pak-data
 
 ---
 
-<!-- Common attributes used in the template are defined as follows: -->
 {:shortdesc: .shortdesc}
 {:screen: .screen}
 {:codeblock: .codeblock}
@@ -127,26 +124,3 @@ When the installation completes, you can access your {{site.data.keyword.cpd_ful
 Log in to the web client as `admin` using the password that you created in the preceding steps. 
 
 For details on creating additional users, see [Managing users](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/com.ibm.icpdata.doc/zen/admin/users.html).
-
-<!-- Add the topic to your `toc` file:
-
-
-{:navgroup: .navgroup}
-{:topicgroup: .topicgroup}
-
-{: .toc subcollection="<Folder_name>" audience="oss" category="<category>" href="/docs/<folder_name>?topic=<subcollection>getting-started"}
-<Cloud Pak Name>
-
-    {: .navgroup id="learn"}
-    getting-started.md
-
-    {: .topicgroup}
-    Related links
-        [Link text](link URL)
-    {: .navgroup-end}
-
-    {: .navgroup id="reference"}
-    Reference
-    [Link text](link URL)
-    {: .navgroup-end}
--->
