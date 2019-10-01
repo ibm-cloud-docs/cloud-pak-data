@@ -1,0 +1,10 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="cloud-pak-data" audience="service" category="analytics" href="/docs/cloud-pak-data?topic=cloud-pak-data-getting-started" path="cloud-pak-data"}
+Cloud Pak for Data
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    {: .navgroup-end}
+
