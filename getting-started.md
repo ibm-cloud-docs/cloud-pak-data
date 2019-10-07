@@ -22,7 +22,7 @@ subcollection: cloud-pak-data
 # Getting started with {{site.data.keyword.cpd_full_notm}}
 {: #getting-started}
 
-Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on Red Hat OpenShift. With {{site.data.keyword.cpd_full}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughtout your business. 
+Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on Red Hat OpenShift. With {{site.data.keyword.cpd_full}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughout your business. 
 {:shortdesc}
 
 Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/com.ibm.icpdata.doc/zen/overview/overview.html). 
@@ -68,7 +68,7 @@ A suite of data governance tools that enable you to curate your data so that it'
 
 Before you can install IBM Cloud Pak for Data, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html). 
 
-In addition, you must have a [Red Hat OpenShift cluster](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) on IBM Cloud. Ensure that the cluster has sufficient resources to run {{site.data.keyword.cpd_full_notm}}. For details, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-data#about) for {{site.data.keyword.cpd_full_notm}}.
+In addition, you must have a [{{site.data.keyword.openshiftlong_notm}} cluster](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster). Ensure that the cluster has sufficient resources to run {{site.data.keyword.cpd_full_notm}}. For details, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-data#about) for {{site.data.keyword.cpd_full_notm}}.
 
 
 ## Step 1. Configure your installation environment
@@ -103,7 +103,7 @@ A Red Hat OpenShift cluster administrator must complete this step.
 
 Override the default deployment values:
 
-1. Enter a value for the consoleRoutePrefix parameter. This value is added as a subdomain to your OpenShfit Cluster Console URL so that you can access the {{site.data.keyword.cpd_full_notm}} web client. 
+1. Enter a value for the consoleRoutePrefix parameter. This value is added as a subdomain to your {{site.data.keyword.openshiftshort}} Cluster Console URL so that you can access the {{site.data.keyword.cpd_full_notm}} web client. 
 1. Specify the password for the default {{site.data.keyword.cpd_full_notm}} user (`admin`).
 
 
