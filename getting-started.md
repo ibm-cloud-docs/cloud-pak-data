@@ -89,7 +89,7 @@ Infuse your AI with trust and transparency. Understand how your AI models make d
 
 Before you can install IBM Cloud Pak for Data, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html). 
 
-In addition, you must have a [Red Hat OpenShift cluster](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) on IBM Cloud. Ensure that the cluster has sufficient resources to run {{site.data.keyword.cpd_full_notm}}. For details, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-data#about) for {{site.data.keyword.cpd_full_notm}}.
+In addition, you must have a [Red Hat OpenShift Version 3.11 cluster](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) on IBM Cloud. Ensure that the cluster has sufficient resources to run {{site.data.keyword.cpd_full_notm}}. For details, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.
 
 
 ## Step 1. Configure your installation environment
@@ -99,7 +99,7 @@ It is recommended that you install only one instance of {{site.data.keyword.cpd_
 
 Specify where you want to install {{site.data.keyword.cpd_full_notm}}:
 1. Select the Red Hat OpenShift cluster where you want to deploy {{site.data.keyword.cpd_full_notm}}. 
-1. Enter or select the project where you want to deploy {{site.data.keyword.cpd_full_notm}}. 
+1. Enter or select the Red Hat OpenShift project where you want to deploy {{site.data.keyword.cpd_full_notm}}. 
 
 
 ## Step 2. Configure your workspace
@@ -110,22 +110,25 @@ Specify how you will track and manage your installation from your IBM Cloud Sche
 1. Specify any tags that you want to use for the installation. Specify multiple tags as a comma-separated list. 
 
 
-## Step 3. Complete the pre-installation check
-{: #pre-install-check}
+## Step 3. Complete the preinstallation set up
+{: #pre-install-set-up}
 
-A Red Hat OpenShift cluster administrator must complete this step.
+A Red Hat OpenShift cluster administrator must complete this step.  Specifically, the administrator must have an [access](https://cloud.ibm.com/docs/openshift?topic=openshift-users) policy in IBM Cloud Identity and Access Management that has an Operator role or higher. 
 
 - If you are not an administrator, use the **Share** link to share the script with your cluster administrator. 
-- If you are a cluster administrator, click **Run script** to run the pre-installation check. Confirm that the script completes successfully.  
+- If you are a cluster administrator, click **Run script** to run the preinstallation set up on your cluster. Confirm that the script completes successfully.  
 
 
 ## Step 4. Set the deployment values
 {: #set-deploy-values}
 
-Override the default deployment values:
+Use the deployment parameters to specify which services are installed when you install {{site.data.keyword.cpd_full_notm}}:
 
-1. Enter a value for the consoleRoutePrefix parameter. This value is added as a subdomain to your OpenShfit Cluster Console URL so that you can access the {{site.data.keyword.cpd_full_notm}} web client. 
-1. Specify the password for the default {{site.data.keyword.cpd_full_notm}} user (`admin`).
+- To install Watson OpenScale, set `aiopenscale` to `true`.
+- To install Data Virtualization, set `dv` to `true`.
+- To install Watson Knowledge Catalog, set `wkc` to `true`.
+- To install Watson Machine Learning, set `wml` to `true`.
+- To install Watson Studio, set `wsl` to `true`.
 
 
 ## Step 5. Install {{site.data.keyword.cpd_full_notm}}
@@ -142,6 +145,6 @@ Override the default deployment values:
 
 When the installation completes, you can access your {{site.data.keyword.cpd_full_notm}} deployment with the provided URL. 
 
-Log in to the web client as `admin` using the password that you created in the preceding steps. 
+Log in to the web client as `admin` using the default password. 
 
-For details on creating additional users, see [Managing users](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/com.ibm.icpdata.doc/zen/admin/users.html).
+For details on creating additional users, see [Managing users](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/admin/users.html).
