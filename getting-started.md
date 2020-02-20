@@ -116,7 +116,20 @@ Specify how you will track and manage your installation from your IBM Cloud Sche
 A Red Hat OpenShift cluster administrator must complete this step.  Specifically, the administrator must have an [access](https://cloud.ibm.com/docs/openshift?topic=openshift-users) policy in IBM Cloud Identity and Access Management that has an Operator role or higher. 
 
 - If you are not an administrator, use the **Share** link to share the script with your cluster administrator. 
-- If you are a cluster administrator, click **Run script** to run the preinstallation set up on your cluster. Confirm that the script completes successfully.  
+- If you are a cluster administrator, click **Run script** to run the preinstallation set up on your cluster. 
+
+The preinstallation script makes the following changes to your Red Hat OpenShift cluster:
+
+- Increases the size of the Docker registry to 200 GB. 
+  This change increases the cost of your Red Hat OpenShift cluster.
+- Increases IOPS to 10. 
+  This change increases the cost of your Red Hat OpenShift cluster.
+- Creates the security context constraints that are required for Cloud Pak for Data.
+- Grants access to the security context constraints to the service accounts that are required for Cloud Pak for Data.
+
+
+
+Confirm that the script completes successfully before you proceed.  
 
 
 ## Step 4. Set the deployment values
