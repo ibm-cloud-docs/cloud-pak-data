@@ -22,7 +22,7 @@ subcollection: cloud-pak-data
 # Getting started with {{site.data.keyword.cpd_full_notm}}
 {: #getting-started}
 
-Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on Red Hat OpenShift. With {{site.data.keyword.cpd_full}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughout your business. 
+Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on {{site.data.keyword.openshiftlong_notm}}. With {{site.data.keyword.cpd_full}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughout your business. 
 {:shortdesc}
 
 Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/overview/overview.html). 
@@ -95,11 +95,11 @@ In addition, you must have a [{{site.data.keyword.openshiftlong_notm}} Version 3
 ## Step 1. Configure your installation environment
 {: #config-install-env}
 
-It is recommended that you install only one instance of {{site.data.keyword.cpd_full_notm}} on each Red Hat OpenShift cluster. 
+It is recommended that you install only one instance of {{site.data.keyword.cpd_full_notm}} on each {{site.data.keyword.openshiftlong_notm}} cluster. 
 
 Specify where you want to install {{site.data.keyword.cpd_full_notm}}:
-1. Select the Red Hat OpenShift cluster where you want to deploy {{site.data.keyword.cpd_full_notm}}. 
-1. Enter or select the Red Hat OpenShift project where you want to deploy {{site.data.keyword.cpd_full_notm}}. 
+1. Select the {{site.data.keyword.openshiftlong_notm}} cluster where you want to deploy {{site.data.keyword.cpd_full_notm}}. 
+1. Enter or select the {{site.data.keyword.openshiftlong_notm}} project where you want to deploy {{site.data.keyword.cpd_full_notm}}. 
 
 
 ## Step 2. Configure your workspace
@@ -113,17 +113,17 @@ Specify how you will track and manage your installation from your IBM Cloud Sche
 ## Step 3. Complete the preinstallation set up
 {: #pre-install-set-up}
 
-A Red Hat OpenShift cluster administrator must complete this step.  Specifically, the administrator must have an [access](https://cloud.ibm.com/docs/openshift?topic=openshift-users) policy in IBM Cloud Identity and Access Management that has an Operator role or higher. 
+A {{site.data.keyword.openshiftlong_notm}} cluster administrator must complete this step.  Specifically, the administrator must have an [access](https://cloud.ibm.com/docs/openshift?topic=openshift-users) policy in IBM Cloud Identity and Access Management that has an Operator role or higher. 
 
 - If you are not an administrator, use the **Share** link to share the script with your cluster administrator. 
 - If you are a cluster administrator, click **Run script** to run the preinstallation set up on your cluster. 
 
-The preinstallation script makes the following changes to your Red Hat OpenShift cluster:
+The preinstallation script makes the following changes to your {{site.data.keyword.openshiftlong_notm}} cluster:
 
 - Increases the size of the Docker registry to 200 GB. 
-  This change increases the cost of your Red Hat OpenShift cluster.
+  This change increases the cost of your {{site.data.keyword.openshiftlong_notm}} cluster.
 - Increases IOPS to 10. 
-  This change increases the cost of your Red Hat OpenShift cluster.
+  This change increases the cost of your {{site.data.keyword.openshiftlong_notm}} cluster.
 - Creates the security context constraints that are required for Cloud Pak for Data.
 - Grants access to the security context constraints to the service accounts that are required for Cloud Pak for Data.
 
