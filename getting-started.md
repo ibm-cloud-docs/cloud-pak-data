@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-09-25"
+  years: 2019, 2020
+lastupdated: "2020-02-20"
 
 keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -25,42 +25,63 @@ subcollection: cloud-pak-data
 Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on Red Hat OpenShift. With {{site.data.keyword.cpd_full}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughtout your business. 
 {:shortdesc}
 
-Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/com.ibm.icpdata.doc/zen/overview/overview.html). 
+Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/overview/overview.html). 
 
 
 
 ## What's inside this Cloud Pak
 {: #whats-in-cloud-pak-for-data}
 
-{{site.data.keyword.cpd_full_notm}} includes the following services:
+The features that you can use depend on the services that you install. You can choose which services to install when you install {{site.data.keyword.cpd_full}}. 
+
+If you want to install a service later, you can follow the documented installation procedure. 
 
 
-### Analytics Dashboards 
-{: #analytics-dashboards}
+### Data Virtualization
+{: #data-virtualization}
 
-A drag-and-drop canvas that enables you to create interactive data visualizations. Identify patterns in your data with
-sophisticated visualizations. No coding needed. For details, see [Analytics dashboards](https://www.ibm.com/support/knowledgecenter/SSQNUZ_2.1.0/com.ibm.icpdata.doc/dashboard/c_parent_topic.html).
+Create data sets from disparate data sources so that you can query and use the data as if it came from a single source.
+
+- [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/dv/dv_overview.html)
+- [Installing Data Virtualization](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/dv/install-dv.html)
+
+
+### Watson Knowledge Catalog
+{: #watson-knolwedge-catalog} 
+
+Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations. 
+
+- [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/catalog/overview-wkc.html)
+- [Installing Watson Knowledge Catalog](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/install/install-wkc.html)
 
 
 ### Watson Studio
 {: #watson-studio}
 
-A collaborative data science environment with a variety of tools that enable you to shape, cleanse, and analyze data. For details, see [Analyzing data](https://www.ibm.com/support/knowledgecenter/SSQNUZ_2.1.0/com.ibm.icpdata.doc/dsx/analyze-data.html).
+Unearth the meaning in your data. Build custom models and infuse your business with AI and machine learning. 
+
+- [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/getting-started/overview-ws.html)
+- [Installing Watson Studio](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/install/install-ws.html)
 
 
-### Unified Governance and Integration
-{: #unified-governance}
+### Watson Machine Learning
+{: #watson-machine-learning}
 
-A suite of data governance tools that enable you to curate your data so that it's useful, trusted, and ready to analyze. For details, see the following topics:
-- [Cataloging and governing data](https://www.ibm.com/support/knowledgecenter/SSQNUZ_2.1.0/com.ibm.icpdata.doc/igc/catalog-govern-overview.html)
-- [Exploring and profiling data](https://www.ibm.com/support/knowledgecenter/SSQNUZ_2.1.0/com.ibm.icpdata.doc/igc/explore-profile-overview.html)
-- [Transforming data with ETL](https://www.ibm.com/support/knowledgecenter/SSQNUZ_2.1.0/com.ibm.icpdata.doc/dfd/c_transf_data.html) 
+Build analytical models and neural networks that are trained with your data. Then deploy them into production at scale. 
+
+- [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/analyze-data/ml-install-overview.html)
+- [Installing Watson Machine Learning](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/wsj/ml-install.html)
 
 
-### See the full catalog of offerings
-{: #full-catalog}
+### Watson OpenScale
+{: #watson-openscale}
 
-{{site.data.keyword.cpd_full_notm}} includes a variety of services. See the {{site.data.keyword.cpd_full_notm}} documentation for a [complete list of services](https://www.ibm.com/support/knowledgecenter/SSQNUZ_2.1.0/com.ibm.icpdata.doc/zen/admin/add-ons.html).
+Infuse your AI with trust and transparency. Understand how your AI models make decisions to detect and mitigate bias. 
+
+- [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/openscale/openscale-overview.html)
+- [Installing Watson OpenScale](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/openscale/openscale-install-overview.html)
+
+
 
 
 ## Before you begin
