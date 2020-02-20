@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-09-25"
+  years: 2019, 2020
+lastupdated: "2020-02-20"
 
 keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -25,42 +25,63 @@ subcollection: cloud-pak-data
 Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on Red Hat OpenShift. With {{site.data.keyword.cpd_full}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughout your business. 
 {:shortdesc}
 
-Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/com.ibm.icpdata.doc/zen/overview/overview.html). 
+Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/overview/overview.html). 
 
 
 
 ## What's inside this Cloud Pak
 {: #whats-in-cloud-pak-for-data}
 
-{{site.data.keyword.cpd_full_notm}} includes the following services:
+The features that you can use depend on the services that you install. You can choose which services to install when you install {{site.data.keyword.cpd_full}}. 
+
+If you want to install a service later, you can follow the documented installation procedure. 
 
 
-### Analytics Dashboards 
-{: #analytics-dashboards}
+### Data Virtualization
+{: #data-virtualization}
 
-A drag-and-drop canvas that enables you to create interactive data visualizations. Identify patterns in your data with
-sophisticated visualizations. No coding needed. For details, see [Analytics dashboards](https://www.ibm.com/support/knowledgecenter/SSQNUZ_2.1.0/com.ibm.icpdata.doc/dashboard/c_parent_topic.html).
+Create data sets from disparate data sources so that you can query and use the data as if it came from a single source.
+
+- [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/dv/dv_overview.html)
+- [Installing Data Virtualization](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/dv/install-dv.html)
+
+
+### Watson Knowledge Catalog
+{: #watson-knolwedge-catalog} 
+
+Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations. 
+
+- [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/catalog/overview-wkc.html)
+- [Installing Watson Knowledge Catalog](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/install/install-wkc.html)
 
 
 ### Watson Studio
 {: #watson-studio}
 
-A collaborative data science environment with a variety of tools that enable you to shape, cleanse, and analyze data. For details, see [Analyzing data](https://www.ibm.com/support/knowledgecenter/SSQNUZ_2.1.0/com.ibm.icpdata.doc/dsx/analyze-data.html).
+Unearth the meaning in your data. Build custom models and infuse your business with AI and machine learning. 
+
+- [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/getting-started/overview-ws.html)
+- [Installing Watson Studio](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/install/install-ws.html)
 
 
-### Unified Governance and Integration
-{: #unified-governance}
+### Watson Machine Learning
+{: #watson-machine-learning}
 
-A suite of data governance tools that enable you to curate your data so that it's useful, trusted, and ready to analyze. For details, see the following topics:
-- [Cataloging and governing data](https://www.ibm.com/support/knowledgecenter/SSQNUZ_2.1.0/com.ibm.icpdata.doc/igc/catalog-govern-overview.html)
-- [Exploring and profiling data](https://www.ibm.com/support/knowledgecenter/SSQNUZ_2.1.0/com.ibm.icpdata.doc/igc/explore-profile-overview.html)
-- [Transforming data with ETL](https://www.ibm.com/support/knowledgecenter/SSQNUZ_2.1.0/com.ibm.icpdata.doc/dfd/c_transf_data.html) 
+Build analytical models and neural networks that are trained with your data. Then deploy them into production at scale. 
+
+- [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/analyze-data/ml-install-overview.html)
+- [Installing Watson Machine Learning](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/wsj/ml-install.html)
 
 
-### See the full catalog of offerings
-{: #full-catalog}
+### Watson OpenScale
+{: #watson-openscale}
 
-{{site.data.keyword.cpd_full_notm}} includes a variety of services. See the {{site.data.keyword.cpd_full_notm}} documentation for a [complete list of services](https://www.ibm.com/support/knowledgecenter/SSQNUZ_2.1.0/com.ibm.icpdata.doc/zen/admin/add-ons.html).
+Infuse your AI with trust and transparency. Understand how your AI models make decisions to detect and mitigate bias. 
+
+- [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/openscale/openscale-overview.html)
+- [Installing Watson OpenScale](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/openscale/openscale-install-overview.html)
+
+
 
 
 ## Before you begin
@@ -68,7 +89,7 @@ A suite of data governance tools that enable you to curate your data so that it'
 
 Before you can install IBM Cloud Pak for Data, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html). 
 
-In addition, you must have a [{{site.data.keyword.openshiftlong_notm}} cluster](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster). Ensure that the cluster has sufficient resources to run {{site.data.keyword.cpd_full_notm}}. For details, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-data#about) for {{site.data.keyword.cpd_full_notm}}.
+In addition, you must have a [{{site.data.keyword.openshiftlong_notm}} Version 3.11 cluster](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) on IBM Cloud. Ensure that the cluster has sufficient resources to run {{site.data.keyword.cpd_full_notm}}. For details, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.
 
 
 ## Step 1. Configure your installation environment
@@ -78,7 +99,7 @@ It is recommended that you install only one instance of {{site.data.keyword.cpd_
 
 Specify where you want to install {{site.data.keyword.cpd_full_notm}}:
 1. Select the Red Hat OpenShift cluster where you want to deploy {{site.data.keyword.cpd_full_notm}}. 
-1. Enter or select the project where you want to deploy {{site.data.keyword.cpd_full_notm}}. 
+1. Enter or select the Red Hat OpenShift project where you want to deploy {{site.data.keyword.cpd_full_notm}}. 
 
 
 ## Step 2. Configure your workspace
@@ -89,22 +110,39 @@ Specify how you will track and manage your installation from your IBM Cloud Sche
 1. Specify any tags that you want to use for the installation. Specify multiple tags as a comma-separated list. 
 
 
-## Step 3. Complete the pre-installation check
-{: #pre-install-check}
+## Step 3. Complete the preinstallation set up
+{: #pre-install-set-up}
 
-A Red Hat OpenShift cluster administrator must complete this step.
+A Red Hat OpenShift cluster administrator must complete this step.  Specifically, the administrator must have an [access](https://cloud.ibm.com/docs/openshift?topic=openshift-users) policy in IBM Cloud Identity and Access Management that has an Operator role or higher. 
 
 - If you are not an administrator, use the **Share** link to share the script with your cluster administrator. 
-- If you are a cluster administrator, click **Run script** to run the pre-installation check. Confirm that the script completes successfully.  
+- If you are a cluster administrator, click **Run script** to run the preinstallation set up on your cluster. 
+
+The preinstallation script makes the following changes to your Red Hat OpenShift cluster:
+
+- Increases the size of the Docker registry to 200 GB. 
+  This change increases the cost of your Red Hat OpenShift cluster.
+- Increases IOPS to 10. 
+  This change increases the cost of your Red Hat OpenShift cluster.
+- Creates the security context constraints that are required for Cloud Pak for Data.
+- Grants access to the security context constraints to the service accounts that are required for Cloud Pak for Data.
+
+
+
+Confirm that the script completes successfully before you proceed.  
 
 
 ## Step 4. Set the deployment values
 {: #set-deploy-values}
 
-Override the default deployment values:
+Use the deployment parameters to specify which services are installed when you install {{site.data.keyword.cpd_full_notm}}:
 
-1. Enter a value for the consoleRoutePrefix parameter. This value is added as a subdomain to your {{site.data.keyword.openshiftshort}} Cluster Console URL so that you can access the {{site.data.keyword.cpd_full_notm}} web client. 
-1. Specify the password for the default {{site.data.keyword.cpd_full_notm}} user (`admin`).
+- To install Watson OpenScale, set `aiopenscale` to `true`.
+- To install Data Virtualization, set `dv` to `true`.
+- To install Watson Knowledge Catalog, set `wkc` to `true`.
+- To install Watson Machine Learning, set `wml` to `true`.
+- To install Watson Studio, set `wsl` to `true`.
+
 
 
 ## Step 5. Install {{site.data.keyword.cpd_full_notm}}
@@ -121,6 +159,6 @@ Override the default deployment values:
 
 When the installation completes, you can access your {{site.data.keyword.cpd_full_notm}} deployment with the provided URL. 
 
-Log in to the web client as `admin` using the password that you created in the preceding steps. 
+Log in to the web client as `admin` using the default password. 
 
-For details on creating additional users, see [Managing users](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/com.ibm.icpdata.doc/zen/admin/users.html).
+For details on creating additional users, see [Managing users](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/admin/users.html).
