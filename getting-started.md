@@ -22,7 +22,7 @@ subcollection: cloud-pak-data
 # Getting started with {{site.data.keyword.cpd_full_notm}}
 {: #getting-started}
 
-Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on Red Hat OpenShift. With {{site.data.keyword.cpd_full}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughtout your business. 
+Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on Red Hat OpenShift. With {{site.data.keyword.cpd_full}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughout your business. 
 {:shortdesc}
 
 Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/overview/overview.html). 
@@ -89,7 +89,7 @@ Infuse your AI with trust and transparency. Understand how your AI models make d
 
 Before you can install IBM Cloud Pak for Data, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html). 
 
-In addition, you must have a [Red Hat OpenShift Version 3.11 cluster](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) on IBM Cloud. Ensure that the cluster has sufficient resources to run {{site.data.keyword.cpd_full_notm}}. For details, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.
+In addition, you must have a [{{site.data.keyword.openshiftlong_notm}} Version 3.11 cluster](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) on IBM Cloud. Ensure that the cluster has sufficient resources to run {{site.data.keyword.cpd_full_notm}}. For details, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.
 
 
 ## Step 1. Configure your installation environment
@@ -142,6 +142,7 @@ Use the deployment parameters to specify which services are installed when you i
 - To install Watson Knowledge Catalog, set `wkc` to `true`.
 - To install Watson Machine Learning, set `wml` to `true`.
 - To install Watson Studio, set `wsl` to `true`.
+
 
 
 ## Step 5. Install {{site.data.keyword.cpd_full_notm}}
