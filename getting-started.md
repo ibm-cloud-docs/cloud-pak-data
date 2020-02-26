@@ -159,6 +159,6 @@ Use the deployment parameters to specify which services are installed when you i
 
 When the installation completes, you can access your {{site.data.keyword.cpd_full_notm}} deployment with the provided URL. 
 
-Log in to the web client as `admin` using the default password. 
+Log in to the web client as `admin` using the default password (`password`). Change your password. 
 
 For details on creating additional users, see [Managing users](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/admin/users.html).
