@@ -82,12 +82,18 @@ Infuse your AI with trust and transparency. Understand how your AI models make d
 - [Installing Watson OpenScale](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/openscale/openscale-install-overview.html)
 
 
+## Supported versions
+{: supported-versions}
+
+The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 2.5.
+
+{{site.data.keyword.cpd_full_notm}} Version 2.1.0.2 on IBM Cloud will be deprecated on 25 March 2020. 
 
 
 ## Before you begin
 {: #prereqs}
 
-Before you can install IBM Cloud Pak for Data, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html). 
+Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html). 
 
 In addition, you must have a [{{site.data.keyword.openshiftlong_notm}} Version 3.11 cluster](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) on IBM Cloud. Ensure that the cluster has sufficient resources to run {{site.data.keyword.cpd_full_notm}}. For details, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.
 
