@@ -34,7 +34,7 @@ Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product docume
 
 The features that you can use depend on the services that you install. You can choose which services to install when you install {{site.data.keyword.cpd_full}}. 
 
-If you want to install a service later, you can install it from the IBM Cloud Catalog by choosing the same project where services are already installed or you can follow the documented installation procedure for the service. 
+If you want to install a service later, you can select a service from the Services catalog, click **Deploy**, and follow the installation instructions for the service. 
 
 ### Apache Spark
 {: #apache-spark}
