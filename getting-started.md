@@ -100,15 +100,6 @@ Know your data inside and out. Ensure that your data is high quality, aligns wit
 - [Installing Watson Knowledge Catalog](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/install/install-wkc.html)
 
 
-### Watson Studio
-{: #watson-studio}
-
-Unearth the meaning in your data. Build custom models and infuse your business with AI and machine learning. 
-
-- [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wsl.html)
-- [Installing Watson Studio](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/install/install-ws.html)
-
-
 ### Watson Machine Learning
 {: #watson-machine-learning}
 
@@ -125,6 +116,15 @@ Infuse your AI with trust and transparency. Understand how your AI models make d
 
 - [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/aiopenscale.html)
 - [Installing Watson OpenScale](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/openscale/openscale-install-overview.html)
+
+
+### Watson Studio
+{: #watson-studio}
+
+Unearth the meaning in your data. Build custom models and infuse your business with AI and machine learning. 
+
+- [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wsl.html)
+- [Installing Watson Studio](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/install/install-ws.html)
 
 
 ## Supported versions
@@ -183,8 +183,6 @@ The preinstallation script makes the following changes to your {{site.data.keywo
 
 - Increases the size of the Docker registry to 200 GB. 
   This change increases the cost of your {{site.data.keyword.openshiftlong_notm}} cluster.
-- Increases IOPS to 10. 
-  This change increases the cost of your {{site.data.keyword.openshiftlong_notm}} cluster.
 - Creates the security context constraints that are required for Cloud Pak for Data.
 - Grants access to the security context constraints to the service accounts that are required for Cloud Pak for Data.
 
@@ -198,12 +196,17 @@ Confirm that the script completes successfully before you proceed.
 
 Use the deployment parameters to specify which services are installed when you install {{site.data.keyword.cpd_full_notm}}:
 
-- To install Watson OpenScale, set `aiopenscale` to `true`.
+- To install Apache Spark, set `spark` to `true`.
+- To install Cognos Dashboards, set `cde` to `true`.
 - To install Data Virtualization, set `dv` to `true`.
+- To install Db2 Warehouse, set `db2wh` to `true`.
+- To install IBM Streams, set `streams` to `true`.
+- To install Open Source Management, set `osg` to `true`.
+- To install RStudio Server, set `rstudio` to `true`.
 - To install Watson Knowledge Catalog, set `wkc` to `true`.
+- To install Watson OpenScale, set `aiopenscale` to `true`.
 - To install Watson Machine Learning, set `wml` to `true`.
 - To install Watson Studio, set `wsl` to `true`.
-
 
 
 ## Step 5. Install {{site.data.keyword.cpd_full_notm}}
