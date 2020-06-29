@@ -34,7 +34,9 @@ Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product docume
 
 The features that you can use depend on the services that you install. You can choose which services to install when you install {{site.data.keyword.cpd_full}}. 
 
-If you want to install a service later, you can select a service from the Services catalog, click **Deploy**, and follow the installation instructions for the service. 
+This Cloud Pak performs the prerequisties required for the services to install. i) Setting kernel parameters ii) Enabling noroot squash on worker nodes for nfs iii) Increase image registry storage size to hold the docker images
+
+If you want to install a service later, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the Services catalog and follow the installation instructions for the service.
 
 ### Apache Spark
 {: #apache-spark}
@@ -54,7 +56,7 @@ Use sophisticated visualizations in an analytics project to identify patterns in
 {: #data-virtualization}
 
 Create data sets from disparate data sources so that you can query and use the data as if it came from a single source. 
-When you provision this service, check the **My cluster uses Redhat Openshift cluster v3.11** check box. You must check this box if you updated the kernel semaphore parameter check box and you use the `ibmc-file-gold-gid` storage class.
+When you provision this service, check the **You must check this box if you updated the kernel semaphore parameter** check box and you use the `ibmc-file-gold-gid` storage class.
 
 - [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/dv.html)
 - [Installing Data Virtualization](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/dv/install-dv.html)
@@ -152,18 +154,20 @@ To install Cloud Pak for Data on IBM Cloud, a user must have the following IAM R
 IBM Cloud accounts have a default quota of 250 storage volumes. Before you start the installation, ensure that each account has enough storage volumes for Cloud Pak for Data to be installed.
 For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-block-storage-faqs#how-many-volumes-can-be-ordered).
 
+## Step 1. Assign the license 
+Select the appropriate license entitlement acquired through passport advantage and click on Assign. You can register here https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212 for  Cloud pak for Data 60 day trial license. The trial is for Cloud Pak for Data Software only. It doesn't include IBM Managed Redhat Openshift Cluster.
 
-## Step 1. Configure your installation environment
+## Step 2. Configure your installation environment
 {: #config-install-env}
 
-It is recommended that you install only one instance of {{site.data.keyword.cpd_full_notm}} on each {{site.data.keyword.openshiftlong_notm}} cluster. 
+Assign the license that is acquired through passport advantage
 
 Specify where you want to install {{site.data.keyword.cpd_full_notm}}:
 1. Select the {{site.data.keyword.openshiftlong_notm}} cluster where you want to deploy {{site.data.keyword.cpd_full_notm}}. 
 1. Enter or select the {{site.data.keyword.openshiftlong_notm}} project where you want to deploy {{site.data.keyword.cpd_full_notm}}. 
 
 
-## Step 2. Configure your workspace
+## Step 3. Configure your workspace
 {: #config-workspace}
 
 Specify how you will track and manage your installation from your IBM Cloud Schematics workspace:
@@ -171,7 +175,7 @@ Specify how you will track and manage your installation from your IBM Cloud Sche
 1. Specify any tags that you want to use for the installation. Specify multiple tags as a comma-separated list. 
 
 
-## Step 3. Complete the preinstallation set up
+## Step 4. Complete the preinstallation set up
 {: #pre-install-set-up}
 
 A {{site.data.keyword.openshiftlong_notm}} cluster administrator must complete this step.  Specifically, the administrator must have an [access](https://cloud.ibm.com/docs/openshift?topic=openshift-users) policy in IBM Cloud Identity and Access Management that has an Operator role or higher. 
@@ -190,8 +194,9 @@ The preinstallation script makes the following changes to your {{site.data.keywo
 
 Confirm that the script completes successfully before you proceed.  
 
+If the cluster administrator does not have privilege to modify the storage or the infrastructure account is not the same as the current account, then manually execute the script by the storage administrator as mentioned in Complete the preinstallation section in https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global
 
-## Step 4. Set the deployment values
+## Step 5. Set the deployment values
 {: #set-deploy-values}
 
 Use the deployment parameters to specify which services are installed when you install {{site.data.keyword.cpd_full_notm}}:
@@ -207,9 +212,10 @@ Use the deployment parameters to specify which services are installed when you i
 - To install Watson OpenScale, set `aiopenscale` to `true`.
 - To install Watson Machine Learning, set `wml` to `true`.
 - To install Watson Studio, set `wsl` to `true`.
+- Choose storageclass Consider the storage class ibmc-file-gold-gid. If you want to retain the volume, consider the storage class ibmc-file-retain-gold-gid.
 
 
-## Step 5. Install {{site.data.keyword.cpd_full_notm}}
+## Step 6. Install {{site.data.keyword.cpd_full_notm}}
 {: #install-cloud-pak-for-data}
 
 1. Ensure that you have assigned a license for {{site.data.keyword.cpd_full_notm}} to the deployment. 
@@ -226,3 +232,26 @@ When the installation completes, you can access your {{site.data.keyword.cpd_ful
 Log in to the web client as `admin` using the default password (`password`). Change your password. 
 
 For details on creating additional users, see [Managing users](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/admin/users.html).
+
+If you want to install services to your cluster after you install to the existing deployed namespace, repeat the same steps to install from IBM cloud catalog and set the required service value to true in the Deployment values section.
+
+If you want to install any other supported service DataStage, MongoDB, Db2 Advanced Edition, Db2 Big SQL, Cognos Analytics and Watson Studio Premium which are not available in the IBM Cloud Catalog, install them in transfer mode. For instructions please refer - https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/install.html
+
+## Uninstalling the Cloud Pak for Data
+
+To uninstall you can use the schematics workspace console or the command line interface
+### Uninstalling the Cloud Pak for Data from the Schematics workspace console
+1. Enter the workspace of your installed Cloud pak for Data
+2. Click the Actions button in the upper right corner. Then, click the delete button to trigger a delete.
+
+3. Choose Delete workspace and Delete all associated resources and input the name of the workspace to confirm.
+Click the delete to delete the workspace.
+
+4. Waiting for the uninstall finish.
+
+5. Verify that the Cloud Pak is uninstalled:
+   Access the IBM Managed Redhat Openshift Cluster  web console and verify that the components that are related to the Cloud Pak for Data, such as any related pods, are no longer installed.
+
+### Uninstalling any particular service of Cloud Pak for Data with command-line
+Uninstall any particular service of Cloud Pak for Data following the steps mentioned in the uninstall topic of https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/install.html 
+https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/rhos-uninstall.html
