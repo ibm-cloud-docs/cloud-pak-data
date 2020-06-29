@@ -215,7 +215,7 @@ Use the deployment parameters to specify which services are installed when you i
 - To install Watson OpenScale, set `aiopenscale` to `true`.
 - To install Watson Machine Learning, set `wml` to `true`.
 - To install Watson Studio, set `wsl` to `true`.
-- Choose storageclass: If you want to retain your storage volume, choose the `ibmc-file-retain-gold-gid` storage class else `ibmc-file-gold-gid`.
+- Choose storageclass: If you want to retain your storage volume, choose the `ibmc-file-retain-gold-gid` storage class, otherwise choose the `ibmc-file-gold-gid` storage class.
 
 
 ## Step 6. Install {{site.data.keyword.cpd_full_notm}}
