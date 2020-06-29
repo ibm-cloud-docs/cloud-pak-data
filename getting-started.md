@@ -34,7 +34,10 @@ Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product docume
 
 The features that you can use depend on the services that you install. You can choose which services to install when you install {{site.data.keyword.cpd_full}}. 
 
-This Cloud Pak performs the prerequisties required for the services to install. i) Setting kernel parameters ii) Enabling noroot squash on worker nodes for nfs iii) Increase image registry storage size to hold the docker images
+Cloud Pak for Data performs the following prerequisties required for the services to install. 
+ *  Setting kernel parameters 
+ *  Enabling noroot squash on worker nodes for NFS 
+ *  Increase image registry storage size to hold the docker images
 
 If you want to install a service later, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the Services catalog and follow the installation instructions for the service.
 
@@ -56,7 +59,7 @@ Use sophisticated visualizations in an analytics project to identify patterns in
 {: #data-virtualization}
 
 Create data sets from disparate data sources so that you can query and use the data as if it came from a single source. 
-When you provision this service, check the **You must check this box if you updated the kernel semaphore parameter** check box and you use the `ibmc-file-gold-gid` storage class.
+When you provision this service, check the **You must check this box if you updated the kernel semaphore parameter** check box and use the `ibmc-file-gold-gid` storage class.
 
 - [Learn more](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/dv.html)
 - [Installing Data Virtualization](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/dv/install-dv.html)
@@ -155,7 +158,7 @@ IBM Cloud accounts have a default quota of 250 storage volumes. Before you start
 For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-block-storage-faqs#how-many-volumes-can-be-ordered).
 
 ## Step 1. Assign the license 
-Select the appropriate license entitlement acquired through passport advantage and click on Assign. You can register here https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212 for  Cloud pak for Data 60 day trial license. The trial is for Cloud Pak for Data Software only. It doesn't include IBM Managed Redhat Openshift Cluster.
+Select the appropriate license entitlement acquired through Passport Advantage and click Assign. You can register [here](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212) for a Cloud Pak for Data 60-day trial license. The trial is for Cloud Pak for Data software only. It doesn't include IBM Managed Red Hat OpenShift Cluster.
 
 ## Step 2. Configure your installation environment
 {: #config-install-env}
@@ -194,7 +197,7 @@ The preinstallation script makes the following changes to your {{site.data.keywo
 
 Confirm that the script completes successfully before you proceed.  
 
-If the cluster administrator does not have privilege to modify the storage or the infrastructure account is not the same as the current account, then manually execute the script by the storage administrator as mentioned in Complete the preinstallation section in https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global
+If the cluster administrator is not allowed to modify the storage or the infrastructure account is not the same as the current account, then manually execute the script by the storage administrator as mentioned in [Complete the preinstallation section](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global)
 
 ## Step 5. Set the deployment values
 {: #set-deploy-values}
@@ -212,7 +215,7 @@ Use the deployment parameters to specify which services are installed when you i
 - To install Watson OpenScale, set `aiopenscale` to `true`.
 - To install Watson Machine Learning, set `wml` to `true`.
 - To install Watson Studio, set `wsl` to `true`.
-- Choose storageclass Consider the storage class ibmc-file-gold-gid. If you want to retain the volume, consider the storage class ibmc-file-retain-gold-gid.
+- Choose storageclass: If you want to retain your storage volume, choose the `ibmc-file-retain-gold-gid` storage class else `ibmc-file-gold-gid`.
 
 
 ## Step 6. Install {{site.data.keyword.cpd_full_notm}}
