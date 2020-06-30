@@ -34,7 +34,7 @@ Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product docume
 
 The features that you can use depend on the services that you install. You can choose which services to install when you install {{site.data.keyword.cpd_full}}. 
 
-Cloud Pak for Data performs the following prerequisties required for the services to install. 
+Cloud Pak for Data performs the following prerequistes required for the services to install. 
  *  Setting kernel parameters 
  *  Enabling noroot squash on worker nodes for NFS 
  *  Increase image registry storage size to hold the docker images
@@ -236,9 +236,9 @@ Log in to the web client as `admin` using the default password (`password`). Cha
 
 For details on creating additional users, see [Managing users](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/admin/users.html).
 
-If you want to install services to your cluster after you install to the existing deployed namespace, repeat the same steps to install from IBM cloud catalog and set the required service value to true in the Deployment values section.
+If you want to install more services to a deployed namespace in your cluster, repeat the steps to install from IBM Cloud Catalog and set the required service value to **true** in the **Deployment values** section
 
-If you want to install any other supported service DataStage, MongoDB, Db2 Advanced Edition, Db2 Big SQL, Cognos Analytics and Watson Studio Premium which are not available in the IBM Cloud Catalog, install them in transfer mode. For instructions please refer - https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/install.html
+If you want to install other supported services, such as DataStage, MongoDB, Db2 Advanced Edition, Db2 Big SQL, Cognos Analytics, or Watson Studio Premium, which are not available in the IBM Cloud Catalog, install them in transfer mode. For more information, see [Installing IBM Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/install.html).
 
 ## Uninstalling the Cloud Pak for Data
 
@@ -256,5 +256,5 @@ Click the delete to delete the workspace.
    Access the IBM Managed Redhat Openshift Cluster  web console and verify that the components that are related to the Cloud Pak for Data, such as any related pods, are no longer installed.
 
 ### Uninstalling any particular service of Cloud Pak for Data with command-line
-Uninstall any particular service of Cloud Pak for Data following the steps mentioned in the uninstall topic of https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/install.html 
-https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/rhos-uninstall.html
+To uninstall Cloud Pak for Data, see [Uninstalling Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/rhos-uninstall.html).
+To uninstall any particular service in Cloud Pak for Data see the uninstall topic in [Installing Services](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/install.html)
