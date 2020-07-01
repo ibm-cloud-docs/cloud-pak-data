@@ -34,10 +34,10 @@ Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product docume
 
 The features that you can use depend on the services that you install. You can choose which services to install when you install {{site.data.keyword.cpd_full}}. 
 
-Cloud Pak for Data performs the following prerequistes required for the services to install. 
- *  Setting kernel parameters 
- *  Enabling noroot squash on worker nodes for NFS 
- *  Increase image registry storage size to hold the docker images
+To ensure that services install successfully, Cloud Pak for Data automated install makes the following changes:. 
+ *  Sets kernel parameters.
+ *  Enables noroot squash on worker nodes for NFS.
+ *  Increases the image registry storage size to hold the docker images.
 
 If you want to install a service later, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the Services catalog and follow the installation instructions for the service.
 
@@ -240,21 +240,16 @@ If you want to install more services to a deployed namespace in your cluster, re
 
 If you want to install other supported services, such as DataStage, MongoDB, Db2 Advanced Edition, Db2 Big SQL, Cognos Analytics, or Watson Studio Premium, which are not available in the IBM Cloud Catalog, install them in transfer mode. For more information, see [Installing IBM Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/install.html).
 
-## Uninstalling the Cloud Pak for Data
+## Uninstalling Cloud Pak for Data
 
-To uninstall you can use the schematics workspace console or the command line interface
+To uninstall Cloud Pak for Data from the Cloud Catalog, you can use the schematics workspace console or the command line interface.
 ### Uninstalling the Cloud Pak for Data from the Schematics workspace console
-1. Enter the workspace of your installed Cloud pak for Data
-2. Click the Actions button in the upper right corner. Then, click the delete button to trigger a delete.
+1. Enter the workspace of your installed Cloud Pak for Data
+2. Click **Actions**, and then click **Delete**.
+3. Choose **Delete workspace** and **Delete all associated resources** and enter the name of the workspace to confirm.
+4. Click **Delete** to delete the workspace and wait for the uninstall to complete.
+5. Verify that Cloud Pak for Data is uninstalled by accessing the IBM Managed Red Hat OpenShift Cluster web console and verifying that the components that are related to Cloud Pak for Data, such as any related pods, are no longer installed.
 
-3. Choose Delete workspace and Delete all associated resources and input the name of the workspace to confirm.
-Click the delete to delete the workspace.
-
-4. Waiting for the uninstall finish.
-
-5. Verify that the Cloud Pak is uninstalled:
-   Access the IBM Managed Redhat Openshift Cluster  web console and verify that the components that are related to the Cloud Pak for Data, such as any related pods, are no longer installed.
-
-### Uninstalling any particular service of Cloud Pak for Data with command-line
+### Uninstalling a service with the command-line
 To uninstall Cloud Pak for Data, see [Uninstalling Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/rhos-uninstall.html).
-To uninstall any particular service in Cloud Pak for Data see the uninstall topic in [Installing Services](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/install.html)
+To uninstall a service in Cloud Pak for Data, see the uninstall topic for [Services in the catalog](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/services.html)
