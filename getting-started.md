@@ -34,7 +34,7 @@ Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product docume
 
 The features that you can use depend on the services that you install. You can choose which services to install when you install {{site.data.keyword.cpd_full}}. 
 
-To ensure that services install successfully, Cloud Pak for Data automated install makes the following changes:. 
+To ensure that services install successfully, that {{site.data.keyword.cpd_full}} automated installation makes the following changes:. 
  *  Sets kernel parameters.
  *  Enables noroot squash on worker nodes for NFS.
  *  Increases the image registry storage size to hold the docker images.
@@ -137,8 +137,6 @@ Unearth the meaning in your data. Build custom models and infuse your business w
 
 The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 3.0.1.
 
-{{site.data.keyword.cpd_full_notm}} Version 2.1.0.2 on IBM Cloud was deprecated on 25 March 2020. 
-
 
 ## Before you begin
 {: #prereqs}
@@ -147,18 +145,18 @@ Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a 
 
 In addition, you must have a [{{site.data.keyword.openshiftlong_notm}} Version 4.3.18 or above](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) single-zone cluster on IBM Cloud. Ensure that the cluster has sufficient resources to run {{site.data.keyword.cpd_full_notm}}. For details, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.
 
-To install Cloud Pak for Data on IBM Cloud, a user must have the following IAM Roles:
+To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the following IAM Roles:
  * Account Management > License and Entitlement > Platform Editor role -  To assign a license
  * IAM Services > Schematics > Service Manager role in any resource group -  To create a workspace
  * Classic Infrastructure > Services > Storage Manage , Classic Infrastructure > Account > Add/Upgrade Storage - To modify the image registry volume
  * IAM Services > Kubernetes Service > Service Manager role - To run the pre-install script
  * IAM Services > Kubernetes Service > Service Writer role - To run the install script
 
-IBM Cloud accounts have a default quota of 250 storage volumes. Before you start the installation, ensure that each account has enough storage volumes for Cloud Pak for Data to be installed.
+IBM Cloud accounts have a default quota of 250 storage volumes. Before you start the installation, ensure that each account has enough storage volumes for {{site.data.keyword.cpd_full}} to be installed.
 For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-block-storage-faqs#how-many-volumes-can-be-ordered).
 
 ## Step 1. Assign the license 
-Select the appropriate license entitlement acquired through Passport Advantage and click Assign. You can register [here](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212) for a Cloud Pak for Data 60-day trial license. The trial is for Cloud Pak for Data software only. It doesn't include IBM Managed Red Hat OpenShift Cluster.
+Select the appropriate license entitlement acquired through Passport Advantage and click Assign. You can register [here](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212) for an {{site.data.keyword.cpd_full}} 60-day trial license. The trial is for {{site.data.keyword.cpd_full}} software only. It doesn't include IBM Managed Red Hat OpenShift Cluster.
 
 ## Step 2. Configure your installation environment
 {: #config-install-env}
@@ -190,8 +188,8 @@ The preinstallation script makes the following changes to your {{site.data.keywo
 
 - Increases the size of the Docker registry to 200 GB. 
   This change increases the cost of your {{site.data.keyword.openshiftlong_notm}} cluster.
-- Creates the security context constraints that are required for Cloud Pak for Data.
-- Grants access to the security context constraints to the service accounts that are required for Cloud Pak for Data.
+- Creates the security context constraints that are required for {{site.data.keyword.cpd_full}}.
+- Grants access to the security context constraints to the service accounts that are required for {{site.data.keyword.cpd_full}}.
 
 
 
@@ -240,16 +238,16 @@ If you want to install more services to a deployed namespace in your cluster, re
 
 If you want to install other supported services, such as DataStage, MongoDB, Db2 Advanced Edition, Db2 Big SQL, Cognos Analytics, or Watson Studio Premium, which are not available in the IBM Cloud Catalog, install them in transfer mode. For more information, see [Installing IBM Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/install.html).
 
-## Uninstalling Cloud Pak for Data
+## Uninstalling {{site.data.keyword.cpd_full}}
 
-To uninstall Cloud Pak for Data from the Cloud Catalog, you can use the schematics workspace console or the command line interface.
-### Uninstalling the Cloud Pak for Data from the Schematics workspace console
-1. Enter the workspace of your installed Cloud Pak for Data
+To uninstall {{site.data.keyword.cpd_full}} from the Cloud Catalog, you can use the schematics workspace console or the command line interface.
+### Uninstalling {{site.data.keyword.cpd_full}} from the Schematics workspace console
+1. Enter the workspace of your installed {{site.data.keyword.cpd_full}}.
 2. Click **Actions**, and then click **Delete**.
 3. Choose **Delete workspace** and **Delete all associated resources** and enter the name of the workspace to confirm.
 4. Click **Delete** to delete the workspace and wait for the uninstall to complete.
-5. Verify that Cloud Pak for Data is uninstalled by accessing the IBM Managed Red Hat OpenShift Cluster web console and verifying that the components that are related to Cloud Pak for Data, such as any related pods, are no longer installed.
+5. Verify that {{site.data.keyword.cpd_full}} is uninstalled by accessing the IBM Managed Red Hat OpenShift Cluster web console and verifying that the components that are related to {{site.data.keyword.cpd_full}}, such as any related pods, are no longer installed.
 
 ### Uninstalling a service with the command-line
-To uninstall Cloud Pak for Data, see [Uninstalling Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/rhos-uninstall.html).
-To uninstall a service in Cloud Pak for Data, see the uninstall topic for [Services in the catalog](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/services.html)
+To uninstall {{site.data.keyword.cpd_full}}, see [Uninstalling Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/rhos-uninstall.html).
+To uninstall a service in {{site.data.keyword.cpd_full}}, see the uninstall topic for [Services in the catalog](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/services.html).
