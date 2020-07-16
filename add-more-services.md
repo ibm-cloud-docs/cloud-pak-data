@@ -23,8 +23,16 @@ subcollection: cloud-pak-data
 {: #add-more}
 
 
-{{site.data.keyword.cpd_short}} includes a subset of services from the IBM cloud catalog. Other supported services on the IBM Managed OpenShift Cluster are: DataStage, MongoDB, Db2 Advanced Edition, Db2 Big SQL, Cognos Analytics and Watson Studio Premium. If you want to install these addons, which are not supported by the IBM Cloud Catalog, they must be added manually.
+{{site.data.keyword.cpd_short}} includes a subset of services from the IBM cloud catalog.
 
-You can't install services from the IBM Cloud Schematics workspace by modifying the plan. 
+**Tip**: If you want to install services to your cluster after you install to the existing deployed namespace, repeat the same steps to install from IBM cloud catalog and set the required service value to true in the Deployment values section. You can't install services from the IBM Cloud Schematics workspace by modifying the plan. 
 
-**Tip**: If you want to install services to your cluster after you install to the existing deployed namespace, repeat the same steps to install from IBM cloud catalog and set the required service value to true in the Deployment values section.
+Other supported services on the IBM Managed OpenShift Cluster are: 
+- DataStage, 
+- MongoDB, 
+- Db2 Advanced Edition, 
+- Db2 Big SQL, 
+- Cognos Analytics
+- Watson Studio Premium. 
+
+If you want to install these addons, which are not supported by the IBM Cloud Catalog, they must be added manually.
