@@ -19,11 +19,11 @@ subcollection: cloud-pak-data
 {:external: target="_blank" .external}
 
 
-# Using the command line interface in {{site.data.keyword.cpd_full_notm}}
+# Using the command line interface
 {: #command-line}
 
-You can use the Cloud Pak for Data command-line interface to install the Cloud Pak for Data control plane and any services that you want to run. 
-You install Cloud Pak for Data on an IBM Cloud managed OpenShift cluster. 
+You can use the {{site.data.keyword.cpd_short}} command-line interface to install the {{site.data.keyword.cpd_short}} control plane and any services that you want to run. 
+You install {{site.data.keyword.cpd_short}} on an IBM Cloud managed OpenShift cluster. 
 
 The following commands can be used to install any service after 'oc login' to the cluster from a machine where the OpenShift CLI (oc) v4.3.18 and above compatible client with OpenShift cluster version is installed:
 
