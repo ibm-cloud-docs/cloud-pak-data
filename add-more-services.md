@@ -19,7 +19,7 @@ subcollection: cloud-pak-data
 {:external: target="_blank" .external}
 
 
-# Add more services to {{site.data.keyword.cpd_full_notm}}
+# Adding more services
 {: #add-more}
 
 
