@@ -4,7 +4,7 @@ copyright:
   years: 2019, 2020
 lastupdated: "2020-02-20"
 
-keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
+keywords: "uninstalling, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
 subcollection: cloud-pak-data
 
@@ -19,8 +19,12 @@ subcollection: cloud-pak-data
 {:external: target="_blank" .external}
 
 # Uninstalling {{site.data.keyword.cpd_full}}
+{: #uninstalling}
 
 To uninstall {{site.data.keyword.cpd_full}} from the Cloud Catalog, you can use the schematics workspace console or the command line interface.
+
+**Note**: The uninstall action deletes the project. Before you delete a project, make sure that the project does not contain any other applications. For more information, see [Uninstalling Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/rhos-uninstall.html).
+
 ### Uninstalling {{site.data.keyword.cpd_full}} from the Schematics workspace console
 1. Enter the workspace of your installed {{site.data.keyword.cpd_full}}.
 2. Click **Actions**, and then click **Delete**.
