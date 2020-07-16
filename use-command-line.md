@@ -28,7 +28,9 @@ You install {{site.data.keyword.cpd_short}} on an IBM Cloud managed OpenShift cl
 The following commands can be used to install any service after 'oc login' to the cluster from a machine where the OpenShift CLI (oc) v4.3.18 and above compatible client with OpenShift cluster version is installed:
 
 `./cpd-linux adm --apply --repo <repofile> --assembly <assembly>  --namespace <namespace> --accept-all-licenses`
+{: codeblock}
 
 `./cpd-linux --repo <repofile> --assembly <assembly>  --target-registry-password $(oc whoami -t) --target-registry-username $(oc whoami) --insecure-skip-tls-verify --cluster-pull-prefix image-registry.openshift-image-registry.svc:5000/<namespace> --transfer-image-to $(oc get route -n openshift-image-registry |tail -1|awk '{print $2}'/<namespace> --namespace <namespace> -c ibmc-file-gold-gid --accept-all-licenses`
+{: codeblock}
 
 For more information, see [Getting started with the CLI](https://docs.openshift.com/container-platform/4.3/cli_reference/openshift_cli/getting-started-cli.html).
