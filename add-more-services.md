@@ -28,11 +28,11 @@ subcollection: cloud-pak-data
 **Tip**: If you want to install services to your cluster after you install to the existing deployed namespace, repeat the same steps to install from IBM cloud catalog and set the required service value to true in the Deployment values section. You can't install services from the IBM Cloud Schematics workspace by modifying the plan. 
 
 Other supported services on the IBM Managed OpenShift Cluster are: 
-- DataStage, 
-- MongoDB, 
-- Db2 Advanced Edition, 
-- Db2 Big SQL, 
+- DataStage
+- MongoDB
+- Db2 Advanced Edition
+- Db2 Big SQL
 - Cognos Analytics
-- Watson Studio Premium. 
+- Watson Studio Premium
 
 If you want to install these addons, which are not supported by the IBM Cloud Catalog, they must be added manually.
