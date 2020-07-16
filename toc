@@ -13,3 +13,7 @@ Cloud Pak for Data
     use-command-line.md
     uninstall.md
     {: .navgroup-end}
+    
+    {: .navgroup id="help"}
+    troubleshooting.md
+    {: .navgroup-end}
