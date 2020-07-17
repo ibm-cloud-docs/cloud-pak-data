@@ -19,8 +19,8 @@ subcollection: cloud-pak-data
 {:external: target="_blank" .external}
 
 
-# Adding more services
-{: #add-more}
+# Adding services
+{: #add-services}
 
 
 {{site.data.keyword.cpd_short}} includes a subset of services from the IBM cloud catalog.
