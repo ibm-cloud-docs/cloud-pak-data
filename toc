@@ -14,5 +14,5 @@ Cloud Pak for Data
     {: .navgroup-end}
     
     {: .navgroup id="help"}
-    troubleshooting.md
+    limitations.md
     {: .navgroup-end}
