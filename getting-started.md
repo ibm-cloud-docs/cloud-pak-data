@@ -154,7 +154,7 @@ To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the fol
  * IAM Services > Kubernetes Service > Service Writer role - To run the install script
 
 IBM Cloud accounts have a default quota of 250 storage volumes. Before you start the installation, ensure that each account has enough storage volumes for {{site.data.keyword.cpd_full}} to be installed.
-For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-block-storage-faqs#how-many-volumes-can-be-ordered).
+For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-block-storage-faqs#how-many-volumes-can-be-ordered)
 
 ## Step 1. Assign the license 
 Select the appropriate license entitlement acquired through Passport Advantage and click Assign. You can register [here](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212) for an {{site.data.keyword.cpd_full}} 60-day trial license. The trial is for {{site.data.keyword.cpd_full}} software only. It doesn't include IBM Managed Red Hat OpenShift Cluster.
@@ -196,7 +196,7 @@ The preinstallation script makes the following changes to your {{site.data.keywo
 
 Confirm that the script completes successfully before you proceed.  
 
-If the cluster administrator is not allowed to modify the storage or the infrastructure account is not the same as the current account, then manually execute the script by the storage administrator as mentioned in [Complete the preinstallation section](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global)
+If the cluster administrator is not allowed to modify the storage or the infrastructure account is not the same as the current account, then manually execute the script by the storage administrator as mentioned in [Complete the preinstallation section](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global).
 
 ## Step 5. Set the deployment values
 {: #set-deploy-values}
@@ -239,16 +239,4 @@ If you want to install more services to a deployed namespace in your cluster, re
 
 If you want to install other supported services, such as DataStage, MongoDB, Db2 Advanced Edition, Db2 Big SQL, Cognos Analytics, or Watson Studio Premium, which are not available in the IBM Cloud Catalog, install them in transfer mode. For more information, see [Installing IBM Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/install.html).
 
-## Uninstalling {{site.data.keyword.cpd_full}}
-
-To uninstall {{site.data.keyword.cpd_full}} from the Cloud Catalog, you can use the schematics workspace console or the command line interface.
-### Uninstalling {{site.data.keyword.cpd_full}} from the Schematics workspace console
-1. Enter the workspace of your installed {{site.data.keyword.cpd_full}}.
-2. Click **Actions**, and then click **Delete**.
-3. Choose **Delete workspace** and **Delete all associated resources** and enter the name of the workspace to confirm.
-4. Click **Delete** to delete the workspace and wait for the uninstall to complete.
-5. Verify that {{site.data.keyword.cpd_full}} is uninstalled by accessing the IBM Managed Red Hat OpenShift Cluster web console and verifying that the components that are related to {{site.data.keyword.cpd_full}}, such as any related pods, are no longer installed.
-
-### Uninstalling a service with the command-line
-To uninstall {{site.data.keyword.cpd_full}}, see [Uninstalling Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/rhos-uninstall.html).
-To uninstall a service in {{site.data.keyword.cpd_full}}, see the uninstall topic for [Services in the catalog](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/services.html).
+To uninstall {{site.data.keyword.cpd_full_notm}} or {{site.data.keyword.cpd_full_notm}} services see [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstall).
