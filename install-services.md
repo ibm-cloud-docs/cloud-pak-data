@@ -25,7 +25,7 @@ subcollection:
 
 
 # Installing services
-{: #add-services}
+{: #install-services}
 
 
 {{site.data.keyword.cpd_short}} includes a subset of services from the IBM Cloud catalog.
