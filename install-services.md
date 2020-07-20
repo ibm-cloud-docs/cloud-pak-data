@@ -30,7 +30,7 @@ subcollection:
 
 {{site.data.keyword.cpd_short}} includes a subset of services from the IBM Cloud catalog.
 
-If you want to install services to your cluster after you install to the existing deployed namespace, repeat the same steps to install from IBM Cloud catalog and set the required service value to true in the Deployment values section. 
+If you want to install services to your cluster after you install to the existing deployed namespace, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the Services catalog and follow the installation instructions for the service.
 
 You can't install services from the IBM Cloud Schematics workspace by modifying the plan. 
 
