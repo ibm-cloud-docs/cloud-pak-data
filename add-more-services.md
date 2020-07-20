@@ -24,7 +24,7 @@ subcollection:
 {:external: target="_blank" .external}
 
 
-# Adding services
+# Installing services
 {: #add-services}
 
 
