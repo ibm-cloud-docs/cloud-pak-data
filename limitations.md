@@ -19,12 +19,7 @@ subcollection: cloud-pak-data
 {:external: target="_blank" .external}
 
 
-# Troubleshooting {{site.data.keyword.cpd_full_notm}}
-{: #troubleshooting}
-
-For general information about troubleshooting , see [Troubleshooting problems in Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/troubleshoot/troubleshooting.html).
-
-## Limitations and known issues
+# Limitations and known issues
 {: #limitations}
 
 * The installation does not verify whether there are enough resources on the cluster to install {{site.data.keyword.cpd_short}}. 
@@ -35,3 +30,5 @@ If you are running other applications on your Red Hat OpenShift cluster, make su
 * The installation does not support on IBM Managed Redhat Openshift Cluster VPC (Gen2). It supports only the classic infrastructure.
 
 * The error message "Error verifying current oauth token - Error from server (NotFound) as install is performed as serviceaccount" can be ignored in the error log.
+
+For general information about troubleshooting , see [Troubleshooting problems in Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/troubleshoot/troubleshooting.html).
