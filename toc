@@ -10,7 +10,6 @@ Cloud Pak for Data
 
     {: .navgroup id="howto"}
     add-more-services.md
-    use-command-line.md
     uninstall.md
     {: .navgroup-end}
     
