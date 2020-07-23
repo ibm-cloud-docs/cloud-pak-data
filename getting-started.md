@@ -157,12 +157,18 @@ IBM Cloud accounts have a default quota of 250 storage volumes. Before you start
 For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-block-storage-faqs#how-many-volumes-can-be-ordered)
 
 ## Step 1. Assign the license 
-Select the appropriate license entitlement acquired through Passport Advantage and click **Assign**. You can register [here](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212) for an {{site.data.keyword.cpd_full}} 60-day trial license. The trial is for {{site.data.keyword.cpd_full}} software only. It doesn't include IBM Managed Red Hat OpenShift Cluster.
+Purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html) or register [here](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212) for an {{site.data.keyword.cpd_full}} 60-day trial license. The trial is for {{site.data.keyword.cpd_full}} software only. It doesn't include an IBM Managed Red Hat OpenShift cluster.
+
+To assign your license, follow these steps: 
+1. Log in to your [IBM Cloud account](https://cloud.ibm.com).
+1. On the toolbar, navigate to **Manage** > **Account** and then click **Licenses and entitlements** in the navigation menu.
+1. Click **Check IBM Passport Advantage**.
+1. Select the appropriate license and click **Assign**.
 
 ## Step 2. Configure your installation environment
 {: #config-install-env}
 
-Assign the license that is acquired through passport advantage
+Assign the license that is acquired through Passport Advantage.
 
 Specify where you want to install {{site.data.keyword.cpd_full_notm}}:
 1. Select the {{site.data.keyword.openshiftlong_notm}} cluster where you want to deploy {{site.data.keyword.cpd_full_notm}}. 
