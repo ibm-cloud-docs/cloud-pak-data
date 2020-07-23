@@ -157,7 +157,7 @@ IBM Cloud accounts have a default quota of 250 storage volumes. Before you start
 For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-block-storage-faqs#how-many-volumes-can-be-ordered)
 
 ## Step 1. Assign the license 
-Select the appropriate license entitlement acquired through Passport Advantage and click Assign. You can register [here](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212) for an {{site.data.keyword.cpd_full}} 60-day trial license. The trial is for {{site.data.keyword.cpd_full}} software only. It doesn't include IBM Managed Red Hat OpenShift Cluster.
+Select the appropriate license entitlement acquired through Passport Advantage and click **Assign**. You can register [here](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212) for an {{site.data.keyword.cpd_full}} 60-day trial license. The trial is for {{site.data.keyword.cpd_full}} software only. It doesn't include IBM Managed Red Hat OpenShift Cluster.
 
 ## Step 2. Configure your installation environment
 {: #config-install-env}
