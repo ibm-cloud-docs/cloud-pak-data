@@ -29,6 +29,7 @@ If you are running other applications on your Red Hat OpenShift cluster, make su
 
 * The installation is not supported on IBM Managed Red Hat OpenShift Cluster VPC (Gen2). It supports the classic infrastructure only.
 
-* In the error log, the error message "Error verifying current oauth token - Error from server (NotFound) as install is performed as serviceaccount" can be ignored.
+* If you see the following message in the installation logs, you can ignore it:
+"Error verifying current oauth token - Error from server (NotFound) as install is performed as serviceaccount".
 
 For general information about troubleshooting , see [Troubleshooting problems in Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/troubleshoot/troubleshooting.html).
