@@ -25,7 +25,7 @@ subcollection: cloud-pak-data
 * The installation does not verify whether there are enough resources on the cluster to install {{site.data.keyword.cpd_short}}. 
 If you are running other applications on your Red Hat OpenShift cluster, make sure that you have enough resources on the cluster before you install {{site.data.keyword.cpd_short}}.
 
-* When service instances are created, they initially appear as Failed or Red because the persistent volume claims take some time to bound.
+* When you create a service instance, the service instance initially appears as Failed or Red until the persistent volume claim is bound to a persistent volume on the cluster.
 
 * The installation is not supported on IBM Managed Red Hat OpenShift Cluster VPC (Gen2). It supports the classic infrastructure only.
 
