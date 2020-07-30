@@ -27,7 +27,7 @@ If you are running other applications on your Red Hat OpenShift cluster, make su
 
 * When service instances are created, they initially appear as Failed or Red because the persistent volume claims take some time to bound.
 
-* The installation is not supported on IBM Managed Redhat Openshift Cluster VPC (Gen2). It supports the classic infrastructure only.
+* The installation is not supported on IBM Managed Red Hat OpenShift Cluster VPC (Gen2). It supports the classic infrastructure only.
 
 * In the error log, the error message "Error verifying current oauth token - Error from server (NotFound) as install is performed as serviceaccount" can be ignored.
 
