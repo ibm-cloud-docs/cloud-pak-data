@@ -39,12 +39,12 @@ You can install services in different ways. The supported methods depend on the 
 
 |Service 	      |Install from the Cloud Pak for Data installation page 	|Install by using the CLI|
 |:------------- |:-----------------------------------------------------------------:| :-----------:|
-|(Analytics Engine Powered by Apache Spark([https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/spark.html]                                           | 	✓ | 	✓ |
+|(Analytics Engine Powered by Apache Spark)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/spark.html]                                           | 	✓ | 	✓ |
 |(Cognos Analytics)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/ca.html] 	                                                                |     |  ✓  |
 |(Cognos Dashboards)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/dashboard-svc.html]                                                                 | 	✓ | 	✓ |
 |(Data Refinery)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/dr.html]|	See Watson Knowledge Catalog or Watson Studio |	See Watson Knowledge Catalog or Watson Studio |
-|(Data Virtualization([https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/dv.html]                                                                | 	✓ | 	✓ |
-|(DataStage Edition([https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/ds.html]                                                                  |     |  ✓  |
+|(Data Virtualization)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/dv.html]                                                                | 	✓ | 	✓ |
+|(DataStage Edition)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/ds.html]                                                                  |     |  ✓  |
 |(Db2 Big SQL)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/bigsql.html]                                                                        |     |  ✓  |
 |(Db2 for z/OS)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/db2z.html]                                                                       |     |  ✓  |
 |(Db2 Warehouse)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/db2wh.html]                                                                      | 	✓ | 	✓ |
@@ -61,7 +61,7 @@ You can install services in different ways. The supported methods depend on the 
 |(Streams Flows)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/streams/installing-streams-flows.html]                                                                      | 	✓ |  ✓ |
 |(Watson AIOps)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/ai-svc.html]                                                                       |     |  *  |
 |(Watson Assistant)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/watsonassist.html]                                                                   |     |  *  |
-|(Watson Assistant for Voice Interaction([https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wavi.html]                                             |     |  *  |
+|(Watson Assistant for Voice Interaction)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wavi.html]                                             |     |  *  |
 |(Watson Discovery)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/watsondisc.html]                                                                   |     |  *  |
 |(Watson Knowledge Catalog)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wkc.html]                                                           | 	✓ | ✓  |
 |(Watson Knowledge Studio)[https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/watsonks.html]                                                            |     |  *  |
