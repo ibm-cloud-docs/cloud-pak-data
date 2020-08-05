@@ -68,7 +68,7 @@ The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{sit
 
 Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html). 
 
-You also need a [{{site.data.keyword.openshiftlong_notm}} Version 4.3.18 or above](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) single-zone cluster on IBM Cloud. The minimum recommendation for {{site.data.keyword.cpd_full_notm}} is 16 cores, 64GB RAM, 1 TB Persistent storage. For more information, see (Creating a classic OpenShift cluster)[https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started#clusters_gs].
+You also need a [{{site.data.keyword.openshiftlong_notm}} Version 4.3.18 or above](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) single-zone cluster on IBM Cloud. The minimum recommendation for {{site.data.keyword.cpd_full_notm}} is 16 cores, 64GB RAM, 1 TB Persistent storage. For more information, see [Creating a classic OpenShift cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started#clusters_gs).
 
 This minimum recommendation is not sufficient to install all of the services. You must ensure that you have sufficient resources for the services that you planned to install. For details, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.{:note}
 
