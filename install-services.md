@@ -72,5 +72,5 @@ You can install services in different ways. The supported methods depend on the 
 |[Watson Studio](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wsl.html)                                                                      | 	✓ | 	✓ |
 |[Watson Text to Speech](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wtts.html)                                                              |     |  *  |
 
-A * indicates that the service is supported only on Bare Metal clusters with extra local storage for SDS and requires (Portworx Enterprise)[https://cloud.ibm.com/catalog/services/portworx-enterprise] storage.
+A * indicates that the service is supported only on bare metal worker nodes with extra local storage for SDS. These services also require (Portworx Enterprise)[https://cloud.ibm.com/catalog/services/portworx-enterprise] storage. You must create a new worker pool that contains the bare metal servers required for Watson AI services.
 
