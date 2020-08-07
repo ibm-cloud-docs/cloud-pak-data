@@ -117,11 +117,10 @@ Specify where you want to install {{site.data.keyword.cpd_full_notm}}:
 ## Step 3. Configure your workspace
 {: #config-workspace}
 
-Specify how you will track and manage your installation from your IBM Cloud Schematics workspace:
+Specify how you will track and manage your installation:
 1. Enter or select a name for the installation.
 1. Consider changing the default resource group. 
 1. Specify any tags that you want to use for the installation. Specify multiple tags as a comma-separated list. 
-
 
 ## Step 4. Complete the preinstallation task
 {: #pre-install-set-up}
@@ -176,6 +175,7 @@ If you want to install a service later, you can return to the **Deployment value
 ## Step 7. Launch your instance of {{site.data.keyword.cpd_full_notm}}
 {: #launch-cloud-pak-for-data]
 
+1. After you click **Install**, the **Schematics** > **Workspaces** page opens. You can watch the progress of the installation in the log.
 1. When the installation completes, click **Offering dashboard** to access your {{site.data.keyword.cpd_full_notm}} deployment or navigate the the **Resources** tab to find your deployment URL. 
 1. Log in to the web client as `admin` using the default password (`password`). Change your password. 
 1. On the toolbar, click the **Services** icon and verify that your services are enabled or available.
