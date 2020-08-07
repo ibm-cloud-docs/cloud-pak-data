@@ -66,30 +66,33 @@ The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{sit
 ## Before you begin
 {: #prereqs}
 
-Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html). 
+Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html). See [Step 1. Assign the license](#assign_license).
 
-You also need a [{{site.data.keyword.openshiftlong_notm}} Version 4.3.18 or above](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) single-zone cluster on IBM Cloud. The minimum recommendation for {{site.data.keyword.cpd_full_notm}} is 16 cores, 64GB RAM, 1 TB Persistent storage. For more information, see [Creating a classic OpenShift cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started#clusters_gs).
+You also need to configure a [{{site.data.keyword.openshiftlong_notm}} Version 4.3.18 or above](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) single-zone cluster on IBM Cloud. The minimum requirement for your cluster is 16 cores, 64GB RAM, 1 TB persistent storage per node. For more information, see [Creating a classic OpenShift cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started#clusters_gs).
 
-This minimum recommendation is not sufficient to install all of the services. You must ensure that you have sufficient resources for the services that you planned to install. For details, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.{:note}
+This minimum requirement is not sufficient to install all available services on {{site.data.keyword.cpd_full_notm}}. You must ensure that you have sufficient resources for the services that you planned to install. For more information, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.{:note}
 
-To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the following IAM Roles:
+To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the following IBM Cloud Identity and Access Management  (IAM) roles:
 
 | Role                 | Location                                              | Action           |
 |:-------------------- |:------------------------------------------------------|:-----------------|
 | Platform Editor      | Manage > Account > Licenses and entitlements          | Assign a license |
-| Service Manager in any resource group| IAM Services > Schematics             | Create a workspace |
+| Service Manager in any resource group| Schematics                            | Create a workspace |
 | Service Manager      | IAM Services > Kubernetes Service                     | Run the pre-install script |
 | Service Writer       | IAM Services > Kubernetes Service                     | Run the install script |
-| Add/Upgrade Storage  | Classic Infrastructure > Services > Storage Manage , Classic Infrastructure > Account | Modify the image registry volume |
+| Operator or higher   | Classic Infrastructure > Storage > File Storage<br/>Classic Infrastructure > Account > Add/Upgrade Storage  | Modify the image registry volume |
+
+For more information, see [Setting up access to your cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-users).
 
 IBM Cloud accounts have a default quota of 250 storage volumes. Before you start the installation, ensure that each account has enough storage volumes for {{site.data.keyword.cpd_full}} to be installed. For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-block-storage-faqs#how-many-volumes-can-be-ordered)
 
-The {{site.data.keyword.cpd_full}} automated installation makes the following changes to ensure that services install successfully:
+The {{site.data.keyword.cpd_full}} automated installation makes the following changes to ensure that services can be installed successfully:
  *  Sets kernel parameters.
- *  Enables noroot squash on worker nodes for NFS.
+ *  Enables `noroot squash` on worker nodes for NFS.
  *  Increases the image registry storage size to hold the docker images.
 
-## Step 1. Assign the license 
+## Step 1. Assign the license
+{: #assign_license}
 
 If you don't already have a license, you can:
 * Purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html)
@@ -100,13 +103,11 @@ If you don't already have a license, you can:
 To assign your license, follow these steps: 
 1. Log in to your [IBM Cloud account](https://cloud.ibm.com).
 1. On the toolbar, navigate to **Manage** > **Account** and then click **Licenses and entitlements** in the navigation menu.
-1. Click **Check IBM Passport Advantage**.
+1. If you don't see any licenses to assign, click **Check IBM Passport Advantage**.
 1. Select the appropriate license and click **Assign**.
 
 ## Step 2. Configure your installation environment
 {: #config-install-env}
-
-Assign the license that is acquired through Passport Advantage.
 
 Specify where you want to install {{site.data.keyword.cpd_full_notm}}:
 1. Select the {{site.data.keyword.openshiftlong_notm}} cluster where you want to deploy {{site.data.keyword.cpd_full_notm}}. 
@@ -118,10 +119,11 @@ Specify where you want to install {{site.data.keyword.cpd_full_notm}}:
 
 Specify how you will track and manage your installation from your IBM Cloud Schematics workspace:
 1. Enter or select a name for the installation.
+1. Consider changing the default resource group. 
 1. Specify any tags that you want to use for the installation. Specify multiple tags as a comma-separated list. 
 
 
-## Step 4. Complete the preinstallation set up
+## Step 4. Complete the preinstallation task
 {: #pre-install-set-up}
 
 A {{site.data.keyword.openshiftlong_notm}} cluster administrator must complete this step.  Specifically, the administrator must have an [access](https://cloud.ibm.com/docs/openshift?topic=openshift-users) policy in IBM Cloud Identity and Access Management that has an Operator role or higher. 
@@ -131,14 +133,13 @@ A {{site.data.keyword.openshiftlong_notm}} cluster administrator must complete t
 
 The preinstallation script makes the following changes to your {{site.data.keyword.openshiftlong_notm}} cluster:
 
-- Increases the size of the Docker registry to 200 GB. 
-  This change increases the cost of your {{site.data.keyword.openshiftlong_notm}} cluster.
+- Increases the size of the Docker registry to 200 GB. This change increases the cost of your {{site.data.keyword.openshiftlong_notm}} cluster.
 - Creates the security context constraints that are required for {{site.data.keyword.cpd_full}}.
 - Grants access to the security context constraints to the service accounts that are required for {{site.data.keyword.cpd_full}}.
 
 Confirm that the script completes successfully before you proceed.  
 
-If the cluster administrator is not allowed to modify the storage or the infrastructure account is not the same as the current account, then manually execute the script by the storage administrator as mentioned in [Complete the preinstallation section](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global).
+If the cluster administrator is not allowed to modify the storage, or the infrastructure account is not the same as the current account, a storage administrator can manually execute the script that is provided in [Complete the preinstallation section](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global).
 
 ## Step 5. Set the deployment values
 {: #set-deploy-values}
@@ -147,19 +148,21 @@ Choose a storage class:
 - If you want to retain your storage volume, choose the `ibmc-file-retain-gold-gid` storage class.
 - Otherwise, choose the `ibmc-file-gold-gid` storage class.
 
-Use the deployment parameters to specify which services are installed when you install {{site.data.keyword.cpd_full_notm}}:
+Specify which services to install when you install {{site.data.keyword.cpd_full_notm}}:
 
-- To install Apache Spark, set `spark` to `true`.
+- To install Watson OpenScale, set `aiopenscale` to `true`.
 - To install Cognos Dashboards, set `cde` to `true`.
-- To install Data Virtualization, set `dv` to `true`.
 - To install Db2 Warehouse, set `db2wh` to `true`.
-- To install IBM Streams, set `streams` to `true`.
+- To install Data Virtualization, set `dv` to `true`.
 - To install Open Source Management, set `osg` to `true`.
 - To install RStudio Server, set `rstudio` to `true`.
+- To install Apache Spark, set `spark` to `true`.
+- To install IBM Streams, set `streams` to `true`.
 - To install Watson Knowledge Catalog, set `wkc` to `true`.
-- To install Watson OpenScale, set `aiopenscale` to `true`.
 - To install Watson Machine Learning, set `wml` to `true`.
 - To install Watson Studio, set `wsl` to `true`.
+
+For more information, see  [Installing services](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-install-services).
 
 If you want to install a service later, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the Services catalog and follow the installation instructions for the service.{:tip}
 
@@ -170,17 +173,17 @@ If you want to install a service later, you can return to the **Deployment value
 1. Confirm that you have read and agree to the license agreements. 
 1. Click **Install**.
 
+## Step 7. Launch your instance of {{site.data.keyword.cpd_full_notm}}
+{: #launch-cloud-pak-for-data]
+
+1. When the installation completes, click **Offering dashboard** to access your {{site.data.keyword.cpd_full_notm}} deployment or navigate the the **Resources** tab to find your deployment URL. 
+1. Log in to the web client as `admin` using the default password (`password`). Change your password. 
+1. On the toolbar, click the **Services** icon and verify that your services are enabled or available.
+
 ## Next steps
 {: #next-steps}
 
-When the installation completes, you can access your {{site.data.keyword.cpd_full_notm}} deployment with the provided URL. 
-
-Log in to the web client as `admin` using the default password (`password`). Change your password. 
-
-For details on creating additional users, see [Managing users](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/admin/users.html).
-
-If you want to install more services to a deployed namespace in your cluster, repeat the steps to install from IBM Cloud Catalog and set the required service value to **true** in the **Deployment values** section
-
-If you want to install other supported services, such as DataStage, MongoDB, Db2 Advanced Edition, Db2 Big SQL, Cognos Analytics, or Watson Studio Premium, which are not available in the IBM Cloud Catalog, install them in transfer mode. For more information, see [Installing IBM Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/install.html).
-
-To uninstall {{site.data.keyword.cpd_full_notm}} or {{site.data.keyword.cpd_full_notm}} services see [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstall).
+- To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing users](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/admin/users.html).
+- If you want to install more services to a deployed namespace in your cluster, repeat the steps to install from IBM Cloud Catalog and set the required service value to **true** in the **Deployment values** section.
+- If you want to install other supported services, such as DataStage, MongoDB, Db2 Advanced Edition, Db2 Big SQL, Cognos Analytics, or Watson Studio Premium, which are not available in the IBM Cloud Catalog, see [Services and integrations](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/svc.html).
+- To uninstall {{site.data.keyword.cpd_full_notm}} or {{site.data.keyword.cpd_full_notm}} services see [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstall).
