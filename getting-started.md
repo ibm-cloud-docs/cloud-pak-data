@@ -103,7 +103,7 @@ If you don't already have a license, you can:
 To assign your license, follow these steps: 
 1. Log in to your [IBM Cloud account](https://cloud.ibm.com).
 1. If you don't see any licenses to assign, navigate to **Manage** > **Account** and then click **Licenses and entitlements** in the navigation menu.
-1. If there are no licenses here, click **Check IBM Passport Advantage**.
+1. If there are no licenses to assign on the **Licenses and entitlements** page, click **Check IBM Passport Advantage**.
 1. Select the appropriate license and click **Assign**.
 
 ## Step 2. Configure your installation environment
