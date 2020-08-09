@@ -34,7 +34,7 @@ If you deploy {{site.data.keyword.cpd_full_notm}} on IBM Cloud, you can install 
 
 You can install services using two different methods. The supported methods depend on the services that you want to install:
 
-* Some services can be installed from the ({{site.data.keyword.cpd_short}} installation page)[https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global] in the IBM Cloud catalog.
+* Some services can be installed from the [{{site.data.keyword.cpd_short}} installation page](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global) in the IBM Cloud catalog.
 * Some services can be installed by running the {{site.data.keyword.cpd_short}} command-line interface.
 
 |Service 	      |Install from the Cloud Pak for Data installation page 	|Install by using the CLI|
@@ -72,5 +72,5 @@ You can install services using two different methods. The supported methods depe
 |[Watson Studio](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wsl.html)                                                                      | 	✓ | 	✓ |
 |[Watson Text to Speech](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wtts.html)                                                              |     |  *  |
 
-A * indicates that the service is supported only on bare metal worker nodes with extra local storage for SDS. These services also require (Portworx Enterprise)[https://cloud.ibm.com/catalog/services/portworx-enterprise] storage. You must create a new worker pool that contains the bare metal servers required for Watson AI services.
+A * indicates that the service is supported only on bare metal worker nodes with extra local storage for SDS. These services also require [Portworx Enterprise](https://cloud.ibm.com/catalog/services/portworx-enterprise) storage. You must create a new worker pool that contains the bare metal servers required for Watson AI services.
 
