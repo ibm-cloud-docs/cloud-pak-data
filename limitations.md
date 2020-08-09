@@ -29,7 +29,7 @@ If you are running other applications on your Red Hat OpenShift cluster, make su
 
 * The installation is not supported on IBM Managed Red Hat OpenShift Cluster VPC (Gen2). It is supported on the classic infrastructure only.
 
-* You cannot change the **Override value** to install new services from  the Settings page in **Schematics** > **Workspaces**. 
+* You cannot change the **Override value** to `true` to install new services from  the Settings page in **Schematics** > **Workspaces**. 
 
 * If you see the following message in the installation logs, you can ignore it:
 "Error verifying current oauth token - Error from server (NotFound) as install is performed as serviceaccount".
