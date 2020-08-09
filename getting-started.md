@@ -161,9 +161,11 @@ Specify which services to install when you install {{site.data.keyword.cpd_full_
 - To install Watson Machine Learning, set `wml` to `true`.
 - To install Watson Studio, set `wsl` to `true`.
 
-For more information, see  [Installing services](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-install-services).
+If you don't select any services to install, you install the {{site.data.keyword.cpd_full_notm}} control plane only.
 
 If you want to install a service later, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the Services catalog and follow the installation instructions for the service.{:tip}
+
+For more information, see  [Installing services](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-install-services).
 
 ## Step 6. Install {{site.data.keyword.cpd_full_notm}}
 {: #install-cloud-pak-for-data}
@@ -176,7 +178,7 @@ If you want to install a service later, you can return to the **Deployment value
 {: #launch-cloud-pak-for-data]
 
 1. After you click **Install**, the **Schematics** > **Workspaces** page opens. You can watch the progress of the installation in the log.
-1. When the installation completes, click **Offering dashboard** to access your {{site.data.keyword.cpd_full_notm}} deployment or navigate the the **Resources** tab to find your deployment URL. 
+1. When the installation completes, click **Offering dashboard** to access your {{site.data.keyword.cpd_full_notm}} deployment. 
 1. Log in to the web client as `admin` using the default password (`password`). Change your password. 
 1. On the toolbar, click the **Services** icon and verify that your services are enabled or available.
 
