@@ -171,9 +171,9 @@ For more information, see  [Installing services](https://cloud.ibm.com/docs/clou
 
 
 The {{site.data.keyword.cpd_full}} automated installation makes the following changes to ensure that services can be installed successfully:
- *  Sets kernel parameters.
- *  Enables `noroot squash` on worker nodes for Network File System (NFS).
- *  Increases the image registry storage size to hold the docker images.
+ *  Sets kernel parameters. For more information, see [Kernel parameter settings](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/node-settings.html#node-settings__kernel#node-settings__kernel).
+ *  Enables `noroot squash` on worker nodes for Network File System (NFS). For more information, see [Storage considerations](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/plan/storage_considerations.html).
+ *  Increases the image registry storage size to hold the docker images. For more information, see [Accessing the image registry](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/analyze-data/access-registry.html).
  
 ## Step 7. Launch your instance of {{site.data.keyword.cpd_full_notm}}
 {: #launch-cloud-pak-for-data]
