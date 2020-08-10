@@ -22,17 +22,12 @@ subcollection: cloud-pak-data
 # Limitations and known issues
 {: #limitations}
 
-
 * The installation is not supported on IBM Managed Red Hat OpenShift Cluster VPC (Gen2). It is supported on the classic infrastructure only.
 
 * The installation does not verify whether there are enough resources on the cluster to install {{site.data.keyword.cpd_short}}. 
 If you are running other applications on your Red Hat OpenShift cluster, make sure that you have enough resources on the cluster before you install {{site.data.keyword.cpd_short}}.
 
 * When you create a service instance, the service instance initially appears as Failed or Red in the {{site.data.keyword.cpd_short}} console until the persistent volume claim is bound to a persistent volume on the cluster.
-
-* On the Settings page in **Schematics** > **Workspaces**, you cannot change the **Override value** from `false` to `true` to install a  service. 
-
-* On the Settings page in **Schematics** > **Workspaces**, you cannot change the **Override value** from `true` to `false` to uninstall a service.
 
 * If you see the following message in the installation logs, you can ignore it:
 "Error verifying current oauth token - Error from server (NotFound) as install is performed as serviceaccount".
