@@ -86,11 +86,6 @@ For more information, see [Setting up access to your cluster](https://cloud.ibm.
 
 IBM Cloud accounts have a default quota of 250 storage volumes. Before you start the installation, ensure that each account has enough storage volumes for {{site.data.keyword.cpd_full}} to be installed. For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-block-storage-faqs#how-many-volumes-can-be-ordered)
 
-The {{site.data.keyword.cpd_full}} automated installation makes the following changes to ensure that services can be installed successfully:
- *  Sets kernel parameters.
- *  Enables `noroot squash` on worker nodes for NFS.
- *  Increases the image registry storage size to hold the docker images.
-
 ## Step 1. Assign the license
 {: #assign_license}
 
@@ -174,6 +169,12 @@ For more information, see  [Installing services](https://cloud.ibm.com/docs/clou
 1. Confirm that you have read and agree to the license agreements. 
 1. Click **Install**.
 
+
+The {{site.data.keyword.cpd_full}} automated installation makes the following changes to ensure that services can be installed successfully:
+ *  Sets kernel parameters.
+ *  Enables `noroot squash` on worker nodes for Network File System (NFS).
+ *  Increases the image registry storage size to hold the docker images.
+ 
 ## Step 7. Launch your instance of {{site.data.keyword.cpd_full_notm}}
 {: #launch-cloud-pak-for-data]
 
