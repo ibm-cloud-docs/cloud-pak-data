@@ -35,6 +35,8 @@ You can install services using two different methods. The supported methods depe
 * Some services can be installed from the [{{site.data.keyword.cpd_short}} installation page](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global) in the IBM Cloud catalog.
 * Some services can be installed by running the {{site.data.keyword.cpd_short}} command-line interface. To use the command line interface, you need the appropriate registry entries for the service. 
 
+Use the links in the following table to learn how to install each of these services.
+
 |Service 	      |Install from the Cloud Pak for Data installation page 	|Install by using the CLI|
 |:------------- |:-----------------------------------------------------------------:| :-----------:|
 |[Analytics Engine Powered by Apache Spark](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/spark.html)                                           | 	✓ | 	✓ |
@@ -70,5 +72,5 @@ You can install services using two different methods. The supported methods depe
 |[Watson Studio](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wsl.html)                                                                      | 	✓ | 	✓ |
 |[Watson Text to Speech](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wtts.html)                                                              |     |  *  |
 
-A * indicates that the service is supported only on bare metal worker nodes with extra local storage for SDS. These services also require [Portworx Enterprise](https://cloud.ibm.com/catalog/services/portworx-enterprise) storage. You must create a new worker pool that contains the bare metal servers required for Watson AI services.
+A * indicates that the service is supported only on bare metal worker nodes with extra local storage for software-defined storage (SDS). These services also require [Portworx Enterprise](https://cloud.ibm.com/catalog/services/portworx-enterprise) storage. You must create a new worker pool that contains the bare metal servers required for Watson AI services.
 
