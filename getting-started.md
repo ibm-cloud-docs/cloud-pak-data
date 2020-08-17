@@ -77,14 +77,14 @@ To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the fol
 | Role                 | Location                                              | Action           |
 |:-------------------- |:------------------------------------------------------|:-----------------|
 | Platform Editor      | Manage > Account > Licenses and entitlements          | Assign a license |
-| Service Manager in any resource group| Schematics                            | Create a workspace |
-| Service Manager      | IAM Services > Kubernetes Service                     | Run the pre-install script |
-| Service Writer       | IAM Services > Kubernetes Service                     | Run the install script |
-| Operator or higher   | Classic Infrastructure > Storage > File Storage<br/>Classic Infrastructure > Account > Add/Upgrade Storage  | Modify the image registry volume |
+| Service Manager      | Access (IAM) > Kubernetes Service                     | Run the pre-install script |
+| Service Writer       | Access (IAM) > Kubernetes Service                     | Run the install script |
+| Service Manager in any resource group| Schematics > Workspaces               | Create a workspace |
+| Platform Operator    | Classic Infrastructure > Storage > File Storage       | Modify the image registry volume |
 
 For more information, see [Setting up access to your cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-users).
 
-IBM Cloud accounts have a default quota of 250 storage volumes. Before you start the installation, ensure that each account has enough storage volumes for {{site.data.keyword.cpd_full}} to be installed. For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-block-storage-faqs#how-many-volumes-can-be-ordered)
+IBM Cloud accounts have a default quota of 250 storage volumes. Before you start the installation, ensure that each account has enough storage volumes for {{site.data.keyword.cpd_full}} to be installed. For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-file-storage-faqs#how-many-volumes-can-be-ordered)
 
 ## Step 1. Assign the license
 {: #assign_license}
