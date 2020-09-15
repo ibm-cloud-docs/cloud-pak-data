@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-02-20"
+lastupdated: "2020-09-15"
 
 keywords: "adding services, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -32,7 +32,7 @@ If you deploy {{site.data.keyword.cpd_full_notm}} on IBM Cloud, you can install 
 You can install services using two different methods. The supported methods depend on the services that you want to install:
 
 * Some services can be installed from the [{{site.data.keyword.cpd_short}} installation page](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global) in the IBM Cloud catalog.
-* Some services can be installed by running the {{site.data.keyword.cpd_short}} command-line interface. To use the command line interface, you need the appropriate registry entries for the service. 
+* Some services can be installed by running the {{site.data.keyword.cpd_short}} command-line interface.
 
 Use the links in the following table to learn how to install each of these services.
 
