@@ -60,7 +60,7 @@ Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a 
 
 You also need to configure a [{{site.data.keyword.openshiftlong_notm}} Version 4.3.18 or above](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) single-zone cluster on IBM Cloud. The minimum requirement for your cluster is 16 cores, 64GB RAM, 1 TB persistent storage per node. For more information, see [Creating a classic OpenShift cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started#clusters_gs).
 
-This minimum requirement is not sufficient to install all available services on {{site.data.keyword.cpd_full_notm}}. You must ensure that you have sufficient resources for the services that you planned to install. For more information, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.{:note}
+This minimum requirement is not sufficient to install all available services on {{site.data.keyword.cpd_full_notm}}. You must ensure that you have sufficient resources for the services that you plan to install. For more information, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.{:note}
 
 To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the following IBM Cloud Identity and Access Management  (IAM) roles:
 
@@ -129,8 +129,8 @@ If the cluster administrator is not allowed to modify the storage, or the infras
 {: #set-deploy-values}
 
 Choose a storage class:
-- If you want to retain your storage volume, choose the `ibmc-file-retain-gold-gid` storage class.
-- Otherwise, choose the `ibmc-file-gold-gid` storage class.
+- If you want to keep your data after you deprovision {{site.data.keyword.cpd_full_notm}}, choose the `ibmc-file-retain-gold-gid` storage class. You can reclaim the storage and use it in your cluster again. 
+- Otherwise, choose the `ibmc-file-gold-gid` storage class. When you deprovision {{site.data.keyword.cpd_full_notm}}, the persistent volumen, the data, and your physical file storage device are deleted.
 
 Specify which services to install when you install {{site.data.keyword.cpd_full_notm}}:
 
@@ -146,7 +146,7 @@ Specify which services to install when you install {{site.data.keyword.cpd_full_
 - To install Watson Machine Learning, set `wml` to `true`.
 - To install Watson Studio, set `wsl` to `true`.
 
-If you don't select any services to install, you install the {{site.data.keyword.cpd_full_notm}} control plane only.
+If you don't select any services to install in this step, only the {{site.data.keyword.cpd_full_notm}} control plane will be installed.
 
 If you want to install a service later, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the {{site.data.keyword.cpd_full_notm}} Services catalog and follow the installation instructions for the service.{:tip}
 
