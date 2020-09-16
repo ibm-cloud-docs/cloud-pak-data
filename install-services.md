@@ -6,12 +6,7 @@ lastupdated: "2020-09-15"
 
 keywords: "adding services, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
-subcollection: 
-
-
-
-
--pak-data
+subcollection: cloud-pak-data
 
 ---
 
