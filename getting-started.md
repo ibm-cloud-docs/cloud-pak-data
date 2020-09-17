@@ -58,7 +58,7 @@ The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{sit
 
 Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html) or register for a 60-day trial license. See [Step 1. Assign the license](#assign_license).
 
-You also need to configure a [{{site.data.keyword.openshiftlong_notm}} Version 4.3.18 or above](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) single-zone cluster on IBM Cloud. The minimum requirement for your cluster is 16 cores, 64GB RAM, 1 TB persistent storage per node. For more information, see [Creating a classic OpenShift cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started#clusters_gs).
+You also need to configure a [{{site.data.keyword.openshiftlong_notm}} Version 4.3.18 or above](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) single-zone cluster on IBM Cloud. The minimum requirement for your cluster is 16 cores and 64GB RAM per node. For more information, see [Creating a classic OpenShift cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started#clusters_gs).
 
 This minimum requirement is not sufficient to install all available services on {{site.data.keyword.cpd_full_notm}}. You must ensure that you have sufficient resources for the services that you plan to install. For more information, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.{:note}
 
@@ -67,10 +67,10 @@ To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the fol
 | Role                 | Location                                              | Action           |
 |:-------------------- |:------------------------------------------------------|:-----------------|
 | Platform Editor      | Manage > Account > Licenses and entitlements          | Assign a license |
-| Service Manager      | Access (IAM) > Kubernetes Service                     | Run the pre-install script |
-| Service Writer       | Access (IAM) > Kubernetes Service                     | Run the install script |
+| Service Manager      | Manage > Access (IAM) > Roles > Kubernetes Service             | Run the pre-install script |
+| Service Writer       | Manage > Access (IAM) > Roles > Kubernetes Service             | Run the install script |
 | Service Manager in any resource group| Schematics > Workspaces               | Create a workspace |
-| Platform Operator    | Classic Infrastructure > Storage > File Storage       | Modify the image registry volume |
+| Classic Infrastructure > Services > Storage Manage , Classic Infrastructure > Account > Add/Upgrade Storage   | Manage > Access (IAM) > Users       | Modify the image registry volume |
 
 For more information, see [Setting up access to your cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-users).
 
@@ -159,14 +159,14 @@ For more information, see [Installing services](https://cloud.ibm.com/docs/cloud
 1. Confirm that you have read and agree to the license agreements. 
 1. Click **Install**.
 
-
 The {{site.data.keyword.cpd_full}} automated installation makes the following changes to ensure that services can be installed successfully:
- *  Sets kernel parameters. For more information, see [Kernel parameter settings](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/node-settings.html#node-settings__kernel#node-settings__kernel).
- *  Enables `noroot squash` on worker nodes for Network File System (NFS). For more information, see [Storage considerations](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/plan/storage_considerations.html).
- *  Increases the image registry storage size to hold the docker images. For more information, see [Setting up your registry server](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/registry_server.html).
+ * Sets kernel parameters. For more information, see [Kernel parameter settings](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/node-settings.html#node-settings__kernel#node-settings__kernel).
+ * Enables `noroot squash` on worker nodes for Network File System (NFS). For more information, see [Storage considerations](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/plan/storage_considerations.html).
+ * Increases the image registry storage size to hold the docker images. For more information, see [Setting up your registry server](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/registry_server.html).
+ 
  
 ## Step 7. Launch your instance of {{site.data.keyword.cpd_full_notm}}
-{: #launch-cloud-pak-for-data]
+{: #launch-cloud-pak-for-data}
 
 1. After you click **Install**, the **Schematics** > **Workspaces** page opens. You can watch the progress of the installation in the log.
 1. When the installation completes, click **Offering dashboard** to access your {{site.data.keyword.cpd_full_notm}} deployment. 
@@ -178,5 +178,5 @@ The {{site.data.keyword.cpd_full}} automated installation makes the following ch
 
 - To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing users](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/admin/users.html).
 - To install more services to a deployed cluster, repeat the steps to install from IBM Cloud Catalog and set the required service value to **true** in the **Deployment values** section.
-- To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, or SPSS Modeler, which cannot be automatically installed when you install {{site.data.keyword.cpd_full_notm}} on IBM Cloud, see [Services and integrations](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/svc.html).
+- To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, Decision Optimization, Db2 Data Gate, Execution Engine for Hadoop, or SPSS Modeler, which cannot be automatically installed when you install {{site.data.keyword.cpd_full_notm}} on IBM Cloud, see [Services and integrations](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/svc.html).
 - To uninstall {{site.data.keyword.cpd_full_notm}} or {{site.data.keyword.cpd_full_notm}} services see [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstall).
