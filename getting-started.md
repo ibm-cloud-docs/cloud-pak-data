@@ -67,10 +67,10 @@ To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the fol
 | Role                 | Location                                              | Action           |
 |:-------------------- |:------------------------------------------------------|:-----------------|
 | Platform Editor      | Manage > Account > Licenses and entitlements          | Assign a license |
-| Service Manager      | Access (IAM) > Roles > Kubernetes Service             | Run the pre-install script |
-| Service Writer       | Access (IAM) > Roles > Kubernetes Service             | Run the install script |
+| Service Manager      | Manage > Access (IAM) > Roles > Kubernetes Service             | Run the pre-install script |
+| Service Writer       | Manage > Access (IAM) > Roles > Kubernetes Service             | Run the install script |
 | Service Manager in any resource group| Schematics > Workspaces               | Create a workspace |
-| Platform Operator    | Classic Infrastructure > Storage > File Storage       | Modify the image registry volume |
+| Classic Infrastructure > Services > Storage Manage , Classic Infrastructure > Account > Add/Upgrade Storage   | Manage > Access (IAM) > Users       | Modify the image registry volume |
 
 For more information, see [Setting up access to your cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-users).
 
