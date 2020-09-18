@@ -130,7 +130,7 @@ If the cluster administrator is not allowed to modify the storage, or the infras
 
 Choose a storage class:
 - If you want to keep your data after you deprovision {{site.data.keyword.cpd_full_notm}}, choose the `ibmc-file-retain-gold-gid` storage class. You can reclaim the storage and use it in your cluster again. 
-- Otherwise, choose the `ibmc-file-gold-gid` storage class. When you deprovision {{site.data.keyword.cpd_full_notm}}, the persistent volumen, the data, and your physical file storage device are deleted.
+- Otherwise, choose the `ibmc-file-gold-gid` storage class. When you deprovision {{site.data.keyword.cpd_full_notm}}, the persistent volume, the data, and your physical file storage device are deleted.
 
 Specify which services to install when you install {{site.data.keyword.cpd_full_notm}}:
 
