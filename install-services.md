@@ -35,7 +35,7 @@ Use the links in the following table to learn how to install each of these servi
 |:------------- |:-----------------------------------------------------------------:| :-----------:|
 |[Analytics Engine Powered by Apache Spark](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/spark.html)                                           | 	✓ | 	✓ |
 |[Cognos Analytics](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/ca.html) 	                                                                |     |  ✓  |
-|[Cognos Dashboards](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/dashboard-svc.html)                                                                 | 	✓ | 	✓ |
+|[Cognos Dashboards](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/cde.html)                                                                 | 	✓ | 	✓ |
 |[Data Refinery](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/dr.html)|	See Watson Knowledge Catalog or Watson Studio |	See Watson Knowledge Catalog or Watson Studio |
 |[Data Virtualization](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/dv.html)                                                                | 	✓ | 	✓ |
 |[DataStage Edition](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/ds.html)                                                                  |     |  ✓  |
@@ -54,7 +54,7 @@ Use the links in the following table to learn how to install each of these servi
 |[SPSS Modeler](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/spssmodeler.html)                                                                       |     |  ✓  |
 |[Streams](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/streams.html)                                                                            | 	✓ |  ✓  |
 |[Streams Flows](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/streams/installing-streams-flows.html)                                                                      | 	✓ |  ✓ |
-|[Watson AIOps](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/ai-svc.html)                                                                       |     |  *  |
+|[Watson AIOps](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/aiops.html)                                                                       |     |  *  |
 |[Watson Assistant](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/watsonassist.html)                                                                   |     |  *  |
 |[Watson Assistant for Voice Interaction](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wavi.html)                                             |     |  *  |
 |[Watson Discovery](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/watsondisc.html)                                                                   |     |  *  |
