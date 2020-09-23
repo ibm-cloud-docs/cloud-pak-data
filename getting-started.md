@@ -130,7 +130,7 @@ If the cluster administrator is not allowed to modify the storage, or the infras
 
 Choose a storage class:
 - If you want to keep your data after you deprovision {{site.data.keyword.cpd_full_notm}}, choose the `ibmc-file-retain-gold-gid` storage class. You can reclaim the storage and use it in your cluster again. 
-- Otherwise, choose the `ibmc-file-gold-gid` storage class. When you deprovision {{site.data.keyword.cpd_full_notm}}, the persistent volumen, the data, and your physical file storage device are deleted.
+- Otherwise, choose the `ibmc-file-gold-gid` storage class. When you deprovision {{site.data.keyword.cpd_full_notm}}, the persistent volume, the data, and your physical file storage device are deleted.
 
 Specify which services to install when you install {{site.data.keyword.cpd_full_notm}}:
 
@@ -179,4 +179,4 @@ The {{site.data.keyword.cpd_full}} automated installation makes the following ch
 - To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing users](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/admin/users.html).
 - To install more services to a deployed cluster, repeat the steps to install from IBM Cloud Catalog and set the required service value to **true** in the **Deployment values** section.
 - To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, Decision Optimization, Db2 Data Gate, Execution Engine for Hadoop, or SPSS Modeler, which cannot be automatically installed when you install {{site.data.keyword.cpd_full_notm}} on IBM Cloud, see [Services and integrations](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/svc.html).
-- To uninstall {{site.data.keyword.cpd_full_notm}} or {{site.data.keyword.cpd_full_notm}} services see [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstall).
+- To uninstall {{site.data.keyword.cpd_full_notm}} or {{site.data.keyword.cpd_full_notm}} services see [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstalling).
