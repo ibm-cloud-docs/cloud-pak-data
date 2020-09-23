@@ -8,3 +8,11 @@ Cloud Pak for Data
     getting-started.md
     {: .navgroup-end}
 
+    {: .navgroup id="howto"}
+    install-services.md
+    uninstall.md
+    {: .navgroup-end}
+    
+    {: .navgroup id="help"}
+    limitations.md
+    {: .navgroup-end}
