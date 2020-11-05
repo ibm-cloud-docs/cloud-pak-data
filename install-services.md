@@ -41,6 +41,7 @@ Use the links in the following table to learn how to install each of these servi
 |[DataStage Edition](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/ds.html)                                                                  |     |  ✓  |
 |[Db2 Big SQL](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/bigsql.html)                                                                        |     |  ✓  |
 |[Db2 Data Gate](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/dg.html)                                                                        |  ✓  |  ✓  |
+|[Db2 Data Management Console](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/dmc.html)                                                                        |  ✓  |  ✓  |
 |[Db2 for z/OS](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/db2z.html)                                                                       |     |  ✓  |
 |[Db2 Warehouse](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/db2wh.html)                                                                      | 	✓ | 	✓ |
 |[Decision Optimization](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/do.html)                                                              |     |  ✓  |
