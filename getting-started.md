@@ -38,9 +38,9 @@ You can choose which services to install when you install {{site.data.keyword.cp
 - [Db2 Data Gate](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/dg.html)
 Extract, load, and synchronize your mission-critical data from Db2 for z/OS to Cloud Pak for Data for quick access by your new, high volume, read-only transactional, and analytic applications.
 - [Db2 Warehouse](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/db2wh.html): 
-Take advantage of in-memory data processing and in-database analytics in an analytics data warehouse that supports automated scaling. 
+Take advantage of in-memory data processing and in-database analytics in an analytics data warehouse that supports automated scaling. When Db2 Warehouse is installed, [Db2 Data Management Console](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/dmc.html) is also installed.
 - [IBM Streams](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/streams.html): 
-Enable continuous and fast analysis of large volumes of moving data so that you can develop and run analytics applications that process in-flight data. 
+Enable continuous and fast analysis of large volumes of moving data so that you can develop and run analytics applications that process in-flight data. When IBM Streams is installed, [Streams Flows](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/stflows.html) is also installed.
 - [RStudio Server](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/rstudio.html) 
 Use an integrated development environment for working with R in Watson Studio to create R Shiny applications. 
 - [Watson Knowledge Catalog](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wkc.html): Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations.
