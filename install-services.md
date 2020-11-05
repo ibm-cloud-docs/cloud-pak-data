@@ -40,7 +40,7 @@ Use the links in the following table to learn how to install each of these servi
 |[Data Virtualization](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/dv.html)                                                                | 	✓ | 	✓ |
 |[DataStage Edition](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/ds.html)                                                                  |     |  ✓  |
 |[Db2 Big SQL](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/bigsql.html)                                                                        |     |  ✓  |
-|[Db2 Data Gate](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/dg.html)                                                                        |     |  ✓  |
+|[Db2 Data Gate](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/dg.html)                                                                        |  ✓  |  ✓  |
 |[Db2 for z/OS](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/db2z.html)                                                                       |     |  ✓  |
 |[Db2 Warehouse](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/db2wh.html)                                                                      | 	✓ | 	✓ |
 |[Decision Optimization](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/do.html)                                                              |     |  ✓  |
@@ -49,7 +49,6 @@ Use the links in the following table to learn how to install each of these servi
 |[Jupyter Notebooks with Python 3.6 for GPU](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/gpupy36.html)                                        	|     |  ✓  |
 |[Jupyter Notebooks with R 3.6](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/r36.html)                                                      |     |  ✓  |
 |[MongoDB](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/mongodb.html)                                                                            |     |  ✓  |
-|[Open Source Management](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/osg.html)                                                             | 	✓ | 	✓ |
 |[RStudio Server with R 3.6](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/rstudio.html)                                                         | 	✓ | 	✓ |
 |[SPSS Modeler](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/spssmodeler.html)                                                                       |     |  ✓  |
 |[Streams](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/streams.html)                                                                            | 	✓ |  ✓  |
