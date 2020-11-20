@@ -153,7 +153,6 @@ Specify which services to install when you install {{site.data.keyword.cpd_full_
 - To install Cognos Dashboards, set `cde` to `true`.
 - To install Db2 Warehouse, set `db2wh` to `true`.
 - To install Data Virtualization, set `dv` to `true`.
-- To install Open Source Management, set `osg` to `true`.
 - To install RStudio Server, set `rstudio` to `true`.
 - To install Apache Spark, set `spark` to `true`.
 - To install IBM Streams, set `streams` to `true`.
