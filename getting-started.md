@@ -34,6 +34,9 @@ You can choose which services to install when you install {{site.data.keyword.cp
 
 - [Apache Spark](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/spark.html): Use the Analytics Engine powered by Apache Spark as a compute engine to run analytical and machine learning jobs.
 - [Cognos Dashboards](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/cde.html): Use sophisticated visualizations in an analytics project to identify patterns in your data so that you can make timely and effective decisions.
+- [Data Virtualization](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/dv.html): Create data sets from disparate data sources so that you can query and use the data as if it came from a single source. When you provision this service, check the **You must check this box if you updated the kernel semaphore parameter** check box and use the recommended storage class. See [Storage](#storage).
+- [Db2 Data Gate](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/dg.html)
+Extract, load, and synchronize your mission-critical data from Db2 for z/OS to Cloud Pak for Data for quick access by your new, high volume, read-only transactional, and analytic applications.
 - [Db2 Data Management Console](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/dmc.html): Administer, monitor, manage and optimize the performance of IBM Db2 for Linux, UNIX and Windows databases.
 - [Db2 Warehouse](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/db2wh.html): 
 Take advantage of in-memory data processing and in-database analytics in an analytics data warehouse that supports automated scaling. 
@@ -149,6 +152,8 @@ Specify which services to install when you install {{site.data.keyword.cpd_full_
 - To install Watson OpenScale, set `aiopenscale` to `true`.
 - To install Cognos Dashboards, set `cde` to `true`.
 - To install Db2 Data Gate, set `datagate` to `true`.
+- To install Db2 Warehouse, set `db2wh` to `true`.
+- To install Data Virtualization, set `dv` to `true`.
 - To install Db2 Data Management Console, set `dmc` to `true`.
 - To install RStudio Server, set `rstudio` to `true`.
 - To install Apache Spark, set `spark` to `true`.
