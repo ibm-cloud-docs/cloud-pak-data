@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-09-15"
+  years: 2019, 2020, 2021
+lastupdated: "2020-11-20"
 
 keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -164,7 +164,7 @@ Specify which services to install when you install {{site.data.keyword.cpd_full_
 
 If you don't select any services to install in this step, only the {{site.data.keyword.cpd_full_notm}} control plane will be installed.
 
-If you want to install a service later, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the {{site.data.keyword.cpd_full_notm}} Services catalog and follow the installation instructions for the service.{:tip}
+If you want to install a service later, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the {{site.data.keyword.cpd_full_notm}} Services catalog and follow the installation instructions for the service.
 
 For more information, see [Installing services](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-install-services).
 
