@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2019, 2020
+  years: 2019, 2020, 2021
 lastupdated: "2020-11-20"
 
 keywords: "uninstalling, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
@@ -40,4 +40,3 @@ To uninstall {{site.data.keyword.cpd_full}} by using the command line interface,
 
 ## Uninstalling services in {{site.data.keyword.cpd_full}}
 To uninstall a service in {{site.data.keyword.cpd_full}}, see the uninstall topic for [Services in the catalog](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/cpd/svc/services.html).
-
