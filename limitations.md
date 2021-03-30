@@ -22,7 +22,7 @@ subcollection: cloud-pak-data
 # Limitations and known issues
 {: #limitations}
 
-* The installation is not supported on IBM Managed Red Hat OpenShift Cluster VPC (Gen2). It is supported on the classic infrastructure only.
+* The Cloud Pak for Data on IBM Cloud installation from the IBM Cloud catalog is not supported on Red Hat OpenShift Satellite clusters.
 
 * The installation does not verify whether there are enough resources on the cluster to install {{site.data.keyword.cpd_short}}. 
 If you are running other applications on your Red Hat OpenShift cluster, make sure that you have enough resources on the cluster before you install {{site.data.keyword.cpd_short}}.
