@@ -22,6 +22,8 @@ subcollection: cloud-pak-data
 # Limitations and known issues
 {: #limitations}
 
+* You cannot install Cloud Pak for Data on IBM Cloud on Red Hat OpenShift clusters in Satellite from the catalog.
+ 
 * The installation does not verify whether there are enough resources on the cluster to install {{site.data.keyword.cpd_short}}. 
 If you are running other applications on your Red Hat OpenShift cluster, make sure that you have enough resources on the cluster before you install {{site.data.keyword.cpd_short}}.
 
