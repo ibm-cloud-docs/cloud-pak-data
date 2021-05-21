@@ -59,7 +59,7 @@ The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{sit
 
 Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html) or register for a 60-day trial license. See [Step 1. Assign the license](#assign_license).
 
-You also need to configure an [IBM Red Hat OpenShift Version 4.5.4 or above](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) classic cluster on IBM Cloud. The minimum requirement for your cluster is 16 cores and 64GB RAM per node. For more information, see [Creating a classic OpenShift cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started#clusters_gs).
+You also need to configure an [IBM Red Hat OpenShift Version 4.5.4 or later](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) classic cluster on IBM Cloud. The minimum requirement for your cluster is 16 cores and 64 GB RAM per node. For more information, see [Creating a classic OpenShift cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started#clusters_gs).
 
 This minimum CPU and memory requirement is not sufficient to install all available services on {{site.data.keyword.cpd_full_notm}}. You must ensure that you have sufficient resources for the services that you plan to install. For more information, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.{:note}
 
@@ -70,11 +70,11 @@ To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the fol
 
 | Role                 | Location                                              | Action           |
 |:-------------------- |:------------------------------------------------------|:-----------------|
-| Platform Editor      | Manage > Account > Licenses and entitlements          | Assign a license |
-| Service Manager      | Manage > Access (IAM) > Roles > Kubernetes Service             | Run the pre-install script |
-| Service Writer       | Manage > Access (IAM) > Roles > Kubernetes Service             | Run the install script |
-| Service Manager in any resource group| Schematics > Workspaces               | Create a workspace |
-| Classic Infrastructure > Services > Storage Manage , Classic Infrastructure > Account > Add/Upgrade Storage   | Manage > Access (IAM) > Users       | Modify the image registry volume |
+| Platform Editor      | Manage > Account > Licenses and entitlements          | Assign a license. |
+| Service Manager      | Manage > Access (IAM) > Roles > Kubernetes Service             | Run the preinstallation script. |
+| Service Writer       | Manage > Access (IAM) > Roles > Kubernetes Service             | Run the installation script. |
+| Service Manager in any resource group| Schematics > Workspaces               | Create a workspace. |
+| Classic Infrastructure > Services > Storage Manage , Classic Infrastructure > Account > Add/Upgrade Storage   | Manage > Access (IAM) > Users       | Modify the image registry volume. |
 
 For more information, see [Setting up access to your cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-users).
 
@@ -88,21 +88,21 @@ You must ensure that your cluster has sufficient resources and is configured to 
 
 If you are using a single zone classic cluster with IBM Cloud File Storage, IBM Cloud accounts have a default quota of 250 storage volumes. Before you start the installation, ensure that each account has enough storage volumes for {{site.data.keyword.cpd_full}} to be installed. For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-file-storage-faqs#how-many-volumes-can-be-ordered)
 
-If you are using Portworx storage, you must configure IBM Cloud Portworx Enterprise on the cluster before you start the Cloud Pak for Data installation. For more information, see [Configure Portworx](https://cloud.ibm.com/docs/openshift?topic=openshift-portworx). You must use the 10 IOPS/GB option for the Endurance block storage used to configure Portworx.
+If you are using Portworx storage, you must configure IBM Cloud Portworx Enterprise on the cluster before you start the Cloud Pak for Data installation. For more information, see [Configure Portworx](https://cloud.ibm.com/docs/openshift?topic=openshift-portworx). You must use the 10 IOPS/GB option for the Endurance block storage that is used to configure Portworx.
 
 ## Step 1. Assign the license
 {: #assign_license}
 
 If you don't already have a license, you can:
-* Purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html)
-* [Register](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212) for a 60-day trial license of IBM Cloud Pak for Data
+* Purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html).
+* [Register](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212) for a 60-day trial license of IBM Cloud Pak for Data.
 
 **Important**: The trial is for {{site.data.keyword.cpd_full_notm}} software only. The trial does not include entitlement to the Red Hat OpenShift Container Platform.
 
 To assign your license, follow these steps: 
 1. Log in to your [IBM Cloud account](https://cloud.ibm.com).
 1. If you don't see any licenses to assign, navigate to **Manage** > **Account** and then click **Licenses and entitlements** in the navigation menu.
-1. If there are no licenses to assign on the **Licenses and entitlements** page, click **Check IBM Passport Advantage**.
+1. If you have no licenses to assign on the **Licenses and entitlements** page, click **Check IBM Passport Advantage**.
 1. Select the appropriate license and click **Assign**.
 
 ## Step 2. Configure your installation environment
@@ -145,7 +145,7 @@ If the cluster administrator is not allowed to modify the storage, or the infras
 Choose a storage class:
 - EnduranceFileStorage - This option uses the storage class `ibmc-file-gold-gid` to install Cloud Pak for Data. For more information, see [Endurance Storage](https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-about#provisioning-with-endurance-tiers). You can use the same storage class while provisioning the instances of services.
 - PerformanceFileStorage - This option uses the storage class `ibmc-file-custom-gold-gid` to install Cloud Pak for Data. For more information, see [Performance Storage](https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-about#provisioning-with-performance). You can use the same storage class while provisioning the instances of services.
-- Portworx - This option uses the storage class mentioned in [Storage considerations](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/plan/storage_considerations.html). You can use the storage class mentioned in the service instance creation documentation when you provision instances of services.
+- Portworx - This option uses the storage class that is mentioned in [Storage considerations](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/plan/storage_considerations.html). You can use the storage class that is mentioned in the service instance creation documentation when you provision instances of services.
 
 Specify which services to install when you install {{site.data.keyword.cpd_full_notm}}:
 
@@ -162,7 +162,7 @@ Specify which services to install when you install {{site.data.keyword.cpd_full_
 - To install Watson Machine Learning, set `wml` to `true`.
 - To install Watson Studio, set `wsl` to `true`.
 
-If you don't select any services to install in this step, only the {{site.data.keyword.cpd_full_notm}} control plane will be installed.
+If you don't select any services to install in this step, only the {{site.data.keyword.cpd_full_notm}} control plane is installed.
 
 If you want to install a service later, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the {{site.data.keyword.cpd_full_notm}} Services catalog and follow the installation instructions for the service.
 
@@ -171,7 +171,7 @@ For more information, see [Installing services](https://cloud.ibm.com/docs/cloud
 ## Step 6. Install {{site.data.keyword.cpd_full_notm}}
 {: #install-cloud-pak-for-data}
 
-1. Ensure that you have assigned a license for {{site.data.keyword.cpd_full_notm}} to the deployment. 
+1. Ensure that you assigned a license for {{site.data.keyword.cpd_full_notm}} to the deployment. 
 1. Confirm that you have read and agree to the license agreements. 
 1. Click **Install**.
 
