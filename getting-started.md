@@ -25,41 +25,42 @@ subcollection: cloud-pak-data
 Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on {{site.data.keyword.openshiftlong_notm}}. With {{site.data.keyword.cpd_full}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughout your business. 
 {:shortdesc}
 
-Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/cpd/overview/overview.html). 
+Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=overview). 
 
 ## What's inside this Cloud Pak
 {: #whats-in-cloud-pak-for-data}
 
 You can choose which services to install when you install {{site.data.keyword.cpd_full}}. 
 
-- [Apache Spark](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/spark.html): Use the Analytics Engine powered by Apache Spark as a compute engine to run analytical and machine learning jobs.
-- [Cognos Dashboards](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/cde.html): Use sophisticated visualizations in an analytics project to identify patterns in your data so that you can make timely and effective decisions.
-- [Data Virtualization](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/dv.html): Create data sets from disparate data sources so that you can query and use the data as if it came from a single source. When you provision this service, check the **You must check this box if you updated the kernel semaphore parameter** check box and use the recommended storage class. See [Storage](#storage).
-- [Db2 Data Gate](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/dg.html)
+- [Apache Spark](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-analytics-engine-powered-by-apache-spark): Use the Analytics Engine powered by Apache Spark as a compute engine to run analytical and machine learning jobs.
+- [Cognos Dashboards](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-cognos-dashboards): Use sophisticated visualizations in an analytics project to identify patterns in your data so that you can make timely and effective decisions.
+- [Data Virtualization](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-data-virtualization): Create data sets from disparate data sources so that you can query and use the data as if it came from a single source. When you provision this service, check the **You must check this box if you updated the kernel semaphore parameter** check box and use the recommended storage class. See [Storage](#storage).
+- [Db2 Data Gate](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-db2-data-gate)
 Extract, load, and synchronize your mission-critical data from Db2 for z/OS to Cloud Pak for Data for quick access by your new, high volume, read-only transactional, and analytic applications.
-- [Db2 Data Management Console](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/dmc.html): Administer, monitor, manage and optimize the performance of IBM Db2 for Linux, UNIX and Windows databases.
-- [Db2 Warehouse](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/db2wh.html): 
+- [Db2 Data Management Console](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-db2-data-management-console): Administer, monitor, manage and optimize the performance of IBM Db2 for Linux, UNIX and Windows databases.
+- [Db2 Warehouse](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-db2-warehouse): 
 Take advantage of in-memory data processing and in-database analytics in an analytics data warehouse that supports automated scaling. 
-- [RStudio Server](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/rstudio.html) 
+- [RStudio Server](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-rstudio-server-r-36) 
 Use an integrated development environment for working with R in Watson Studio to create R Shiny applications.
-- [Streams](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/streams.html): 
-Enable continuous and fast analysis of large volumes of moving data so that you can develop and run analytics applications that process in-flight data. When IBM Streams is installed, [Streams Flows](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/stflows.html) is also installed.
-- [Watson Knowledge Catalog](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/wkc.html): Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations.
-- [Watson Machine Learning](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/wml.html): Build analytical models and neural networks that are trained with your data. Then, deploy them into production at scale. 
-- [Watson OpenScale](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/aiopenscale.html): Infuse your AI with trust and transparency. Understand how your AI models make decisions to detect and mitigate bias. 
-- [Watson Studio](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/svc-welcome/wsl.html): Build custom models and infuse your business with AI and machine learning.
+- [Scheduling](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=tasks-setting-up-scheduling-service): 
+The scheduling service offers enhancements over the default Kubernetes scheduler including Quota enforcement, Co-scheduling of pods and GPU sharing.
+- [Watson Knowledge Catalog](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-watson-knowledge-catalog): Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations.
+- [Watson Machine Learning](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-watson-machine-learning): Build analytical models and neural networks that are trained with your data. Then, deploy them into production at scale. 
+- [Watson Machine Learning Accelerator](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-watson-machine-learning-accelerator): Deep learning platform that data scientists can use to build, train, and deploy deep learning models. 
+- [Watson OpenScale](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-watson-openscale): Infuse your AI with trust and transparency. Understand how your AI models make decisions to detect and mitigate bias. 
+- [Watson Studio](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-watson-studio): Build custom models and infuse your business with AI and machine learning.
 
 ## Supported versions
 {: supported-versions}
 
-The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 3.5.0.
+The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 4.0.0.
 
 ## Before you begin
 {: #prereqs}
 
 Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html) or register for a 60-day trial license. See [Step 1. Assign the license](#assign_license).
 
-You also need to configure an [IBM Red Hat OpenShift Version 4.5.4 or above](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) classic cluster on IBM Cloud. The minimum requirement for your cluster is 16 cores and 64GB RAM per node. For more information, see [Creating a classic OpenShift cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started#clusters_gs).
+You also need to configure an [IBM Red Hat OpenShift Version 4.6.1 or later fixes](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) classic cluster on IBM Cloud. The minimum requirement for your cluster is 16 cores and 64GB RAM per node. For more information, see [Creating a classic OpenShift cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started#clusters_gs).
 
 This minimum CPU and memory requirement is not sufficient to install all available services on {{site.data.keyword.cpd_full_notm}}. You must ensure that you have sufficient resources for the services that you plan to install. For more information, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.{:note}
 
@@ -85,8 +86,12 @@ You must ensure that your cluster has sufficient resources and is configured to 
 - Single zone classic cluster with IBM Cloud File Storage
 - Single zone classic cluster with IBM Cloud Portworx Enterprise storage
 - Multi zone classic cluster with IBM Cloud Portworx Enterprise storage
+- Single zone VPC Gen2 cluster with storage IBM Cloud Portworx Enterprise
+- Multi zone VPC Gen2 cluster with storage IBM Cloud Portworx Enterprise
 
 If you are using a single zone classic cluster with IBM Cloud File Storage, IBM Cloud accounts have a default quota of 250 storage volumes. Before you start the installation, ensure that each account has enough storage volumes for {{site.data.keyword.cpd_full}} to be installed. For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-file-storage-faqs#how-many-volumes-can-be-ordered)
+
+If you are using a classic cluster with Portworx storage, the cluster must be configured with Bare Metal worker nodes because Portworx recommends 10 Gbps network and virtual machines come with only 1 Gbps network speed in a classic cluster.
 
 If you are using Portworx storage, you must configure IBM Cloud Portworx Enterprise on the cluster before you start the Cloud Pak for Data installation. For more information, see [Configure Portworx](https://cloud.ibm.com/docs/openshift?topic=openshift-portworx). You must use the 10 IOPS/GB option for the Endurance block storage used to configure Portworx.
 
@@ -143,9 +148,9 @@ If the cluster administrator is not allowed to modify the storage, or the infras
 {: #set-deploy-values}
 
 Choose a storage class:
-- EnduranceFileStorage - This option uses the storage class `ibmc-file-gold-gid` to install Cloud Pak for Data. For more information, see [Endurance Storage](https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-about#provisioning-with-endurance-tiers). You can use the same storage class while provisioning the instances of services.
-- PerformanceFileStorage - This option uses the storage class `ibmc-file-custom-gold-gid` to install Cloud Pak for Data. For more information, see [Performance Storage](https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-about#provisioning-with-performance). You can use the same storage class while provisioning the instances of services.
-- Portworx - This option uses the storage class mentioned in [Storage considerations](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/plan/storage_considerations.html). You can use the storage class mentioned in the service instance creation documentation when you provision instances of services.
+- EnduranceFileStorage - This option uses the storage class `ibmc-file-gold-gid` to install Cloud Pak for Data. For more information, see [Endurance Storage](https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-orderingFileStorage). You can use the same storage class while provisioning the instances of services.
+- PerformanceFileStorage - This option uses the storage class `ibmc-file-custom-gold-gid` to install Cloud Pak for Data. For more information, see [Performance Storage](https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-orderingFileStorage). You can use the same storage class while provisioning the instances of services.
+- Portworx - This option uses the storage class mentioned in [Storage considerations](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=planning-storage-considerations). You can use the storage class mentioned in the service instance creation documentation when you provision instances of services.
 
 Specify which services to install when you install {{site.data.keyword.cpd_full_notm}}:
 
@@ -157,9 +162,10 @@ Specify which services to install when you install {{site.data.keyword.cpd_full_
 - To install Db2 Data Management Console, set `dmc` to `true`.
 - To install RStudio Server, set `rstudio` to `true`.
 - To install Apache Spark, set `spark` to `true`.
-- To install IBM Streams, set `streams` to `true`.
+- To install Scheduling, set `scheduler` to `true`.
 - To install Watson Knowledge Catalog, set `wkc` to `true`.
 - To install Watson Machine Learning, set `wml` to `true`.
+- To install Watson Machine Learning Accelerator, set `wmla` to `true`.
 - To install Watson Studio, set `wsl` to `true`.
 
 If you don't select any services to install in this step, only the {{site.data.keyword.cpd_full_notm}} control plane will be installed.
@@ -176,9 +182,8 @@ For more information, see [Installing services](https://cloud.ibm.com/docs/cloud
 1. Click **Install**.
 
 The {{site.data.keyword.cpd_full}} automated installation makes the following changes to ensure that services can be installed successfully:
- * Sets kernel parameters. For more information, see [Kernel parameter settings](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/node-settings.html#node-settings__kernel#node-settings__kernel).
- * Enables `noroot squash` on worker nodes for Network File System (NFS). For more information, see [Storage considerations](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/plan/storage_considerations.html).
- * Increases the image registry storage size to hold the docker images. For more information, see [Setting up your registry server](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/install/registry_server.html).
+ * Sets kernel parameters. For more information, see [Kernel parameter settings](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=tasks-changing-required-node-settings).
+ * Enables `noroot squash` on worker nodes for Network File System (NFS). For more information, see [Storage considerations](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=planning-storage-considerations).
  
  
 ## Step 7. Launch your instance of {{site.data.keyword.cpd_full_notm}}
@@ -192,7 +197,8 @@ The {{site.data.keyword.cpd_full}} automated installation makes the following ch
 ## Next steps
 {: #next-steps}
 
-- To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing users](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/admin/users.html).
+- To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing users](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=platform-managing-users).
 - To install more services to a deployed cluster, repeat the steps to install from IBM Cloud Catalog and set the required service value to **true** in the **Deployment values** section.
-- To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, Decision Optimization, Db2 Data Gate, Execution Engine for Hadoop, or SPSS Modeler, which cannot be automatically installed when you install {{site.data.keyword.cpd_full_notm}} on IBM Cloud, see [Services and integrations](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/svc.html).
+- To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, Decision Optimization, Db2 Data Gate, Execution Engine for Hadoop, Open Pages or SPSS Modeler, which cannot be automatically installed when you install {{site.data.keyword.cpd_full_notm}} on IBM Cloud, see [Services and integrations](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=installing).
+- To install configure global image pull secrets on your cluster, set the value of configchanges to `Required` and provide your `IBM Cloud API Key` in the apikey, see [ Configuring the global image pull secret](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=tasks-configuring-your-cluster-pull-images).
 - To uninstall {{site.data.keyword.cpd_full_notm}} or {{site.data.keyword.cpd_full_notm}} services see [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstalling).
