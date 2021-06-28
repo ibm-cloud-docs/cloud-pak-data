@@ -36,7 +36,7 @@ To uninstall {{site.data.keyword.cpd_full}} from the Schematics Workspaces conso
 1. Click **Delete** to delete the workspace and wait for the uninstall to complete.
 1. Verify that {{site.data.keyword.cpd_full}} is uninstalled by accessing the IBM Managed Red Hat OpenShift Cluster web console and verifying that the components that are related to {{site.data.keyword.cpd_full}}, such as any related pods, are no longer installed.
 
-To uninstall {{site.data.keyword.cpd_full}} by using the command-line interface, see [Uninstalling Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/cpd/install/rhos-uninstall.html).
+To uninstall {{site.data.keyword.cpd_full}} by using the command-line interface, see [Uninstalling Cloud Pak for Data](https://www.ibm.com/docs/en/SSQNUZ_4.0/cpd/install/rhos-uninstall.html).
 
 ## Uninstalling services in {{site.data.keyword.cpd_full}}
-To uninstall a service in {{site.data.keyword.cpd_full}}, see the uninstall topic for [Services in the catalog](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/cpd/svc/services.html).
+To uninstall a service in {{site.data.keyword.cpd_full}}, see the uninstall topic for [Services](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-nav/head/services.html).
