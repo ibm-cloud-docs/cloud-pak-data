@@ -24,7 +24,7 @@ subcollection: cloud-pak-data
 
 If you deploy {{site.data.keyword.cpd_full_notm}} on IBM Cloud, you can install a subset of the services that are available in the {{site.data.keyword.cpd_short}} services catalog.
 
-You can install services using two different methods. The supported methods depend on the services that you want to install:
+You can install services by using two different methods. The supported methods depend on the services that you want to install:
 
 * Some services can be installed from the [{{site.data.keyword.cpd_short}} installation page](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global) in the IBM Cloud catalog.
 * Some services can be installed by creating an operator subscription for services. To use this method, you must:

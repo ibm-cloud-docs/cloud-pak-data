@@ -71,11 +71,11 @@ To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the fol
 
 | Role                 | Location                                              | Action           |
 |:-------------------- |:------------------------------------------------------|:-----------------|
-| Platform Editor      | Manage > Account > Licenses and entitlements          | Assign a license |
-| Service Manager      | Manage > Access (IAM) > Roles > Kubernetes Service             | Run the pre-install script |
-| Service Writer       | Manage > Access (IAM) > Roles > Kubernetes Service             | Run the install script |
-| Service Manager in any resource group| Schematics > Workspaces               | Create a workspace |
-| Classic Infrastructure > Services > Storage Manage , Classic Infrastructure > Account > Add/Upgrade Storage   | Manage > Access (IAM) > Users       | Modify the image registry volume |
+| Platform Editor      | Manage > Account > Licenses and entitlements          | Assign a license. |
+| Service Manager      | Manage > Access (IAM) > Roles > Kubernetes Service             | Run the preinstallation script. |
+| Service Writer       | Manage > Access (IAM) > Roles > Kubernetes Service             | Run the installation script. |
+| Service Manager in any resource group| Schematics > Workspaces               | Create a workspace. |
+| Classic Infrastructure > Services > Storage Manage , Classic Infrastructure > Account > Add/Upgrade Storage   | Manage > Access (IAM) > Users       | Modify the image registry volume. |
 
 For more information, see [Setting up access to your cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-users).
 
@@ -99,8 +99,8 @@ If you are using Portworx storage, you must configure IBM Cloud Portworx Enterpr
 {: #assign_license}
 
 If you don't already have a license, you can:
-* Purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html)
-* [Register](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212) for a 60-day trial license of IBM Cloud Pak for Data
+* Purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html).
+* [Register](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212) for a 60-day trial license of IBM Cloud Pak for Data.
 
 **Important**: The trial is for {{site.data.keyword.cpd_full_notm}} software only. The trial does not include entitlement to the Red Hat OpenShift Container Platform.
 
