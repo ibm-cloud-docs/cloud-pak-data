@@ -46,7 +46,7 @@ Use an integrated development environment for working with R in Watson Studio to
 The scheduling service offers enhancements over the default Kubernetes scheduler including Quota enforcement, Co-scheduling of pods and GPU sharing.
 - [Watson Knowledge Catalog](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/wkc.html): Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations.
 - [Watson Machine Learning](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/wml.html): Build analytical models and neural networks that are trained with your data. Then, deploy them into production at scale. 
-- [Watson Machine Learning Accelerator](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/wmla.html): Deep learning platform that data scientists can use to build, train, and deploy deep learning models. 
+- [Watson Machine Learning Accelerator](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/wmlaccelerator.html): Deep learning platform that data scientists can use to build, train, and deploy deep learning models. 
 - [Watson OpenScale](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/aiopenscale.html): Infuse your AI with trust and transparency. Understand how your AI models make decisions to detect and mitigate bias. 
 - [Watson Studio](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/wsl.html): Build custom models and infuse your business with AI and machine learning.
 
