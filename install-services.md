@@ -29,7 +29,7 @@ You can install services using two different methods. The supported methods depe
 * Some services can be installed from the [{{site.data.keyword.cpd_short}} installation page](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global) in the IBM Cloud catalog.
 * Some services can be installed by Creating an operator subscription for services. To use this method, you must:
    * Use the Red Hat OpenShift command-line interface (oc CLI) to connect to the cluster. For more information, see [Connecting to the cluster from the CLI](https://cloud.ibm.com/docs/openshift?topic=openshift-access_cluster#access_oc_cli). 
-   * Creating an operator subscription for services. For more information, see [Creating an operator subscription for services](https://www.ibm.com/docs/en/SSQNUZ_4.0/cpd/install/preinstall-operator-subscriptions.html).
+   * Creating an operator subscription for services. For more information, see [creating an operator subscription for services](https://www.ibm.com/docs/en/SSQNUZ_4.0/cpd/install/preinstall-operator-subscriptions.html).
 
 Use the links in the following table to learn how to install each of these services.
 
