@@ -25,30 +25,30 @@ subcollection: cloud-pak-data
 Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on {{site.data.keyword.openshiftlong_notm}}. With {{site.data.keyword.cpd_full}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughout your business. 
 {:shortdesc}
 
-Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=overview). 
+Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/docs/en/SSQNUZ_4.0/cpd/overview/overview.html). 
 
 ## What's inside this Cloud Pak
 {: #whats-in-cloud-pak-for-data}
 
 You can choose which services to install when you install {{site.data.keyword.cpd_full}}. 
 
-- [Apache Spark](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-analytics-engine-powered-by-apache-spark): Use the Analytics Engine powered by Apache Spark as a compute engine to run analytical and machine learning jobs.
-- [Cognos Dashboards](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-cognos-dashboards): Use sophisticated visualizations in an analytics project to identify patterns in your data so that you can make timely and effective decisions.
-- [Data Virtualization](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-data-virtualization): Create data sets from disparate data sources so that you can query and use the data as if it came from a single source. When you provision this service, check the **You must check this box if you updated the kernel semaphore parameter** check box and use the recommended storage class. See [Storage](#storage).
-- [Db2 Data Gate](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-db2-data-gate)
+- [Apache Spark](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/spark.html): Use the Analytics Engine powered by Apache Spark as a compute engine to run analytical and machine learning jobs.
+- [Cognos Dashboards](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/cde.html): Use sophisticated visualizations in an analytics project to identify patterns in your data so that you can make timely and effective decisions.
+- [Data Virtualization](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/dv.html): Create data sets from disparate data sources so that you can query and use the data as if it came from a single source. When you provision this service, check the **You must check this box if you updated the kernel semaphore parameter** check box and use the recommended storage class. See [Storage](#storage).
+- [Db2 Data Gate](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/dg.html)
 Extract, load, and synchronize your mission-critical data from Db2 for z/OS to Cloud Pak for Data for quick access by your new, high volume, read-only transactional, and analytic applications.
-- [Db2 Data Management Console](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-db2-data-management-console): Administer, monitor, manage and optimize the performance of IBM Db2 for Linux, UNIX and Windows databases.
-- [Db2 Warehouse](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-db2-warehouse): 
+- [Db2 Data Management Console](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/dmc.html): Administer, monitor, manage and optimize the performance of IBM Db2 for Linux, UNIX and Windows databases.
+- [Db2 Warehouse](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/db2wh.html): 
 Take advantage of in-memory data processing and in-database analytics in an analytics data warehouse that supports automated scaling. 
-- [RStudio Server](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-rstudio-server-r-36) 
+- [RStudio Server](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/rstudio.html) 
 Use an integrated development environment for working with R in Watson Studio to create R Shiny applications.
-- [Scheduling](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=tasks-setting-up-scheduling-service): 
+- [Scheduling](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-sched/sched-overview.html): 
 The scheduling service offers enhancements over the default Kubernetes scheduler including Quota enforcement, Co-scheduling of pods and GPU sharing.
-- [Watson Knowledge Catalog](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-watson-knowledge-catalog): Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations.
-- [Watson Machine Learning](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-watson-machine-learning): Build analytical models and neural networks that are trained with your data. Then, deploy them into production at scale. 
-- [Watson Machine Learning Accelerator](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-watson-machine-learning-accelerator): Deep learning platform that data scientists can use to build, train, and deploy deep learning models. 
-- [Watson OpenScale](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-watson-openscale): Infuse your AI with trust and transparency. Understand how your AI models make decisions to detect and mitigate bias. 
-- [Watson Studio](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=services-watson-studio): Build custom models and infuse your business with AI and machine learning.
+- [Watson Knowledge Catalog](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/wkc.html): Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations.
+- [Watson Machine Learning](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/wml.html): Build analytical models and neural networks that are trained with your data. Then, deploy them into production at scale. 
+- [Watson Machine Learning Accelerator](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/wmla.html): Deep learning platform that data scientists can use to build, train, and deploy deep learning models. 
+- [Watson OpenScale](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/aiopenscale.html): Infuse your AI with trust and transparency. Understand how your AI models make decisions to detect and mitigate bias. 
+- [Watson Studio](https://www.ibm.com/docs/en/SSQNUZ_4.0/svc-welcome/wsl.html): Build custom models and infuse your business with AI and machine learning.
 
 ## Supported versions
 {: supported-versions}
@@ -150,7 +150,7 @@ If the cluster administrator is not allowed to modify the storage, or the infras
 Choose a storage class:
 - EnduranceFileStorage - This option uses the storage class `ibmc-file-gold-gid` to install Cloud Pak for Data. For more information, see [Endurance Storage](https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-orderingFileStorage). You can use the same storage class while provisioning the instances of services.
 - PerformanceFileStorage - This option uses the storage class `ibmc-file-custom-gold-gid` to install Cloud Pak for Data. For more information, see [Performance Storage](https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-orderingFileStorage). You can use the same storage class while provisioning the instances of services.
-- Portworx - This option uses the storage class mentioned in [Storage considerations](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=planning-storage-considerations). You can use the storage class mentioned in the service instance creation documentation when you provision instances of services.
+- Portworx - This option uses the storage class mentioned in [Storage considerations](https://www.ibm.com/docs/en/SSQNUZ_4.0/cpd/plan/storage_considerations.html). You can use the storage class mentioned in the service instance creation documentation when you provision instances of services.
 
 Specify which services to install when you install {{site.data.keyword.cpd_full_notm}}:
 
