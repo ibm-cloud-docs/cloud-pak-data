@@ -29,9 +29,6 @@ If you are running other applications on your Red Hat OpenShift cluster, make su
 
 * When you create a service instance, the service instance initially appears as Failed or Red in the {{site.data.keyword.cpd_short}} console until the persistent volume claim is bound to a persistent volume on the cluster.
 
-* If you see the following message in the installation logs, you can ignore it:
-"Error verifying current oauth token - Error from server (NotFound) as install is performed as serviceaccount".
-
 * On the Settings page in **Schematics** > **Workspaces**, you cannot change the **Override value** from `false` to `true` to install a  service. For more information, see  [Installing services](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-install-services).
 
 * On the Settings page in **Schematics** > **Workspaces**, you cannot change the **Override value** from `true` to `false` to uninstall a service. For more information, see  [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstalling).
