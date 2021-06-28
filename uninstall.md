@@ -26,7 +26,7 @@ You can uninstall services from {{site.data.keyword.cpd_full}}, or you can unins
 ## Uninstalling {{site.data.keyword.cpd_full}}
 To uninstall {{site.data.keyword.cpd_full}}, you can use the Schematics Workspaces console or the command-line interface.
 
-**Note**: The uninstall action deletes the project. Before you delete a project, make sure that the project does not contain any other applications. For more information, see [Uninstalling Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/cpd/install/rhos-uninstall.html).
+**Note**: The uninstall action deletes the project. Before you delete a project, make sure that the project does not contain any other applications. For more information, see [Uninstalling Cloud Pak for Data](https://www.ibm.com/docs/en/SSQNUZ_4.0/cpd/install/rhos-uninstall.html).
 
 To uninstall {{site.data.keyword.cpd_full}} from the Schematics Workspaces console, follow these steps:
 1. Navigate to **Schematics** > **Workspaces**.
