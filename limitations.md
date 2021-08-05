@@ -33,4 +33,4 @@ If you are running other applications on your Red Hat OpenShift cluster, make su
 
 * On the Settings page in **Schematics** > **Workspaces**, you cannot change the **Override value** from `true` to `false` to uninstall a service. For more information, see  [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstalling).
 
-For more information, see [Troubleshooting problems in Cloud Pak for Data](https://www.ibm.com/docs/en/SSQNUZ_4.0/cpd/troubleshoot/troubleshooting.html).
+For more information, see [Troubleshooting problems in Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_4.0/cpd/troubleshoot/troubleshooting.html).
