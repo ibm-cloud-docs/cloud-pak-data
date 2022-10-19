@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020, 2021
-lastupdated: "2021-08-05"
+lastupdated: "2022-10-18"
 
 keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -25,35 +25,33 @@ subcollection: cloud-pak-data
 Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on {{site.data.keyword.openshiftlong_notm}}. With {{site.data.keyword.cpd_full}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughout your business. 
 {:shortdesc}
 
-Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/docs/SSQNUZ_4.0/cpd/overview/overview.html). 
+Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/docs/SSQNUZ_4.5.x/cpd/overview/overview.html). 
 
 ## What's inside this Cloud Pak
 {: #whats-in-cloud-pak-for-data}
 
 You can choose which services to install when you install {{site.data.keyword.cpd_full}}. 
 
-- [Apache Spark](https://www.ibm.com/docs/SSQNUZ_4.0/svc-welcome/spark.html): Use the Analytics Engine powered by Apache Spark as a compute engine to run analytical and machine learning jobs.
-- [Cognos Dashboards](https://www.ibm.com/docs/SSQNUZ_4.0/svc-welcome/cde.html): Use sophisticated visualizations in an analytics project to identify patterns in your data so that you can make timely and effective decisions.
-- [Data Virtualization](https://www.ibm.com/docs/SSQNUZ_4.0/svc-welcome/dv.html): Create data sets from disparate data sources so that you can query and use the data as if it came from a single source. When you provision this service, check the **You must check this box if you updated the kernel semaphore parameter** check box and use the recommended storage class. See [Storage](#storage).
-- [Db2 Data Gate](https://www.ibm.com/docs/SSQNUZ_4.0/svc-welcome/dg.html)
+- [Apache Spark](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/spark.html): Use the Analytics Engine powered by Apache Spark as a compute engine to run analytical and machine learning jobs.
+- [Cognos Dashboards](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/cde.html): Use sophisticated visualizations in an analytics project to identify patterns in your data so that you can make timely and effective decisions.
+- [Data Virtualization](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/dv.html): Create data sets from disparate data sources so that you can query and use the data as if it came from a single source. When you provision this service, check the **You must check this box if you updated the kernel semaphore parameter** check box and use the recommended storage class. See [Storage](#storage).
+- [Db2 Data Gate](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/dg.html)
 Extract, load, and synchronize your mission-critical data from Db2 for z/OS to Cloud Pak for Data for quick access by your new, high volume, read-only transactional, and analytic applications.
-- [Db2 Data Management Console](https://www.ibm.com/docs/SSQNUZ_4.0/svc-welcome/dmc.html): Administer, monitor, manage and optimize the performance of IBM Db2 for Linux, UNIX and Windows databases.
-- [Db2 Warehouse](https://www.ibm.com/docs/SSQNUZ_4.0/svc-welcome/db2wh.html): 
+- [Db2 Data Management Console](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/dmc.html): Administer, monitor, manage and optimize the performance of IBM Db2 for Linux, UNIX and Windows databases.
+- [Db2 Warehouse](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/db2wh.html): 
 Take advantage of in-memory data processing and in-database analytics in an analytics data warehouse that supports automated scaling. 
-- [RStudio Server](https://www.ibm.com/docs/SSQNUZ_4.0/svc-welcome/rstudio.html) 
+- [RStudio Server](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/rstudio.html) 
 Use an integrated development environment for working with R in Watson Studio to create R Shiny applications.
-- [Scheduling](https://www.ibm.com/docs/SSQNUZ_4.0/svc-sched/sched-overview.html): 
-The scheduling service offers enhancements over the default Kubernetes scheduler including Quota enforcement, Co-scheduling of pods and GPU sharing.
-- [Watson Knowledge Catalog](https://www.ibm.com/docs/SSQNUZ_4.0/svc-welcome/wkc.html): Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations.
-- [Watson Machine Learning](https://www.ibm.com/docs/SSQNUZ_4.0/svc-welcome/wml.html): Build analytical models and neural networks that are trained with your data. Then, deploy them into production at scale. 
-- [Watson Machine Learning Accelerator](https://www.ibm.com/docs/SSQNUZ_4.0/svc-welcome/wmlaccelerator.html): Deep learning platform that data scientists can use to build, train, and deploy deep learning models. 
-- [Watson OpenScale](https://www.ibm.com/docs/SSQNUZ_4.0/svc-welcome/aiopenscale.html): Infuse your AI with trust and transparency. Understand how your AI models make decisions to detect and mitigate bias. 
-- [Watson Studio](https://www.ibm.com/docs/SSQNUZ_4.0/svc-welcome/wsl.html): Build custom models and infuse your business with AI and machine learning.
+- [Watson Knowledge Catalog](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/wkc.html): Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations.
+- [Watson Machine Learning](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/wml.html): Build analytical models and neural networks that are trained with your data. Then, deploy them into production at scale. 
+- [Watson Machine Learning Accelerator](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/wmlaccelerator.html): Deep learning platform that data scientists can use to build, train, and deploy deep learning models. 
+- [Watson OpenScale](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/aiopenscale.html): Infuse your AI with trust and transparency. Understand how your AI models make decisions to detect and mitigate bias. 
+- [Watson Studio](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/wsl.html): Build custom models and infuse your business with AI and machine learning.
 
 ## Supported versions
 {: supported-versions}
 
-The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 4.0.0.
+The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 4.5.3.
 
 ## Before you begin
 {: #prereqs}
@@ -150,7 +148,7 @@ If the cluster administrator is not allowed to modify the storage, or the infras
 Choose a storage class:
 - EnduranceFileStorage - This option uses the storage class `ibmc-file-gold-gid` to install Cloud Pak for Data. For more information, see [Endurance Storage](https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-orderingFileStorage). You can use the same storage class while provisioning the instances of services.
 - PerformanceFileStorage - This option uses the storage class `ibmc-file-custom-gold-gid` to install Cloud Pak for Data. For more information, see [Performance Storage](https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-orderingFileStorage). You can use the same storage class while provisioning the instances of services.
-- Portworx - This option uses the storage class mentioned in [Storage considerations](https://www.ibm.com/docs/SSQNUZ_4.0/cpd/plan/storage_considerations.html). You can use the storage class mentioned in the service instance creation documentation when you provision instances of services.
+- Portworx - This option uses the storage class mentioned in [Storage considerations](https://www.ibm.com/docs/SSQNUZ_4.5.x/cpd/plan/storage_considerations.html). You can use the storage class mentioned in the service instance creation documentation when you provision instances of services.
 
 Specify which services to install when you install {{site.data.keyword.cpd_full_notm}}:
 
@@ -172,7 +170,7 @@ If you don't select any services to install in this step, only the {{site.data.k
 
 If you want to install a service later, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the {{site.data.keyword.cpd_full_notm}} Services catalog and follow the installation instructions for the service.
 
-For more information, see [Installing IBM Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_4.0/cpd/install/install.html).
+For more information, see [Installing IBM Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_4.5.x/cpd/install/install.html).
 
 ## Step 6. Install {{site.data.keyword.cpd_full_notm}}
 {: #install-cloud-pak-for-data}
@@ -182,8 +180,8 @@ For more information, see [Installing IBM Cloud Pak for Data](https://www.ibm.co
 1. Click **Install**.
 
 The {{site.data.keyword.cpd_full}} automated installation makes the following changes to ensure that services can be installed successfully:
- * Sets kernel parameters. For more information, see [Kernel parameter settings](https://www.ibm.com/docs/SSQNUZ_4.0/cpd/install/node-settings.html).
- * Enables `noroot squash` on worker nodes for Network File System (NFS). For more information, see [Storage considerations](https://www.ibm.com/docs/SSQNUZ_4.0/cpd/plan/storage_considerations.html).
+ * Sets kernel parameters. For more information, see [Kernel parameter settings](https://www.ibm.com/docs/SSQNUZ_4.5.x/cpd/install/prep-cluster-node-kernel.html).
+ * Enables `noroot squash` on worker nodes for Network File System (NFS). For more information, see [Storage considerations](https://www.ibm.com/docs/SSQNUZ_4.5.x/cpd/plan/storage_considerations.html).
  
  
 ## Step 7. Launch your instance of {{site.data.keyword.cpd_full_notm}}
@@ -197,8 +195,8 @@ The {{site.data.keyword.cpd_full}} automated installation makes the following ch
 ## Next steps
 {: #next-steps}
 
-- To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing users](https://www.ibm.com/docs/SSQNUZ_4.0/cpd/admin/users.html).
+- To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing users](https://www.ibm.com/docs/SSQNUZ_4.5.x/cpd/admin/users.html).
 - To install more services to a deployed cluster, repeat the steps to install from IBM Cloud Catalog and set the required service value to **true** in the **Deployment values** section.
-- To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, Decision Optimization, Db2 Data Gate, Execution Engine for Hadoop, Open Pages or SPSS Modeler, which cannot be automatically installed when you install {{site.data.keyword.cpd_full_notm}} on IBM Cloud, see [Services and integrations](https://www.ibm.com/docs/SSQNUZ_4.0/svc-nav/head/svc.html).
-- To install configure global image pull secrets on your cluster, set the value of configchanges to `Required` and provide your `IBM Cloud API Key` in the apikey, see [Configuring your cluster to pull Cloud Pak for Data images](https://www.ibm.com/docs/SSQNUZ_4.0/cpd/install/preinstall-cluster-setup.html).
+- To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, Decision Optimization, Db2 Data Gate, Execution Engine for Hadoop, Open Pages or SPSS Modeler, which cannot be automatically installed when you install {{site.data.keyword.cpd_full_notm}} on IBM Cloud, see [Services and integrations](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-nav/head/svc.html).
+- To install configure global image pull secrets on your cluster, set the value of configchanges to `Required` and provide your `IBM Cloud API Key` in the apikey, see [Updating the global image pull secret](https://www.ibm.com/docs/SSQNUZ_4.5.x/cpd/install/prep-cluster-global-image-pull-secret.html).
 - To uninstall {{site.data.keyword.cpd_full_notm}} or {{site.data.keyword.cpd_full_notm}} services see [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstalling).
