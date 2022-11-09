@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020, 2021
-lastupdated: "2022-10-18"
+  years: 2019, 2020, 2021, 2022
+lastupdated: "2022-11-09"
 
 keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -42,6 +42,8 @@ Extract, load, and synchronize your mission-critical data from Db2 for z/OS to C
 Take advantage of in-memory data processing and in-database analytics in an analytics data warehouse that supports automated scaling. 
 - [RStudio Server](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/rstudio.html) 
 Use an integrated development environment for working with R in Watson Studio to create R Shiny applications.
+- [Scheduling](https://www.ibm.com/docs/SSQNUZ_4.0/svc-sched/sched-overview.html): 
+The scheduling service offers enhancements over the default Kubernetes scheduler including Quota enforcement, Co-scheduling of pods and GPU sharing.
 - [Watson Knowledge Catalog](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/wkc.html): Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations.
 - [Watson Machine Learning](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/wml.html): Build analytical models and neural networks that are trained with your data. Then, deploy them into production at scale. 
 - [Watson Machine Learning Accelerator](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/wmlaccelerator.html): Deep learning platform that data scientists can use to build, train, and deploy deep learning models. 
@@ -81,17 +83,23 @@ For more information, see [Setting up access to your cluster](https://cloud.ibm.
 {: #storage}
 
 You must ensure that your cluster has sufficient resources and is configured to use supported storage. You can choose one of the following storage options:
-- Single zone classic cluster with IBM Cloud File Storage
-- Single zone classic cluster with IBM Cloud Portworx Enterprise storage
-- Multi zone classic cluster with IBM Cloud Portworx Enterprise storage
+
+- Single zone classic cluster with storage IBM Cloud File Storage
+- Multi zone classic cluster with storage IBM Cloud File Storage
 - Single zone VPC Gen2 cluster with storage IBM Cloud Portworx Enterprise
 - Multi zone VPC Gen2 cluster with storage IBM Cloud Portworx Enterprise
+- Single zone VPC Gen2 cluster with storage OpenShift Data Foundation (ODF)
+- Multi zone VPC Gen2 cluster with storage OpenShift Data Foundation (ODF)
 
 If you are using a single zone classic cluster with IBM Cloud File Storage, IBM Cloud accounts have a default quota of 250 storage volumes. Before you start the installation, ensure that each account has enough storage volumes for {{site.data.keyword.cpd_full}} to be installed. For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-file-storage-faqs#how-many-volumes-can-be-ordered)
 
-If you are using a classic cluster with Portworx storage, the cluster must be configured with Bare Metal worker nodes because Portworx recommends 10 Gbps network and virtual machines come with only 1 Gbps network speed in a classic cluster.
+If you are using a VPC Gen2 cluster with Portworx storage, the cluster must be configured with Bare Metal worker nodes because Portworx recommends 10 Gbps network and virtual machines come with only 1 Gbps network speed in a classic cluster.
 
 If you are using Portworx storage, you must configure IBM Cloud Portworx Enterprise on the cluster before you start the Cloud Pak for Data installation. For more information, see [Configure Portworx](https://cloud.ibm.com/docs/openshift?topic=openshift-portworx). You must use the 10 IOPS/GB option for the Endurance block storage used to configure Portworx.
+
+Make sure the image registry volume size is modified before installation. For more information, see Complete the Preinstallation on the Create tab. If the OpenShift cluster image registry has images of other applications, you might need to increase the image registry volume size to more than 200GB.
+
+You must also ensure that your cluster has sufficient resources and is configured to use supported storage.
 
 ## Step 1. Assign the license
 {: #assign_license}
