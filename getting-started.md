@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2019, 2020, 2021
+  years: 2019, 2022
 lastupdated: "2022-10-18"
 
 keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
