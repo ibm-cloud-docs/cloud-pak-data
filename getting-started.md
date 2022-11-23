@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020, 2021, 2022
-lastupdated: "2022-11-09"
+  years: 2019, 2022
+lastupdated: "2022-10-18"
 
 keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -42,7 +42,7 @@ Extract, load, and synchronize your mission-critical data from Db2 for z/OS to C
 Take advantage of in-memory data processing and in-database analytics in an analytics data warehouse that supports automated scaling. 
 - [RStudio Server](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/rstudio.html) 
 Use an integrated development environment for working with R in Watson Studio to create R Shiny applications.
-- [Scheduling](https://www.ibm.com/docs/SSQNUZ_4.0/svc-sched/sched-overview.html): 
+- [Scheduling](https://www.ibm.com/docs/SSQNUZ_4.5.x/fixlist/sched-fixlist.html): 
 The scheduling service offers enhancements over the default Kubernetes scheduler including Quota enforcement, Co-scheduling of pods and GPU sharing.
 - [Watson Knowledge Catalog](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/wkc.html): Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations.
 - [Watson Machine Learning](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/wml.html): Build analytical models and neural networks that are trained with your data. Then, deploy them into production at scale. 

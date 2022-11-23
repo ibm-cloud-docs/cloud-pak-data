@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020, 2021, 2022
-lastupdated: "2022-10-18"
+  years: 2019, 2022
+lastupdated: "2022-11-14"
 
 keywords: "adding services, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -52,11 +52,11 @@ Use the links in the following table to learn how to install each of these servi
 |[Jupyter Notebooks with R 3.6](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/r36.html)                                                      |     |  ✓  |
 |[MongoDB](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/mongodb.html)                                                                            |     |  ✓  |
 |[RStudio Server with R 3.6](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/rstudio.html)                                                         | 	✓ | 	✓ |
-|[SPSS Modeler](https://www.ibm.com/docs/SSQNUZ_4.5.1/svc-welcome/spssmodeler.html)                                                                       |     |  ✓  |
-|[Watson Knowledge Catalog](https://www.ibm.com/docs/SSQNUZ_4.5.1/svc-welcome/wkc.html)                                                           | 	✓ | ✓  |
-|[Watson Machine Learning](https://www.ibm.com/docs/SSQNUZ_4.5.1/svc-welcome/wml.html)                                                            | 	✓ | 	✓ |
-|[Watson Machine Learning Accelerator](https://www.ibm.com/docs/SSQNUZ_4.5.1/svc-welcome/wmlaccelerator.html)                                                            | 	✓ | 	✓ |
-|[Watson OpenScale](https://www.ibm.com/docs/SSQNUZ_4.5.1/svc-welcome/aiopenscale.html)                                                                   | 	✓ | 	✓ |
-|[Watson Studio](https://www.ibm.com/docs/SSQNUZ_4.5.1/svc-welcome/wsl.html)                                                                      | 	✓ | 	✓ |
+|[SPSS Modeler](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/spssmodeler.html)                                                                       |     |  ✓  |
+|[Watson Knowledge Catalog](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/wkc.html)                                                           | 	✓ | ✓  |
+|[Watson Machine Learning](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/wml.html)                                                            | 	✓ | 	✓ |
+|[Watson Machine Learning Accelerator](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/wmlaccelerator.html)                                                            | 	✓ | 	✓ |
+|[Watson OpenScale](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/aiopenscale.html)                                                                   | 	✓ | 	✓ |
+|[Watson Studio](https://www.ibm.com/docs/SSQNUZ_4.5.x/svc-welcome/wsl.html)                                                                      | 	✓ | 	✓ |
 
 A * indicates that the service is supported only on bare metal worker nodes with extra local storage for software-defined storage (SDS). These services also require [Portworx Enterprise](https://cloud.ibm.com/catalog/services/portworx-enterprise) storage. You must create a new worker pool that contains the bare metal servers required for Watson AI services.
