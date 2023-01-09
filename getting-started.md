@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2019 - 2023
+  years: 2019, 2023
 lastupdated: "2023-01-09"
 
 keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
@@ -23,7 +23,7 @@ subcollection: cloud-pak-data
 {: #getting-started}
 
 Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on {{site.data.keyword.openshiftlong_notm}}. With {{site.data.keyword.cpd_full}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughout your business. 
-{:shortdesc}
+{: shortdesc}
 
 See the [{{site.data.keyword.cpd_full}} readme file](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global/readme/roks/cloud-pak/ed370810-180a-455c-b949-d23d5b8b4ff6-global) for detailed information about getting started with {{site.data.keyword.cpd_short}} on IBM Cloud.
 
@@ -36,15 +36,11 @@ You can choose which services to install when you install {{site.data.keyword.cp
 
 - [Apache Spark](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/spark.html): Use the Analytics Engine powered by Apache Spark as a compute engine to run analytical and machine learning jobs.
 - [Cognos Dashboards](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/cde.html): Use sophisticated visualizations in an analytics project to identify patterns in your data so that you can make timely and effective decisions.
-- [Db2 Data Gate](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dg.html)
-Extract, load, and synchronize your mission-critical data from Db2 for z/OS to Cloud Pak for Data for quick access by your new, high volume, read-only transactional, and analytic applications.
+- [Db2 Data Gate](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dg.html): Extract, load, and synchronize your mission-critical data from Db2 for z/OS to Cloud Pak for Data for quick access by your new, high volume, read-only transactional, and analytic applications.
 - [Db2 Data Management Console](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dmc.html): Administer, monitor, manage and optimize the performance of IBM Db2 for Linux, UNIX and Windows databases.
-- [Db2 Warehouse](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/db2wh.html): 
-Take advantage of in-memory data processing and in-database analytics in an analytics data warehouse that supports automated scaling. 
-- [RStudio Server](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/rstudio.html) 
-Use an integrated development environment for working with R in Watson Studio to create R Shiny applications.
-- [Scheduling](https://www.ibm.com/docs/SSQNUZ_4.6.x/fixlist/sched-fixlist.html): 
-The scheduling service offers enhancements over the default Kubernetes scheduler including Quota enforcement, Co-scheduling of pods and GPU sharing.
+- [Db2 Warehouse](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/db2wh.html): Take advantage of in-memory data processing and in-database analytics in an analytics data warehouse that supports automated scaling. 
+- [RStudio Server](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/rstudio.html): Use an integrated development environment for working with R in Watson Studio to create R Shiny applications.
+- [Scheduling](https://www.ibm.com/docs/SSQNUZ_4.6.x/fixlist/sched-fixlist.html): The scheduling service offers enhancements over the default Kubernetes scheduler including Quota enforcement, Co-scheduling of pods and GPU sharing.
 - [Watson Knowledge Catalog](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wkc.html): Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations.
 - [Watson Machine Learning](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wml.html): Build analytical models and neural networks that are trained with your data. Then, deploy them into production at scale. 
 - [Watson Machine Learning Accelerator](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wmlaccelerator.html): Deep learning platform that data scientists can use to build, train, and deploy deep learning models. 
@@ -53,7 +49,7 @@ The scheduling service offers enhancements over the default Kubernetes scheduler
 - [Watson Studio](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wsl.html): Build custom models and infuse your business with AI and machine learning.
 
 ## Supported versions
-{: supported-versions}
+{: #supported-versions}
 
 The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 4.6.x.
 
@@ -64,12 +60,12 @@ Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a 
 
 You also need to configure an [IBM Red Hat OpenShift Version 4.6.1 or later](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) classic cluster on IBM Cloud. The minimum requirement for your cluster is 16 cores and 64GB RAM per node. For more information, see [Creating a classic OpenShift cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started#clusters_gs).
 
-This minimum CPU and memory requirement is not sufficient to install all available services on {{site.data.keyword.cpd_full_notm}}. You must ensure that you have sufficient resources for the services that you plan to install. For more information, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.{:note}
+This minimum CPU and memory requirement is not sufficient to install all available services on {{site.data.keyword.cpd_full_notm}}. You must ensure that you have sufficient resources for the services that you plan to install. For more information, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.{: note}
 
 ### Roles
 {: #roles}
 
-To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the following IBM Cloud Identity and Access Management  (IAM) roles:
+To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the following IBM Cloud Identity and Access Management (IAM) roles:
 
 | Role                 | Location                                              | Action           |
 |:-------------------- |:------------------------------------------------------|:-----------------|
@@ -94,6 +90,7 @@ You must ensure that your cluster has sufficient resources and is configured to 
 {%endcomment%}
 - Single zone VPC Gen2 cluster with storage OpenShift® Data Foundation
 - Multi zone VPC Gen2 cluster with storage OpenShift® Data Foundation
+
 
 {%comment%}
 If you are using a single zone classic cluster with IBM Cloud File Storage, IBM Cloud accounts have a default quota of 250 storage volumes. Before you start the installation, ensure that each account has enough storage volumes for {{site.data.keyword.cpd_full}} to be installed. For more information, see [How many volumes can be ordered?](https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-file-storage-faqs#how-many-volumes-can-be-ordered)

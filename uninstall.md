@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2019 - 2023
+  years: 2019, 2023
 lastupdated: "2023-01-09"
 
 keywords: "uninstalling, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
@@ -24,6 +24,7 @@ subcollection: cloud-pak-data
 You can uninstall services from {{site.data.keyword.cpd_full}}, or you can uninstall {{site.data.keyword.cpd_full}}. 
 
 ## Uninstalling {{site.data.keyword.cpd_full}}
+{: #uninstall_steps}
 To uninstall {{site.data.keyword.cpd_full}}, you can use the Schematics Workspaces console or the command-line interface.
 
 **Note**: The uninstall action deletes the project. Before you delete a project, make sure that the project does not contain any other applications. For more information, see [Uninstalling Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_4.6.x/cpd/install/uninstall-platform.html).
@@ -39,4 +40,6 @@ To uninstall {{site.data.keyword.cpd_full}} from the Schematics Workspaces conso
 To uninstall {{site.data.keyword.cpd_full}} by using the command-line interface, see [Uninstalling Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_4.6.x/cpd/install/uninstall-platform.html).
 
 ## Uninstalling services in {{site.data.keyword.cpd_full}}
+{: #uninstall_svcs}
+
 To uninstall a service in {{site.data.keyword.cpd_full}}, see the uninstall topic for [Services](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-nav/head/services.html).
