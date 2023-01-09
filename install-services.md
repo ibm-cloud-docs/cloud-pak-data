@@ -39,7 +39,6 @@ Use the links in the following table to learn how to install each of these servi
 |[Cognos Analytics](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/ca.html) 	                                                                |     |  ✓  |
 |[Cognos Dashboards](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/cde.html)                                                                 | 	✓ | 	✓ |
 |[Data Refinery](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dr.html)|	See Watson Knowledge Catalog or Watson Studio |	See Watson Knowledge Catalog or Watson Studio |
-|[Data Virtualization](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dv.html)                                                                | 	✓ | 	✓ |
 |[DataStage](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/ds.html)                                                                  |     |  ✓  |
 |[Db2 Big SQL](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/bigsql.html)                                                                        |     |  ✓  |
 |[Db2 Data Gate](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dg.html)                                                                        |  ✓  |  ✓  |
@@ -57,6 +56,6 @@ Use the links in the following table to learn how to install each of these servi
 |[Watson Machine Learning](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wml.html)                                                            | 	✓ | 	✓ |
 |[Watson Machine Learning Accelerator](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wmlaccelerator.html)                                                            | 	✓ | 	✓ |
 |[Watson OpenScale](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/aiopenscale.html)                                                                   | 	✓ | 	✓ |
+|[Watson Query](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dv.html)                                                                | 	✓ | 	✓ |
 |[Watson Studio](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wsl.html)                                                                      | 	✓ | 	✓ |
 
-A * indicates that the service is supported only on bare metal worker nodes with extra local storage for software-defined storage (SDS). These services also require [Portworx Enterprise](https://cloud.ibm.com/catalog/services/portworx-enterprise) storage. You must create a new worker pool that contains the bare metal servers required for Watson AI services.

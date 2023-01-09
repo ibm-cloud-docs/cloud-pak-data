@@ -36,7 +36,6 @@ You can choose which services to install when you install {{site.data.keyword.cp
 
 - [Apache Spark](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/spark.html): Use the Analytics Engine powered by Apache Spark as a compute engine to run analytical and machine learning jobs.
 - [Cognos Dashboards](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/cde.html): Use sophisticated visualizations in an analytics project to identify patterns in your data so that you can make timely and effective decisions.
-- [Data Virtualization](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dv.html): Create data sets from disparate data sources so that you can query and use the data as if it came from a single source. When you provision this service, check the **You must check this box if you updated the kernel semaphore parameter** check box and use the recommended storage class. See [Storage](#storage).
 - [Db2 Data Gate](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dg.html)
 Extract, load, and synchronize your mission-critical data from Db2 for z/OS to Cloud Pak for Data for quick access by your new, high volume, read-only transactional, and analytic applications.
 - [Db2 Data Management Console](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dmc.html): Administer, monitor, manage and optimize the performance of IBM Db2 for Linux, UNIX and Windows databases.
@@ -49,13 +48,14 @@ The scheduling service offers enhancements over the default Kubernetes scheduler
 - [Watson Knowledge Catalog](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wkc.html): Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations.
 - [Watson Machine Learning](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wml.html): Build analytical models and neural networks that are trained with your data. Then, deploy them into production at scale. 
 - [Watson Machine Learning Accelerator](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wmlaccelerator.html): Deep learning platform that data scientists can use to build, train, and deploy deep learning models. 
-- [Watson OpenScale](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/aiopenscale.html): Infuse your AI with trust and transparency. Understand how your AI models make decisions to detect and mitigate bias. 
+- [Watson OpenScale](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/aiopenscale.html): Infuse your AI with trust and transparency. Understand how your AI models make decisions to detect and mitigate bias.
+- [Watson Query](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dv.html): Create data sets from disparate data sources so that you can query and use the data as if it came from a single source. When you provision this service, check the **You must check this box if you updated the kernel semaphore parameter** check box and use the recommended storage class. See [Storage](#storage).
 - [Watson Studio](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wsl.html): Build custom models and infuse your business with AI and machine learning.
 
 ## Supported versions
 {: supported-versions}
 
-The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 4.6.0.
+The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 4.6.x.
 
 ## Before you begin
 {: #prereqs}
@@ -169,7 +169,6 @@ Specify which services to install when you install {{site.data.keyword.cpd_full_
 - To install Cognos Dashboards, set `cde` to `true`.
 - To install Db2 Data Gate, set `datagate` to `true`.
 - To install Db2 Warehouse, set `db2wh` to `true`.
-- To install Data Virtualization, set `dv` to `true`.
 - To install Db2 Data Management Console, set `dmc` to `true`.
 - To install RStudio Server, set `rstudio` to `true`.
 - To install Apache Spark, set `spark` to `true`.
@@ -177,6 +176,7 @@ Specify which services to install when you install {{site.data.keyword.cpd_full_
 - To install Watson Knowledge Catalog, set `wkc` to `true`.
 - To install Watson Machine Learning, set `wml` to `true`.
 - To install Watson Machine Learning Accelerator, set `wmla` to `true`.
+- To install Watson Query, set `dv` to `true`.
 - To install Watson Studio, set `wsl` to `true`.
 
 If you don't select any services to install in this step, only the {{site.data.keyword.cpd_full_notm}} control plane will be installed.
