@@ -44,7 +44,7 @@ Use the links in the following table to learn how to install each of these servi
 |[Db2 Data Gate](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dg.html)                                                                        |  ✓  |  ✓  |
 |[Db2 Data Management Console](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dmc.html)                                                                        |  ✓  |  ✓  |
 |[Db2 Warehouse](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/db2wh.html)                                                                      | 	✓ | 	✓ |
-|[Db2 ](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/db2oltp.html)                                                                      | 	  | 	✓ |
+|[Db2](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/db2oltp.html)                                                                      | 	  | 	✓ |
 |[Decision Optimization](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/do.html)                                                              |     |  ✓  |
 |[Execution Engine for Apache Hadoop](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/hadoopaddon.html)                                                 |     |  ✓  |
 |[Jupyter Notebooks with Python 3.9 for GPU](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/gpupy39.html.html)                                        	|     |  ✓  |
@@ -58,4 +58,4 @@ Use the links in the following table to learn how to install each of these servi
 |[Watson OpenScale](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/aiopenscale.html)                                                                   | 	✓ | 	✓ |
 |[Watson Query](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dv.html)                                                                | 	✓ | 	✓ |
 |[Watson Studio](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wsl.html)                                                                      | 	✓ | 	✓ |
-
+{: caption="Table 1. Methods to install Cloud Pak for Data" caption-side="bottom"}
