@@ -1,0 +1,69 @@
+#  Name your file `toc.yaml`
+#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
+#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
+---
+toc:
+  properties:
+    subcollection: cloud-pak-data
+    category: analytics
+    audience: software
+    href: /docs/cloud-pak-data?topic=cloud-pak-data-getting-started
+    console-page: /catalog/software/cloud-pak-data
+    product-page: https://www.ibm.com/products/cloud-pak-for-data
+    path: cloud-pak-data
+    label: IBM Cloud Pak for Data
+
+#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+
+  - navgroup:
+      id: howto
+      topics:
+      - install-services.md
+      - uninstall.md
+
+#  Links to your REST API docs should be included in the Reference navigation group. For details on publishing API docs, see https://test.cloud.ibm.com/docs/api-docs.
+#  Links to your command line reference docs should be included in the Reference navigation group.
+  - navgroup:
+      id: reference
+      topics:
+      - topicgroup:
+          label: API reference
+          links:
+          - link:
+              label: Catalog Management
+              href: https://cloud.ibm.com/apidocs/resource-catalog/private-catalog
+          - link:
+              label: Enterprise Management
+              href: https://{DomainName}/apidocs/enterprise-apis/enterprise
+          - link:
+              label: IBM Cloud Pak for Data Platform API
+              href: https://cloud.ibm.com/apidocs/cloud-pak-data
+      - topicgroup:
+          label: Command references
+          topics:
+          - link:
+             label: Catalogs management CLI plug-in
+             href: /account/account-manage-catalogs-plugin
+          - link:
+             label: Managing accounts, users, and Cloud Foundry orgs (ibmcloud account)
+             href: /account/account-ibmcloud_commands_account
+      - topicgroup:
+          label: Other references
+          links:
+          - link:
+              label: IBM Cloud Pak for Data documentation
+              href: https://www.ibm.com/docs/en/cloud-paks/cp-data
+          - link:
+              label: Catalog
+              href: https://{DomainName}/catalog/software/cloud-pak-data
+
+  - navgroup:
+      id: help
+      topics:
+      - limitations.md
+
