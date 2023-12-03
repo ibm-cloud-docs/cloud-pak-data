@@ -20,6 +20,7 @@ subcollection: cloud-pak-data
 
 
 # Installing services
+{: #install-services}
 
 If you deploy {{site.data.keyword.cpd_full_notm}} on IBM Cloud, you can install a subset of the services that are available in the {{site.data.keyword.cpd_short}} services catalog.
 
