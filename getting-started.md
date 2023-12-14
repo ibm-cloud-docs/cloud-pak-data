@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2023
-lastupdated: "2023-12-04"
+lastupdated: "2023-12-14"
 
 keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -126,10 +126,8 @@ If the cluster administrator is not allowed to modify the storage, or the infras
 ## Step 5. Set the deployment values
 {: #set-deploy-values}
 
-Choose a storage class:
-- EnduranceFileStorage - This option uses the storage class `ibmc-file-gold-gid` to install Cloud Pak for Data. For more information, see [Ordering File Storage for Classic](https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-orderingFileStorage). You can use the same storage class while provisioning the instances of services.
-- PerformanceFileStorage - This option uses the storage class `ibmc-file-custom-gold-gid` to install Cloud Pak for Data. For more information, see [Ordering File Storage for Classic](https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-orderingFileStorage). You can use the same storage class while provisioning the instances of services.
-- Portworx - This option uses the storage class mentioned in [Storage considerations](https://www.ibm.com/docs/SSQNUZ_4.7.x/cpd/plan/storage_considerations.html). You can use the storage class mentioned in the service instance creation documentation when you provision instances of services.
+Choose the Block Storage for VPC ODF storage class that you want to use to provision storage volumes. For multizone clusters, use a storage class with theVolumeBindingModeofWaitForFirstConsumer. See the [Storage Class Reference](https://cloud.ibm.com/docs/openshift?topic=openshift-vpc-block#vpc-block-reference) for more information.
+
 
 Specify which services to install when you install {{site.data.keyword.cpd_full_notm}}. For example, to install Watson OpenScale, set `aiopenscale` to `true`.
 
@@ -166,5 +164,5 @@ The {{site.data.keyword.cpd_full}} automated installation makes the following ch
 - To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing Cloud Pak for Data users](https://www.ibm.com/docs/SSQNUZ_4.7.x/cpd/admin/users.html).
 - To install more services to a deployed cluster, repeat the steps to install from IBM Cloud Catalog and set the required service value to **true** in the **Deployment values** section.
 - To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, Decision Optimization, Db2 Data Gate, Execution Engine for Hadoop, Open Pages or SPSS Modeler, which cannot be automatically installed when you install {{site.data.keyword.cpd_full_notm}} on IBM Cloud, see [Services and integrations](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-nav/head/svc.html).
-- To install configure global image pull secrets on your cluster, set the value of configchanges to `Required` and provide your `IBM Cloud API Key` in the apikey, see [Updating the global image pull secret for IBM Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_4.7.x/cpd/install/prep-cluster-global-image-pull-secret.html).
+- To install and configure global image pull secrets on your cluster, set the value of configchanges to `Required` and provide your `IBM Cloud API Key` and your `IBM entitlement API` key. See [Updating the global image pull secret for IBM Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_4.7.x/cpd/install/prep-cluster-global-image-pull-secret.html).
 - To uninstall {{site.data.keyword.cpd_full_notm}} or {{site.data.keyword.cpd_full_notm}} services see [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstalling).

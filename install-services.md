@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2023
-lastupdated: "2023-12-04"
+lastupdated: "2023-12-14"
 
 keywords: "adding services, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -42,22 +42,23 @@ Use the links in the following table to learn how to install each of these servi
 |[Data Refinery](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/dr.html)| See Watson Knowledge Catalog or Watson Studio |See Watson Knowledge Catalog or Watson Studio |
 |[DataStage](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/ds.html)                                                                                           | |  ✓  |
 |[Db2 Big SQL](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/bigsql.html)                                                                                     | |  ✓  |
-|[Db2 Data Gate](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/dg.html)                                                                                       | ✓ | ✓ |
 |[Db2 Data Management Console](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/dmc.html)                                                                        | ✓ | ✓ |
 |[Db2 Warehouse](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/db2wh.html)                                                                                    | ✓ | ✓ |
 |[Db2](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/db2oltp.html)                                                                                              | | ✓ |
 |[Decision Optimization](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/do.html)                                                                               | |  ✓  |
-|[Execution Engine for Apache Hadoop](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/hadoopaddon.html)                                                         | |  ✓  |
 |[IBM Match 360](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/mdc.html)                                                                                      | |  ✓  |
+|[MANTA Automated Data Lineage](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/manta.html)                                                                           | ✓ | ✓ |
 |[OpenPages](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/openpages.html)                                                                                    | |  ✓  |
 |[Planning Analytics](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/pa.html)                                                                                  | |  ✓  |
 |[RStudio Runtimes](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/rstudio.html)                                                                               | ✓ | ✓ |
 |[SPSS Modeler](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/spssmodeler.html)                                                                               | |  ✓  |
+|[Watson Assistant](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/watsonassist.html)                                                                           | ✓ | ✓ |
+|[Watson Discovery](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/discovery.html)                                                                           | ✓ | ✓ |
 |[Watson Knowledge Catalog](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/wkc.html)                                                                           | ✓ | ✓ |
 |[Watson Machine Learning](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/wml.html)                                                                            | ✓ | ✓ |
 |[Watson OpenScale](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/aiopenscale.html)                                                                           | ✓ | ✓ |
-|[Watson Pipeines](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/wsp.html)                                                                                      | | ✓ |
+|[Watson Pipelines](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/wsp.html)                                                                                      | | ✓ |
+|[Watson Speech](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/wstt.html)                                                                                      | ✓| ✓ |
 |[Watson Query](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/dv.html)                                                                                        | ✓ | ✓ |
 |[Watson Studio](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/wsl.html)                                                                                      | ✓ | ✓ |
-|[Watson Studio Runtimes](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/jupyter.html)                                                                         |  |  ✓ |
 {: caption="Table 1. Methods to install Cloud Pak for Data" caption-side="bottom"}
