@@ -12,6 +12,7 @@ toc:
     label: IBM Cloud Pak for Data
 
 #  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group.
+  entries:
   - navgroup:
       id: learn
       topics:
