@@ -44,7 +44,7 @@ The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{sit
 
 Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html) or register for a 60-day trial license. See [Step 1. Assign the license](#assign_license).
 
-You can deploy Cloud Pak for Data on Virtual Private Cloud (VPC) Gen2 infrastructure. You can use either a single or multi zone deployment. For more information, see [Getting started with Red Hat OpenShift on IBM Cloud](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started&interface=ui#vpc-gen2-gs).
+You can deploy Cloud Pak for Data on Virtual Private Cloud (VPC) Gen2 infrastructure. You can use either a single or multi zone deployment. For more information, see [Getting started with Red Hat OpenShift on IBM Cloud](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started).
 
 You must ensure that you have sufficient resources for the services that you plan to install. For more information, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.{: note}
 
