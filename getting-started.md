@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2023
-lastupdated: "2023-04-11"
+lastupdated: "2023-12-14"
 
 keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -25,40 +25,26 @@ subcollection: cloud-pak-data
 Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on {{site.data.keyword.openshiftlong_notm}}. With {{site.data.keyword.cpd_full}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughout your business. 
 {: shortdesc}
 
-See the [{{site.data.keyword.cpd_full}} readme file](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global/readme/roks/cloud-pak/ed370810-180a-455c-b949-d23d5b8b4ff6-global) for detailed information about getting started with {{site.data.keyword.cpd_short}} on IBM Cloud.
+See the [{{site.data.keyword.cpd_full}} readme file](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global/readme/roks/cloud-pak/a5963830-7b4c-4b84-9306-46bf83517d33-global) for detailed information about getting started with {{site.data.keyword.cpd_short}} on IBM Cloud.
 
-Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/docs/SSQNUZ_4.6.x/cpd/overview/overview.html). 
+Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/docs/SSQNUZ_4.7.x/cpd/overview/overview.html). 
 
 ## What's inside this Cloud Pak
 {: #whats-in-cloud-pak-for-data}
 
-You can choose which services to install when you install {{site.data.keyword.cpd_full}}. 
-
-- [Apache Spark](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/spark.html): Use the Analytics Engine powered by Apache Spark as a compute engine to run analytical and machine learning jobs.
-- [Cognos Dashboards](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/cde.html): Use sophisticated visualizations in an analytics project to identify patterns in your data so that you can make timely and effective decisions.
-- [Db2 Data Gate](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dg.html): Extract, load, and synchronize your mission-critical data from Db2 for z/OS to Cloud Pak for Data for quick access by your new, high volume, read-only transactional, and analytic applications.
-- [Db2 Data Management Console](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dmc.html): Administer, monitor, manage and optimize the performance of IBM Db2 for Linux, UNIX and Windows databases.
-- [Db2 Warehouse](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/db2wh.html): Take advantage of in-memory data processing and in-database analytics in an analytics data warehouse that supports automated scaling. 
-- [RStudio Server](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/rstudio.html): Use an integrated development environment for working with R in Watson Studio to create R Shiny applications.
-- [Scheduling](https://www.ibm.com/docs/SSQNUZ_4.6.x/fixlist/sched-fixlist.html): The scheduling service offers enhancements over the default Kubernetes scheduler including Quota enforcement, Co-scheduling of pods and GPU sharing.
-- [Watson Knowledge Catalog](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wkc.html): Know your data inside and out. Ensure that your data is high quality, aligns with business objectives, and complies with regulations.
-- [Watson Machine Learning](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wml.html): Build analytical models and neural networks that are trained with your data. Then, deploy them into production at scale. 
-- [Watson Machine Learning Accelerator](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wmlaccelerator.html): Deep learning platform that data scientists can use to build, train, and deploy deep learning models. 
-- [Watson OpenScale](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/aiopenscale.html): Infuse your AI with trust and transparency. Understand how your AI models make decisions to detect and mitigate bias.
-- [Watson Query](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/dv.html): Create data sets from disparate data sources so that you can query and use the data as if it came from a single source. When you provision this service, check the **You must check this box if you updated the kernel semaphore parameter** check box and use the recommended storage class. See [Storage](#storage).
-- [Watson Studio](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-welcome/wsl.html): Build custom models and infuse your business with AI and machine learning.
+You can choose which services to install when you install {{site.data.keyword.cpd_full}}. For a complete list, see [Installing services](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-install-services).
 
 ## Supported versions
 {: #supported-versions}
 
-The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 4.6.x.
+The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 4.7.x.
 
 ## Before you begin
 {: #prereqs}
 
 Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html) or register for a 60-day trial license. See [Step 1. Assign the license](#assign_license).
 
-You can deploy Cloud Pak for Data on Virtual Private Cloud (VPC) Gen2 infrastructure. You can use either a single or multi zone deployment. For more information, see [Creating a VPC cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started&interface=ui#vpc-gen2-gs).
+You can deploy Cloud Pak for Data on Virtual Private Cloud (VPC) Gen2 infrastructure. You can use either a single or multi zone deployment. For more information, see [Getting started with Red Hat OpenShift on IBM Cloud](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started).
 
 You must ensure that you have sufficient resources for the services that you plan to install. For more information, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.{: note}
 
@@ -76,7 +62,7 @@ To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the fol
 | Classic Infrastructure > Services > Storage Manage , Classic Infrastructure > Account > Add/Upgrade Storage   | Manage > Access (IAM) > Users       | Modify the image registry volume. |
 {: caption="Table 1. IBM Cloud Identity and Access Management roles required for Cloud Pak for Data" caption-side="bottom"}
 
-For more information, see [Setting up access to your cluster](https://cloud.ibm.com/docs/openshift?topic=openshift-users).
+For more information, see [Controlling user access with IBM Cloud IAM and Kubernetes RBAC](https://cloud.ibm.com/docs/openshift?topic=openshift-users).
 
 ### Storage
 {: #storage}
@@ -140,32 +126,17 @@ If the cluster administrator is not allowed to modify the storage, or the infras
 ## Step 5. Set the deployment values
 {: #set-deploy-values}
 
-Choose a storage class:
-- EnduranceFileStorage - This option uses the storage class `ibmc-file-gold-gid` to install Cloud Pak for Data. For more information, see [Endurance Storage](https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-orderingFileStorage). You can use the same storage class while provisioning the instances of services.
-- PerformanceFileStorage - This option uses the storage class `ibmc-file-custom-gold-gid` to install Cloud Pak for Data. For more information, see [Performance Storage](https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-orderingFileStorage). You can use the same storage class while provisioning the instances of services.
-- Portworx - This option uses the storage class mentioned in [Storage considerations](https://www.ibm.com/docs/SSQNUZ_4.6.x/cpd/plan/storage_considerations.html). You can use the storage class mentioned in the service instance creation documentation when you provision instances of services.
+Choose the Block Storage for VPC ODF storage class that you want to use to provision storage volumes. For multizone clusters, use a storage class with theVolumeBindingModeofWaitForFirstConsumer. See the [Storage Class Reference](https://cloud.ibm.com/docs/openshift?topic=openshift-vpc-block#vpc-block-reference) for more information.
 
-Specify which services to install when you install {{site.data.keyword.cpd_full_notm}}:
 
-- To install Watson OpenScale, set `aiopenscale` to `true`.
-- To install Cognos Dashboards, set `cde` to `true`.
-- To install Db2 Data Gate, set `datagate` to `true`.
-- To install Db2 Warehouse, set `db2wh` to `true`.
-- To install Db2 Data Management Console, set `dmc` to `true`.
-- To install RStudio Server, set `rstudio` to `true`.
-- To install Apache Spark, set `spark` to `true`.
-- To install Scheduling, set `scheduler` to `true`.
-- To install Watson Knowledge Catalog, set `wkc` to `true`.
-- To install Watson Machine Learning, set `wml` to `true`.
-- To install Watson Machine Learning Accelerator, set `wmla` to `true`.
-- To install Watson Query, set `dv` to `true`.
-- To install Watson Studio, set `wsl` to `true`.
+Specify which services to install when you install {{site.data.keyword.cpd_full_notm}}. For example, to install Watson OpenScale, set `aiopenscale` to `true`.
+
 
 If you don't select any services to install in this step, only the {{site.data.keyword.cpd_full_notm}} control plane will be installed.
 
 If you want to install a service later, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the {{site.data.keyword.cpd_full_notm}} Services catalog and follow the installation instructions for the service.
 
-For more information, see [Installing IBM Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_4.6.x/cpd/install/install.html).
+For more information, see [Installing IBM Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_4.7.x/cpd/install/install.html).
 
 ## Step 6. Install {{site.data.keyword.cpd_full_notm}}
 {: #install-cloud-pak-for-data}
@@ -175,8 +146,8 @@ For more information, see [Installing IBM Cloud Pak for Data](https://www.ibm.co
 1. Click **Install**.
 
 The {{site.data.keyword.cpd_full}} automated installation makes the following changes to ensure that services can be installed successfully:
- * Sets kernel parameters. For more information, see [Kernel parameter settings](https://www.ibm.com/docs/SSQNUZ_4.6.x/cpd/install/prep-cluster-node-kernel.html).
- * Enables `noroot squash` on worker nodes for Network File System (NFS). For more information, see [Storage considerations](https://www.ibm.com/docs/SSQNUZ_4.6.x/cpd/plan/storage_considerations.html).
+ * Sets kernel parameters. For more information, see [Changing kernel parameter settings](https://www.ibm.com/docs/SSQNUZ_4.7.x/cpd/install/prep-cluster-node-kernel.html).
+ * Enables `noroot squash` on worker nodes for Network File System (NFS). For more information, see [Storage considerations](https://www.ibm.com/docs/SSQNUZ_4.7.x/cpd/plan/storage_considerations.html).
  
  
 ## Step 7. Launch your instance of {{site.data.keyword.cpd_full_notm}}
@@ -190,8 +161,8 @@ The {{site.data.keyword.cpd_full}} automated installation makes the following ch
 ## Next steps
 {: #next-steps}
 
-- To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing users](https://www.ibm.com/docs/SSQNUZ_4.6.x/cpd/admin/users.html).
+- To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing Cloud Pak for Data users](https://www.ibm.com/docs/SSQNUZ_4.7.x/cpd/admin/users.html).
 - To install more services to a deployed cluster, repeat the steps to install from IBM Cloud Catalog and set the required service value to **true** in the **Deployment values** section.
-- To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, Decision Optimization, Db2 Data Gate, Execution Engine for Hadoop, Open Pages or SPSS Modeler, which cannot be automatically installed when you install {{site.data.keyword.cpd_full_notm}} on IBM Cloud, see [Services and integrations](https://www.ibm.com/docs/SSQNUZ_4.6.x/svc-nav/head/svc.html).
-- To install configure global image pull secrets on your cluster, set the value of configchanges to `Required` and provide your `IBM Cloud API Key` in the apikey, see [Updating the global image pull secret](https://www.ibm.com/docs/SSQNUZ_4.6.x/cpd/install/prep-cluster-global-image-pull-secret.html).
+- To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, Decision Optimization, Db2 Data Gate, Execution Engine for Hadoop, Open Pages or SPSS Modeler, which cannot be automatically installed when you install {{site.data.keyword.cpd_full_notm}} on IBM Cloud, see [Services and integrations](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-nav/head/svc.html).
+- To install and configure global image pull secrets on your cluster, set the value of configchanges to `Required` and provide your `IBM Cloud API Key` and your `IBM entitlement API` key. See [Updating the global image pull secret for IBM Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_4.7.x/cpd/install/prep-cluster-global-image-pull-secret.html).
 - To uninstall {{site.data.keyword.cpd_full_notm}} or {{site.data.keyword.cpd_full_notm}} services see [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstalling).
