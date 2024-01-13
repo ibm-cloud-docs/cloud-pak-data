@@ -53,7 +53,7 @@ Use the links in the following table to learn how to install each of these servi
 |[RStudio Runtimes](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/rstudio.html)                                                                               | ✓ | ✓ |
 |[SPSS Modeler](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/spssmodeler.html)                                                                               | |  ✓  |
 |[Watson Assistant](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/watsonassist.html)                                                                          | ✓ | ✓ |
-|[Watson Discovery](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/discovery.html)                                                                             | ✓ | ✓ |
+|[Watson Discovery](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/watsondisc.html)                                                                             | ✓ | ✓ |
 |[Watson Knowledge Catalog](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/wkc.html)                                                                           | ✓ | ✓ |
 |[Watson Machine Learning](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/wml.html)                                                                            | ✓ | ✓ |
 |[Watson OpenScale](https://www.ibm.com/docs/SSQNUZ_4.7.x/svc-welcome/aiopenscale.html)                                                                           | ✓ | ✓ |
