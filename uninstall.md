@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2023
-lastupdated: "2023-12-04"
+  years: 2019, 2024
+lastupdated: "2024-01-12"
 
 keywords: "uninstalling, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -21,7 +21,7 @@ subcollection: cloud-pak-data
 # Uninstalling
 {: #uninstalling}
 
-You can uninstall services from {{site.data.keyword.cpd_full}}, or you can uninstall {{site.data.keyword.cpd_full}}. 
+You can uninstall services from {{site.data.keyword.cpd_full}}, or you can uninstall {{site.data.keyword.cpd_full}}.
 
 ## Uninstalling {{site.data.keyword.cpd_full}}
 {: #uninstall_steps}
@@ -32,7 +32,7 @@ To uninstall {{site.data.keyword.cpd_full}}, you can use the Schematics Workspac
 
 To uninstall {{site.data.keyword.cpd_full}} from the Schematics Workspaces console, follow these steps:
 1. Navigate to **Schematics** > **Workspaces**.
-1. Select the workspace of your installed {{site.data.keyword.cpd_full}}, and then click **Delete**. 
+1. Select the workspace of your installed {{site.data.keyword.cpd_full}}, and then click **Delete**.
 1. Or, click the actions menu for your workspace, and then click **Delete**.
 1. Choose **Delete workspace** or **Delete all associated resources** or both, and enter the name of the workspace to confirm.
 1. Click **Delete** to delete the workspace and wait for the uninstall to complete.
