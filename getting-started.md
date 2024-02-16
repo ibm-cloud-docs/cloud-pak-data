@@ -96,6 +96,8 @@ Specify where you want to install {{site.data.keyword.cpd_full_notm}}:
 1. Select the {{site.data.keyword.openshiftlong_notm}} cluster where you want to deploy {{site.data.keyword.cpd_full_notm}}.
 1. Enter or select the {{site.data.keyword.openshiftlong_notm}} project where you want to deploy {{site.data.keyword.cpd_full_notm}}.
 
+You can also install {{site.data.keyword.cpd_full_notm}} on {{site.data.keyword.satellitelong}}. For more information about {{site.data.keyword.satelliteshort}} locations, see [Supported Satellite-enabled IBM Cloud services](https://cloud.ibm.com/docs/satellite?topic=satellite-managed-services)
+
 
 ## Step 3. Configure your workspace
 {: #config-workspace}
