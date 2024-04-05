@@ -62,7 +62,7 @@ To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the fol
 | Classic Infrastructure > Services > Storage Manage , Classic Infrastructure > Account > Add/Upgrade Storage   | Manage > Access (IAM) > Users       | Modify the image registry volume. |
 {: caption="Table 1. IBM Cloud Identity and Access Management roles required for Cloud Pak for Data" caption-side="bottom"}
 
-For more information, see [Controlling user access with IBM Cloud IAM and Kubernetes RBAC](https://cloud.ibm.com/docs/openshift?topic=openshift-users).
+For more information, see [IAM roles and actions](https://cloud.ibm.com/docs/openshift?topic=openshift-iam-platform-access-roles).
 
 ### Storage
 {: #storage}
@@ -96,7 +96,7 @@ Specify where you want to install {{site.data.keyword.cpd_full_notm}}:
 1. Select the {{site.data.keyword.openshiftlong_notm}} cluster where you want to deploy {{site.data.keyword.cpd_full_notm}}.
 1. Enter or select the {{site.data.keyword.openshiftlong_notm}} project where you want to deploy {{site.data.keyword.cpd_full_notm}}.
 
-You can also install {{site.data.keyword.cpd_full_notm}} on {{site.data.keyword.satellitelong}}. For more information about {{site.data.keyword.satelliteshort}} locations, see [Supported Satellite-enabled IBM Cloud services](https://cloud.ibm.com/docs/satellite?topic=satellite-managed-services).
+You can also install {{site.data.keyword.cpd_full_notm}} on {{site.data.keyword.satellitelong}}. For more information about installing {{site.data.keyword.cpd_full_notm}} on {{site.data.keyword.satelliteshort}} locations, see [Cloud deployment environments](https://www.ibm.com/docs/SSQNUZ_4.7.x/cpd/plan/deployment-environments.html#deployment-environments__manual).
 
 
 ## Step 3. Configure your workspace
