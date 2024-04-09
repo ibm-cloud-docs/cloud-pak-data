@@ -110,7 +110,7 @@ Specify how you will track and manage your installation:
 ## Step 4. Complete the preinstallation task
 {: #pre-install-set-up}
 
-A {{site.data.keyword.openshiftlong_notm}} cluster administrator must complete this step.  Specifically, the administrator must have an [access](https://cloud.ibm.com/docs/openshift?topic=openshift-users) policy in IBM Cloud Identity and Access Management that has an Operator role or higher.
+A {{site.data.keyword.openshiftlong_notm}} cluster administrator must complete this step.  Specifically, the administrator must have an [access](https://cloud.ibm.com/docs/openshift?topic=openshift-iam-platform-access-roles) policy in IBM Cloud Identity and Access Management that has an Operator role or higher.
 
 - If you are not an administrator, use the **Share** link to share the script with your cluster administrator.
 - If you are a cluster administrator, click **Run script** to run the preinstallation set up on your cluster.
