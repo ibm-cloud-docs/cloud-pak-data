@@ -38,3 +38,4 @@ All content starts from the `source` branch.
     1.  After a few minutes, you can see your changes in the IBM Cloud docs framework. Changes to `draft` are available at the internal `/docs-draft/` location (https://test.cloud.ibm.com/docs-draft/cloud-pak-data?topic=cloud-pak-data-getting-started). Changes to `review` are available at the pre-production `/docs/` location (https://test.cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-getting-started).
 
 :information_source: **Tip:** Content that is tagged with <code>&lt;draft&gt;</code>, <code>&lt;review&gt;</code>, <code>&lt;staging&gt;</code>, or feature tags are built and promoted only to the internal location and is not included in the pull request to the `publish` branch for production.
+</staging>
