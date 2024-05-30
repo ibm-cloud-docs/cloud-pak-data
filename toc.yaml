@@ -10,20 +10,17 @@ toc:
     product-page: https://www.ibm.com/products/cloud-pak-for-data
     path: cloud-pak-data
     label: IBM Cloud Pak for Data
-
 #  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group.
   entries:
   - navgroup:
       id: learn
       topics:
       - getting-started.md
-
   - navgroup:
       id: howto
       topics:
       - install-services.md
       - uninstall.md
-
 #  Links to your REST API docs should be included in the Reference navigation group.
 #  Links to your command line reference docs should be included in the Reference navigation group.
   - navgroup:
@@ -59,9 +56,7 @@ toc:
           - link:
               label: Catalog
               href: https://{DomainName}/cloudpaks/data/software
-
   - navgroup:
       id: help
       topics:
       - limitations.md
-
