@@ -1,18 +1,14 @@
 # cloud-pak-data
 
-Documentation repository for "Cloud Pak for Data" at <staging>[pre-production output](https://test.cloud.ibm.com/docs/cloud-pak-data).</staging><publish>[production output](https://cloud.ibm.com/docs/cloud-pak-data).
-
-:information_source: **Tip:** If you want to give feedback about the documentation, create an [issue](https://github.ibm.com/cloud-docs/cloud-pak-data/issues).
-
-</publish>
+Documentation repository for "Cloud Pak for Data" at <staging>[pre-production output](https://test.cloud.ibm.com/docs/cloud-pak-data).</staging><publish>[production output](https://cloud.ibm.com/docs/cloud-pak-data).</publish>
 
 <staging>
+
+:information_source: **Tip:** If you want to give feedback about the documentation, create an [issue](https://github.ibm.com/cloud-docs/cloud-pak-data/issues).
 
 ## Creating content
 
 Follow these steps to add to the Cloud Pak for Data on IBM Cloud docs.
-
-:information_source: **Tip:** If you'd rather give feedback about the documentation, create an [issue](https://github.ibm.com/cloud-docs/cloud-pak-data/issues).
 
 ### Before you begin
 Set up your local development environment
