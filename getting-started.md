@@ -128,7 +128,7 @@ If the cluster administrator is not allowed to modify the storage, or the infras
 ## Step 5. Set the deployment values
 {: #set-deploy-values}
 
-Choose the Block Storage for VPC ODF storage class that you want to use to provision storage volumes. For multizone clusters, use a storage class with theVolumeBindingModeofWaitForFirstConsumer. For more information, see [Setting up Block Storage for VPC](https://cloud.ibm.com/docs/openshift?topic=openshift-vpc-block#vpc-block-reference).
+Choose the Block Storage for VPC ODF storage class that you want to use to provision storage volumes. For multizone clusters, use a storage class with theVolumeBindingModeofWaitForFirstConsumer. For more information, see [Setting up Block Storage for VPC](https://cloud.ibm.com/docs/openshift?topic=openshift-vpc-block).
 
 
 Specify which services to install when you install {{site.data.keyword.cpd_full_notm}}. For example, to install Watson OpenScale, set `aiopenscale` to `true`.
