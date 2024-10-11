@@ -41,7 +41,7 @@
   ],
   "section_devtools": {
     "api": "/apidocs/cloud-pak-data/cloud-pak-data-5.0.0",
-    "cli": "/docs/account/account-manage-catalogs-plugin",    
+    "cli": "/docs/account/account-manage-catalogs-plugin"    
   },
   "section_updates": {
     "view_more": "/docs/content/wsj/getting-started/whats-new.html",
@@ -61,4 +61,6 @@
         "title": "Release of Cloud Pak for Data 4.8.6",
         "description": "This release of Cloud Pak for Data is primarily focused on defect fixes."
       }
+    ]
+  }
 }
