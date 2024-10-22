@@ -27,7 +27,7 @@
   "section_highlights": [
     {
       "title": "Document text extraction API for improving RAG solutions",
-      "description": "When processing documents in a retrieval-augmented generation (RAG) use case, you can now test a new document text extraction API in watsonx.ai on IBM Cloud.",
+      "description": "When processing documents in a retrieval-augmented generation (RAG) scenario, you can now test a new document text extraction API in watsonx.ai on IBM Cloud.",
       "href": "https://community.ibm.com/community/user/watsonx/blogs/meghna-gautam-thakur/2024/10/01/document-text-extraction-api-for-improving-rag-sol",
       "type": "blog",
       "recommended": true
