@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, [{CURRENT_YEAR}]
-lastupdated: "[{LAST_UPDATED_DATE}]"
+  years: 2019, 2024
+lastupdated: "2024-10-09"
 
 keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -60,7 +60,7 @@ To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the fol
 | Service Writer       | Manage > Access (IAM) > Roles > Kubernetes Service             | Run the installation script. |
 | Service Manager in any resource group| Schematics > Workspaces               | Create a workspace. |
 | Classic Infrastructure > Services > Storage Manage , Classic Infrastructure > Account > Add/Upgrade Storage   | Manage > Access (IAM) > Users       | Modify the image registry volume. |
-{: caption="Table 1. IBM Cloud Identity and Access Management roles required for Cloud Pak for Data" caption-side="bottom"}
+{: caption="IBM Cloud Identity and Access Management roles required for Cloud Pak for Data" caption-side="bottom"}
 
 For more information, see [IAM roles and actions](https://cloud.ibm.com/docs/openshift?topic=openshift-iam-platform-access-roles).
 

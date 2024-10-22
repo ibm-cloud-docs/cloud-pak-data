@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, [{CURRENT_YEAR}]
-lastupdated: "[{LAST_UPDATED_DATE}]"
+  years: 2019, 2024
+lastupdated: "2024-10-09"
 
 keywords: "adding services, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -61,4 +61,4 @@ Use the links in the following table to learn how to install each of these servi
 |[Watson Speech](https://www.ibm.com/docs/SSQNUZ_latest/svc-welcome/wstt.html)                                                                                     | ✓| ✓ |
 |[Watson Query](https://www.ibm.com/docs/SSQNUZ_latest/svc-welcome/dv.html)                                                                                        | ✓ | ✓ |
 |[Watson Studio](https://www.ibm.com/docs/SSQNUZ_latest/svc-welcome/wsl.html)                                                                                      | ✓ | ✓ |
-{: caption="Table 1. Methods to install Cloud Pak for Data" caption-side="bottom"}
+{: caption="Methods to install Cloud Pak for Data" caption-side="bottom"}
