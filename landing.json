@@ -9,11 +9,7 @@
       {
         "title": "Getting started with IBM Cloud Pak for Data",
         "href": "/docs/cloud-pak-data?topic=cloud-pak-data-getting-started"
-      },
-      {
-        "title": "IBM Cloud Pak for Data documentation",	  
-		"href": "https://www.ibm.com/docs/en/cloud-paks/cp-data"
-      },
+      },      
       {
         "title": "Installing services",
         "href": "/docs/cloud-pak-data?topic=cloud-pak-data-install-services"
@@ -33,7 +29,7 @@
     },
     {
       "title": "Db2 and Db2 Warehouse on Cloud Pak for Data",
-      "description": "With Db2 on Cloud Pak for Data, you can manage your data on a single platform, providing you with enhanced flexibility to modernize your apps, powerful analytics capabilities, and the security of keeping it all in one place.",
+      "description": "With Db2 on Cloud Pak for Data, you can manage your data on a single platform.",
       "href": "https://community.ibm.com/community/user/dataops/blogs/liam-seston/2024/07/30/db2-and-db2-warehouse-on-cloud-pak-for-data-a-powe",
       "type": "blog",
       "recommended": true
@@ -48,18 +44,15 @@
     "tiles": [
       {
         "date": "25 September 2024",
-        "title": "Release of Cloud Pak for Data 5.0.3",
-        "description": "This release of Cloud Pak for Data is primarily focused on defect fixes. However, this release includes new features for services."
+        "title": "Release of Cloud Pak for Data 5.0.3"
       },
       {
         "date": "28 August 2021",
-        "title": "Release of Cloud Pak for Data 5.0.2",
-        "description": "This release of Cloud Pak for Data is primarily focused on defect fixes."
+        "title": "Release of Cloud Pak for Data 5.0.2"        
       },
       {
         "date": "28 August 2021",
-        "title": "Release of Cloud Pak for Data 4.8.6",
-        "description": "This release of Cloud Pak for Data is primarily focused on defect fixes."
+        "title": "Release of Cloud Pak for Data 4.8.6"
       }
     ]
   }
