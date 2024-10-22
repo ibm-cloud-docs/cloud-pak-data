@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "title": "IBM Cloud Pak for Data",
+  "introduction": "Find useful information about c. With Cloud Pak for Data you can collect, organize, and analyze your data to generate insights with an extensible, end-to-end platform for governance, analytics, and AI.",
+  "product_page": "https://www.ibm.com/products/cloud-pak-for-data",
+  "console_page": "/cloudpaks/data/overview",
+  "section_topics": {
+    "links": [
+      {
+        "title": "Getting started with IBM Cloud Pak for Data",
+        "href": "/docs/cloud-pak-data?topic=cloud-pak-data-getting-started"
+      },
+      {
+        "title": "IBM Cloud Pak for Data documentation",	  
+		"href": "https://www.ibm.com/docs/en/cloud-paks/cp-data"
+      },
+      {
+        "title": "Installing services",
+        "href": "/docs/cloud-pak-data?topic=cloud-pak-data-install-services"
+      },
+      {
+        "title": "Uninstalling",
+        "href": "/docs/cloud-pak-data?topic=cloud-pak-data-uninstalling"
+      }
+    ]
+  },
+  "section_highlights": [
+    {
+      "title": "Introducing watsonx.ai Lightweight Engine",
+      "description": "IBM watsonx.ai is a full service enterprise AI toolkit that you can use to build and deploy end-to-end AI solutions. You can now install a lightweight engine to run watsonx.ai inference in any environment with a reduced footprint and embed a subset of watsonx.ai features into your gen AI applications.",
+      "href": "https://community.ibm.com/community/user/dataops/blogs/meghna-gautam-thakur/2024/07/31/introducing-watsonxai-lightweight-engine",
+      "type": "blog"
+    },
+    {
+      "title": "Db2 and Db2 Warehouse on Cloud Pak for Data",
+      "description": "With Db2 on Cloud Pak for Data, you can manage your data on a single platform, providing you with enhanced flexibility to modernize your apps, powerful analytics capabilities, and the security of keeping it all in one place.",
+      "href": "https://community.ibm.com/community/user/dataops/blogs/liam-seston/2024/07/30/db2-and-db2-warehouse-on-cloud-pak-for-data-a-powe",
+      "type": "blog",
+      "recommended": true
+    }
+  ],
+  "section_devtools": {
+    "api": "/apidocs/cloud-pak-data/cloud-pak-data-5.0.0",
+    "cli": "/docs/account/account-manage-catalogs-plugin"    
+  },
+  "section_updates": {
+    "view_more": "/docs/content/wsj/getting-started/whats-new.html",
+    "tiles": [
+      {
+        "date": "25 September 2024",
+        "title": "Release of Cloud Pak for Data 5.0.3",
+        "description": "This release of Cloud Pak for Data is primarily focused on defect fixes. However, this release includes new features for services."
+      },
+      {
+        "date": "28 August 2021",
+        "title": "Release of Cloud Pak for Data 5.0.2",
+        "description": "This release of Cloud Pak for Data is primarily focused on defect fixes."
+      },
+      {
+        "date": "28 August 2021",
+        "title": "Release of Cloud Pak for Data 4.8.6",
+        "description": "This release of Cloud Pak for Data is primarily focused on defect fixes."
+      }
+    ]
+  }
+}
