@@ -1,7 +1,7 @@
 {
   "version": 2,
   "title": "IBM Cloud Pak for Data",
-  "introduction": "Find useful information about c. With Cloud Pak for Data you can collect, organize, and analyze your data to generate insights with an extensible, end-to-end platform for governance, analytics, and AI.",
+  "introduction": "With Cloud Pak for Data you can collect, organize, and analyze your data to generate insights with an extensible, end-to-end platform for governance, analytics, and AI.",
   "product_page": "https://www.ibm.com/products/cloud-pak-for-data",
   "console_page": "/cloudpaks/data/overview",
   "section_topics": {
@@ -26,21 +26,22 @@
   },
   "section_highlights": [
     {
-      "title": "Introducing watsonx.ai Lightweight Engine",
-      "description": "IBM watsonx.ai is a full service enterprise AI toolkit that you can use to build and deploy end-to-end AI solutions. You can now install a lightweight engine to run watsonx.ai inference in any environment with a reduced footprint and embed a subset of watsonx.ai features into your gen AI applications.",
-      "href": "https://community.ibm.com/community/user/dataops/blogs/meghna-gautam-thakur/2024/07/31/introducing-watsonxai-lightweight-engine",
-      "type": "blog"
+      "title": "Document text extraction API for improving RAG solutions",
+      "description": "When processing documents in a retrieval-augmented generation (RAG) use case, you can now test a new document text extraction API in watsonx.ai on IBM Cloud.",
+      "href": "https://community.ibm.com/community/user/watsonx/blogs/meghna-gautam-thakur/2024/10/01/document-text-extraction-api-for-improving-rag-sol",
+      "type": "blog",
+      "recommended": true
     },
     {
       "title": "Db2 and Db2 Warehouse on Cloud Pak for Data",
       "description": "With Db2 on Cloud Pak for Data, you can manage your data on a single platform, providing you with enhanced flexibility to modernize your apps, powerful analytics capabilities, and the security of keeping it all in one place.",
       "href": "https://community.ibm.com/community/user/dataops/blogs/liam-seston/2024/07/30/db2-and-db2-warehouse-on-cloud-pak-for-data-a-powe",
-      "type": "blog",
-      "recommended": true
+      "type": "blog"
     }
   ],
   "section_devtools": {
     "api": "/apidocs/cloud-pak-data/cloud-pak-data-5.0.0",
+	"api": "/apidocs/olm_utils/olm_utils_5.0.0",
     "cli": "/docs/account/account-manage-catalogs-plugin"    
   },
   "section_updates": {
