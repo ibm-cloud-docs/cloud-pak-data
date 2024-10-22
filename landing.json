@@ -41,6 +41,7 @@
   ],
   "section_devtools": {
     "api": "/apidocs/cloud-pak-data/cloud-pak-data-5.0.0",
+	"api": "/apidocs/olm_utils/olm_utils_5.0.0",
     "cli": "/docs/account/account-manage-catalogs-plugin"    
   },
   "section_updates": {
