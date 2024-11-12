@@ -20,11 +20,11 @@
       }
     ]
   },
-  "section_highlights": [
+  "section_highlights": [    
     {
-      "title": "Document text extraction API for improving RAG solutions",
-      "description": "When processing documents in a retrieval-augmented generation (RAG) scenario, you can now test a new document text extraction API in watsonx.ai on IBM Cloud.",
-      "href": "https://community.ibm.com/community/user/watsonx/blogs/meghna-gautam-thakur/2024/10/01/document-text-extraction-api-for-improving-rag-sol",
+      "title": "Introducing watsonx.ai Lightweight Engine",
+      "description": "Starting with the Cloud Pak for Data 5.0.1 release, you can now install a lightweight engine to run watsonx.ai inference in any environment and embed a subset of watsonx.ai features.",
+      "href": "https://community.ibm.com/community/user/dataops/blogs/meghna-gautam-thakur/2024/07/31/introducing-watsonxai-lightweight-engine",
       "type": "blog",
       "recommended": true
     },
@@ -42,6 +42,10 @@
   "section_updates": {
     "view_more": "/docs/content/wsj/getting-started/whats-new.html",
     "tiles": [
+      {
+        "date": "30 October 2024",
+        "title": "Release of Cloud Pak for Data 4.8.7"
+      },
       {
         "date": "25 September 2024",
         "title": "Release of Cloud Pak for Data 5.0.3"
