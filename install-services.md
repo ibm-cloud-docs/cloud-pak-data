@@ -2,9 +2,9 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-10-09"
+lastupdated: "2024-12-13"
 
-keywords: "adding services, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
+keywords: "adding services, getting started, {{site.data.keyword.cpd_short}}, {{ site.data.keyword.datalong }}, data, ai, analytics, data analytics, governance, data governance"
 
 subcollection: cloud-pak-data
 
@@ -22,7 +22,7 @@ subcollection: cloud-pak-data
 # Installing services
 {: #install-services}
 
-If you deploy {{site.data.keyword.cpd_full_notm}} on IBM Cloud, you can install a subset of the services that are available in the {{site.data.keyword.cpd_short}} services catalog.
+If you deploy {{ site.data.keyword.datalong }} on IBM Cloud, you can install a subset of the services that are available in the {{site.data.keyword.cpd_short}} services catalog.
 
 You can install services by using two different methods. The supported methods depend on the services that you want to install:
 
