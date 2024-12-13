@@ -4,7 +4,7 @@ copyright:
   years: 2019, [{CURRENT_YEAR}]
 lastupdated: "[{LAST_UPDATED_DATE}]"
 
-keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{ site.data.keyword.datalong }}, data, ai, analytics, data analytics, governance, data governance"
+keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
 subcollection: cloud-pak-data
 
@@ -19,39 +19,39 @@ subcollection: cloud-pak-data
 {:external: target="_blank" .external}
 
 
-# Getting started with {{ site.data.keyword.datalong }}
+# Getting started with {{site.data.keyword.cpd_full_notm}}
 {: #getting-started}
 
-Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on {{site.data.keyword.openshiftlong_notm}}. With {{site.data.keyword.data}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughout your business.
+Collect, organize, and analyze your data to generate meaningful insight with an extensible, end-to-end platform for governance, analytics, and AI that runs on {{site.data.keyword.openshiftlong_notm}}. With {{site.data.keyword.cpd_full}}, it's easy to find and access trusted data so that you can put your data to work quickly and efficiently. Make data-driven decisions and operationalize AI with trust and transparency throughout your business.
 {: shortdesc}
 
-See the [{{site.data.keyword.data}} readme file](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global/readme/roks/cloud-pak/a5963830-7b4c-4b84-9306-46bf83517d33-global) for detailed information about getting started with {{site.data.keyword.cpd_short}} on IBM Cloud.
+See the [{{site.data.keyword.cpd_full}} readme file](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global/readme/roks/cloud-pak/a5963830-7b4c-4b84-9306-46bf83517d33-global) for detailed information about getting started with {{site.data.keyword.cpd_short}} on IBM Cloud.
 
-{{site.data.keyword.data}} includes a set of integrated services on {{ site.data.keyword.swhub }}. {{ site.data.keyword.swhub_full }} is a modular platform for running various solutions and services on a multi-node Red Hat OpenShift Container Platform. Learn more about {{site.data.keyword.data}} by reviewing the [product documentation](https://www.ibm.com/docs/SSQNUZ_latest//wsj/getting-started/overview-cpd.html).
+{{site.data.keyword.cpd_full}} includes a set of integrated services on IBM Software Hub. IBM Software Hub is a modular platform for running various solutions and services on a multi-node Red Hat OpenShift Container Platform. Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/docs/SSQNUZ_latest//wsj/getting-started/overview-cpd.html).
 
 ## What's inside this Cloud Pak
 {: #whats-in-cloud-pak-for-data}
 
-You can choose which services to install when you install {{site.data.keyword.data}}. For a complete list, see [Installing services](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-install-services).
+You can choose which services to install when you install {{site.data.keyword.cpd_full}}. For a complete list, see [Installing services](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-install-services).
 
 ## Supported versions
 {: #supported-versions}
 
-The current release of {{ site.data.keyword.datalong }} on IBM Cloud is {{ site.data.keyword.datalong }} Version 5.1.x.
+The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 5.1.x.
 
 ## Before you begin
 {: #prereqs}
 
-Before you can install {{ site.data.keyword.datalong }}, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html) or register for a 60-day trial license. See [Step 1. Assign the license](#assign_license).
+Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html) or register for a 60-day trial license. See [Step 1. Assign the license](#assign_license).
 
 You can deploy Cloud Pak for Data on Virtual Private Cloud (VPC) Gen2 infrastructure. You can use either a single or multi zone deployment. For more information, see [Getting started with Red Hat OpenShift on IBM Cloud](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started).
 
-You must ensure that you have sufficient resources for the services that you plan to install. For more information, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{ site.data.keyword.datalong }}.{: note}
+You must ensure that you have sufficient resources for the services that you plan to install. For more information, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.{: note}
 
 ### Roles
 {: #roles}
 
-To install {{site.data.keyword.data}} on IBM Cloud, a user must have the following IBM Cloud Identity and Access Management (IAM) roles:
+To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the following IBM Cloud Identity and Access Management (IAM) roles:
 
 | Role                 | Location                                              | Action           |
 |:-------------------- |:------------------------------------------------------|:-----------------|
@@ -81,7 +81,7 @@ If you don't already have a license, you can:
 * Purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html).
 * [Register](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212) for a 60-day trial license of IBM Cloud Pak for Data.
 
-**Important**: The trial is for {{ site.data.keyword.datalong }} software only. The trial does not include entitlement to the Red Hat OpenShift Container Platform.
+**Important**: The trial is for {{site.data.keyword.cpd_full_notm}} software only. The trial does not include entitlement to the Red Hat OpenShift Container Platform.
 
 To assign your license, follow these steps:
 1. Log in to your [IBM Cloud account](https://cloud.ibm.com).
@@ -92,11 +92,11 @@ To assign your license, follow these steps:
 ## Step 2. Configure your installation environment
 {: #config-install-env}
 
-Specify where you want to install {{ site.data.keyword.datalong }}:
-1. Select the {{site.data.keyword.openshiftlong_notm}} cluster where you want to deploy {{ site.data.keyword.datalong }}.
-1. Enter or select the {{site.data.keyword.openshiftlong_notm}} project where you want to deploy {{ site.data.keyword.datalong }}.
+Specify where you want to install {{site.data.keyword.cpd_full_notm}}:
+1. Select the {{site.data.keyword.openshiftlong_notm}} cluster where you want to deploy {{site.data.keyword.cpd_full_notm}}.
+1. Enter or select the {{site.data.keyword.openshiftlong_notm}} project where you want to deploy {{site.data.keyword.cpd_full_notm}}.
 
-You can also install {{ site.data.keyword.datalong }} on {{site.data.keyword.satellitelong}}. For more information about installing {{ site.data.keyword.datalong }} on {{site.data.keyword.satelliteshort}} locations, see [Cloud deployment environments](https://www.ibm.com/docs/SSNFH6_5.1.x/hub/plan/deployment-environments.html).
+You can also install {{site.data.keyword.cpd_full_notm}} on {{site.data.keyword.satellitelong}}. For more information about installing {{site.data.keyword.cpd_full_notm}} on {{site.data.keyword.satelliteshort}} locations, see [Cloud deployment environments](https://www.ibm.com/docs/SSNFH6_5.1.x/hub/plan/deployment-environments.html).
 
 
 ## Step 3. Configure your workspace
@@ -118,8 +118,8 @@ A {{site.data.keyword.openshiftlong_notm}} cluster administrator must complete t
 The preinstallation script makes the following changes to your {{site.data.keyword.openshiftlong_notm}} cluster:
 
 - Increases the size of the Docker registry to 200 GB. This change increases the cost of your {{site.data.keyword.openshiftlong_notm}} cluster.
-- Creates the security context constraints that are required for {{site.data.keyword.data}}.
-- Grants access to the security context constraints to the service accounts that are required for {{site.data.keyword.data}}.
+- Creates the security context constraints that are required for {{site.data.keyword.cpd_full}}.
+- Grants access to the security context constraints to the service accounts that are required for {{site.data.keyword.cpd_full}}.
 
 Confirm that the script completes successfully before you proceed.
 
@@ -131,40 +131,40 @@ If the cluster administrator is not allowed to modify the storage, or the infras
 Choose the Block Storage for VPC ODF storage class that you want to use to provision storage volumes. For multizone clusters, use a storage class with theVolumeBindingModeofWaitForFirstConsumer. For more information, see [Setting up Block Storage for VPC](https://cloud.ibm.com/docs/openshift?topic=openshift-vpc-block).
 
 
-Specify which services to install when you install {{ site.data.keyword.datalong }}. For example, to install Watson OpenScale, set `aiopenscale` to `true`.
+Specify which services to install when you install {{site.data.keyword.cpd_full_notm}}. For example, to install Watson OpenScale, set `aiopenscale` to `true`.
 
 
-If you don't select any services to install in this step, only the {{ site.data.keyword.datalong }} control plane will be installed.
+If you don't select any services to install in this step, only the {{site.data.keyword.cpd_full_notm}} control plane will be installed.
 
-If you want to install a service later, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the {{ site.data.keyword.datalong }} Services catalog and follow the installation instructions for the service.
+If you want to install a service later, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the {{site.data.keyword.cpd_full_notm}} Services catalog and follow the installation instructions for the service.
 
 For more information, see [Installing and administering Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_latest/wsj/getting-started/install-admin-op.html).
 
-## Step 6. Install {{ site.data.keyword.datalong }}
+## Step 6. Install {{site.data.keyword.cpd_full_notm}}
 {: #install-cloud-pak-for-data}
 
-1. Ensure that you have assigned a license for {{ site.data.keyword.datalong }} to the deployment.
+1. Ensure that you have assigned a license for {{site.data.keyword.cpd_full_notm}} to the deployment.
 1. Confirm that you have read and agree to the license agreements.
 1. Click **Install**.
 
-The {{site.data.keyword.data}} automated installation makes the following changes to ensure that services can be installed successfully:
+The {{site.data.keyword.cpd_full}} automated installation makes the following changes to ensure that services can be installed successfully:
  * Sets kernel parameters. For more information, see [Changing kernel parameter settings](https://www.ibm.com/docs/SSNFH6_5.1.x/hub/install/prep-cluster-node-kernel.html).
  * Enables `noroot squash` on worker nodes for Network File System (NFS). For more information, see [Storage considerations](https://www.ibm.com/docs/SSNFH6_5.1.x/hub/plan/storage_considerations.html).
 
 
-## Step 7. Launch your instance of {{ site.data.keyword.datalong }}
+## Step 7. Launch your instance of {{site.data.keyword.cpd_full_notm}}
 {: #launch-cloud-pak-for-data}
 
 1. After you click **Install**, the **Schematics** > **Workspaces** page opens. You can watch the progress of the installation in the log.
-1. When the installation completes, click **Offering dashboard** to access your {{ site.data.keyword.datalong }} deployment.
+1. When the installation completes, click **Offering dashboard** to access your {{site.data.keyword.cpd_full_notm}} deployment.
 1. Log in to the web client as `admin` using the default password (`password`). Change your password.
 1. On the toolbar, click the **Services** icon and verify that your services are enabled or available.
 
 ## Next steps
 {: #next-steps}
 
-- To add users to your {{ site.data.keyword.datalong }} deployment, see [Managing Cloud Pak for Data users](https://www.ibm.com/docs/SSNFH6_5.1.x/hub/admin/users.html).
+- To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing Cloud Pak for Data users](https://www.ibm.com/docs/SSNFH6_5.1.x/hub/admin/users.html).
 - To install more services to a deployed cluster, repeat the steps to install from IBM Cloud Catalog and set the required service value to **true** in the **Deployment values** section.
-- To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, Decision Optimization, Db2 Data Gate, Execution Engine for Hadoop, Open Pages or SPSS Modeler, which cannot be automatically installed when you install {{ site.data.keyword.datalong }} on IBM Cloud, see [Services and integrations](https://www.ibm.com/docs/SSNFH6_5.1.x/svc-nav/head/services.html).
+- To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, Decision Optimization, Db2 Data Gate, Execution Engine for Hadoop, Open Pages or SPSS Modeler, which cannot be automatically installed when you install {{site.data.keyword.cpd_full_notm}} on IBM Cloud, see [Services and integrations](https://www.ibm.com/docs/SSNFH6_5.1.x/svc-nav/head/services.html).
 - To install and configure global image pull secrets on your cluster, set the value of configchanges to `Required` and provide your `IBM Cloud API Key` and your `IBM entitlement API` key. See [Updating the global image pull secret for IBM Software Hub](https://www.ibm.com/docs/SSNFH6_5.1.x/hub/install/prep-cluster-global-image-pull-secret.html).
-- To uninstall {{ site.data.keyword.datalong }} or {{ site.data.keyword.datalong }} services see [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstalling).
+- To uninstall {{site.data.keyword.cpd_full_notm}} or {{site.data.keyword.cpd_full_notm}} services see [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstalling).
