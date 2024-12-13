@@ -4,7 +4,7 @@ copyright:
   years: 2019, 2024
 lastupdated: "2024-12-13"
 
-keywords: "troubleshooting, getting started, {{site.data.keyword.cpd_short}}, {{ site.data.keyword.datalong }}, data, ai, analytics, data analytics, governance, data governance"
+keywords: "troubleshooting, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
 subcollection: cloud-pak-data
 
