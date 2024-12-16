@@ -27,7 +27,7 @@ Collect, organize, and analyze your data to generate meaningful insight with an 
 
 See the [{{site.data.keyword.cpd_full}} readme file](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for detailed information about getting started with {{site.data.keyword.cpd_short}} on IBM Cloud.
 
-Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/docs/SSQNUZ_5.0.x/wsj/getting-started/overview-cpd.html).
+Learn more about {{site.data.keyword.cpd_full}} by reviewing the [product documentation](https://www.ibm.com/docs/SSQNUZ_5.0.x/cpd/overview/overview.html).
 
 ## What's inside this Cloud Pak
 {: #whats-in-cloud-pak-for-data}
@@ -138,7 +138,7 @@ If you don't select any services to install in this step, only the {{site.data.k
 
 If you want to install a service later, you can return to the **Deployment values** section and set the appropriate parameter to **true** or you can select a service from the {{site.data.keyword.cpd_full_notm}} Services catalog and follow the installation instructions for the service.
 
-For more information, see [Installing and administering Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_5.0.x/wsj/getting-started/install-admin-op.html).
+For more information, see [Installing IBM Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_5.0.x/cpd/install/install.html).
 
 ## Step 6. Install {{site.data.keyword.cpd_full_notm}}
 {: #install-cloud-pak-for-data}
@@ -163,7 +163,7 @@ The {{site.data.keyword.cpd_full}} automated installation makes the following ch
 ## Next steps
 {: #next-steps}
 
-- To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing IMB Cloud Pak for Data users](https://www.ibm.com/docs/SSQNUZ_5.0.x/cpd/admin/users.html).
+- To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing Cloud Pak for Data users](https://www.ibm.com/docs/SSQNUZ_5.0.x/cpd/admin/users.html).
 - To install more services to a deployed cluster, repeat the steps to install from IBM Cloud Catalog and set the required service value to **true** in the **Deployment values** section.
 - To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, Decision Optimization, Db2 Data Gate, Execution Engine for Hadoop, Open Pages or SPSS Modeler, which cannot be automatically installed when you install {{site.data.keyword.cpd_full_notm}} on IBM Cloud, see [Services](https://www.ibm.com/docs/SSQNUZ_5.0.x/svc-nav/head/services.html).
 - To install and configure global image pull secrets on your cluster, set the value of configchanges to `Required` and provide your `IBM Cloud API Key` and your `IBM entitlement API` key. See [Updating the global image pull secret for IBM Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_5.0.x/cpd/install/prep-cluster-global-image-pull-secret.html).

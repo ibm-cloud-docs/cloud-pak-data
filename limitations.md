@@ -32,4 +32,4 @@ subcollection: cloud-pak-data
 
 * On the Settings page in **Schematics** > **Workspaces**, you cannot change the **Override value** from `true` to `false` to uninstall a service. For more information, see  [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstalling).
 
-For more information, see [Troubleshooting problems in Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_5.0.x/wsj/troubleshoot/troubleshoot.html).
+For more information, see [Troubleshooting problems in Cloud Pak for Data](https://www.ibm.com/docs/SSQNUZ_5.0.x/cpd/troubleshoot/troubleshooting.html).

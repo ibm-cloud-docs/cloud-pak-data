@@ -43,4 +43,4 @@ To uninstall {{site.data.keyword.cpd_full}} by using the command-line interface,
 ## Uninstalling services in {{site.data.keyword.cpd_full}}
 {: #uninstall_svcs}
 
-To uninstall a service in {{site.data.keyword.cpd_full}}, see the uninstall topic for [Services and integrations](https://www.ibm.com/docs/SSQNUZ_5.0.x/svc-nav/head/services.html).
+To uninstall a service in {{site.data.keyword.cpd_full}}, see the uninstall topic for [Services](https://www.ibm.com/docs/SSQNUZ_5.0.x/svc-nav/head/services.html).

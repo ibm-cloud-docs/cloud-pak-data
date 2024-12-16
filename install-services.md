@@ -59,6 +59,6 @@ Use the links in the following table to learn how to install each of these servi
 |[Watson OpenScale](https://www.ibm.com/docs/SSQNUZ_5.0.x/svc-welcome/aiopenscale.html)                                                                           | ✓ | ✓ |
 |[Watson Pipelines](https://www.ibm.com/docs/SSQNUZ_5.0.x/svc-welcome/wsp.html)                                                                                   | | ✓ |
 |[Watson Speech](https://www.ibm.com/docs/SSQNUZ_5.0.x/svc-welcome/wstt.html)                                                                                     | ✓| ✓ |
-|[Watson Query](https://www.ibm.com/docs/SSQNUZ_5.0.x/svc-welcome/dv.html)                                                                                        | ✓ | ✓ |
+|[Data Virtualization](https://www.ibm.com/docs/SSQNUZ_5.0.x/svc-welcome/dv.html)                                                                                        | ✓ | ✓ |
 |[Watson Studio](https://www.ibm.com/docs/SSQNUZ_5.0.x/svc-welcome/wsl.html)                                                                                      | ✓ | ✓ |
 {: caption="Methods to install Cloud Pak for Data" caption-side="bottom"}
