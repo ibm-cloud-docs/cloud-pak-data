@@ -37,7 +37,7 @@ You can choose which services to install when you install {{site.data.keyword.cp
 ## Supported versions
 {: #supported-versions}
 
-The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 5.1.x.
+The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 5.0.x.
 
 ## Before you begin
 {: #prereqs}
@@ -97,7 +97,6 @@ Specify where you want to install {{site.data.keyword.cpd_full_notm}}:
 1. Enter or select the {{site.data.keyword.openshiftlong_notm}} project where you want to deploy {{site.data.keyword.cpd_full_notm}}.
 
 You can also install {{site.data.keyword.cpd_full_notm}} on {{site.data.keyword.satellitelong}}. For more information about installing {{site.data.keyword.cpd_full_notm}} on {{site.data.keyword.satelliteshort}} locations, see [Cloud deployment environments](https://www.ibm.com/docs/SSQNUZ_5.0.x/cpd/plan/deployment-environments.html).
-
 
 ## Step 3. Configure your workspace
 {: #config-workspace}
