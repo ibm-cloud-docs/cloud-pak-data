@@ -40,7 +40,7 @@
     "cli": "/docs/account/account-manage-catalogs-plugin"    
   },
   "section_updates": {
-    "view_more": "/docs/content/wsj/getting-started/whats-new.html",
+    "view_more": "/docs/cloud-pak-data?topic=cloud-pak-data-getting-started",
     "tiles": [      
 	  {
         "date": "30 October 2024",
