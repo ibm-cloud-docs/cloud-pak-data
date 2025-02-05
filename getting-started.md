@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-01-02"
+lastupdated: "2025-02-05"
 
 keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -79,7 +79,7 @@ You must also ensure that your cluster has sufficient resources and is configure
 
 If you don't already have a license, you can:
 * Purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html).
-* [Register](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42212) for a 60-day trial license of IBM Cloud Pak for Data.
+* [Register](https://www.ibm.com/account/us-en/) for a 60-day trial license of IBM Cloud Pak for Data.
 
 **Important**: The trial is for {{site.data.keyword.cpd_full_notm}} software only. The trial does not include entitlement to the Red Hat OpenShift Container Platform.
 
