@@ -36,12 +36,16 @@
     }
   ],
   "section_devtools": {
-    "api": "/apidocs/software-hub/software-hub-5.1.0",
+    "api": "/apidocs/software-hub/software-hub-5.2.0",
     "cli": "/docs/account/account-manage-catalogs-plugin"    
   },
   "section_updates": {
     "view_more": "/docs/cloud-pak-data?topic=cloud-pak-data-getting-started",
     "tiles": [      
+      {
+        "date": "11 June 2025",
+        "title": "Release of Cloud Pak for Data 5.2.0"
+      },
       {
         "date": "30 April 2025",
         "title": "Release of Cloud Pak for Data 5.1.3"
@@ -65,11 +69,7 @@
       {
         "date": "11 December 2024",
         "title": "Release of Cloud Pak for Data 5.1.0"
-      },      
-	    {
-        "date": "30 October 2024",
-        "title": "Release of Cloud Pak for Data 4.8.7"
-      }      
+      }     
     ]
   }
 }
