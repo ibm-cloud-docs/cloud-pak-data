@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2025
-lastupdated: "2025-07-28"
+  years: 2019, 2026
+lastupdated: 2026-02-09
 
 keywords: "getting started tutorial, getting started, {{site.data.keyword.cpd_short}}, {{site.data.keyword.cpd_full_notm}}, data, ai, analytics, data analytics, governance, data governance"
 
@@ -37,7 +37,7 @@ You can choose which services to install when you install {{site.data.keyword.cp
 ## Supported versions
 {: #supported-versions}
 
-The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 5.2.x.
+The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{site.data.keyword.cpd_full_notm}} Version 5.3.x.
 
 ## Before you begin
 {: #prereqs}
@@ -96,7 +96,7 @@ Specify where you want to install {{site.data.keyword.cpd_full_notm}}:
 1. Select the {{site.data.keyword.openshiftlong_notm}} cluster where you want to deploy {{site.data.keyword.cpd_full_notm}}.
 1. Enter or select the {{site.data.keyword.openshiftlong_notm}} project where you want to deploy {{site.data.keyword.cpd_full_notm}}.
 
-You can also install {{site.data.keyword.cpd_full_notm}} on {{site.data.keyword.satellitelong}}. For more information about installing {{site.data.keyword.cpd_full_notm}} on {{site.data.keyword.satelliteshort}} locations, see [Cloud deployment environments](https://www.ibm.com/docs/SSNFH6_5.2.x/hub/plan/deployment-environments.html).
+You can also install {{site.data.keyword.cpd_full_notm}} on {{site.data.keyword.satellitelong}}. For more information about installing {{site.data.keyword.cpd_full_notm}} on {{site.data.keyword.satelliteshort}} locations, see [Cloud deployment environments](https://www.ibm.com/docs/SSNFH6_latest/hub/plan/deployment-environments.html).
 
 
 ## Step 3. Configure your workspace
@@ -148,8 +148,8 @@ For more information, see [Installing and administering Cloud Pak for Data](http
 1. Click **Install**.
 
 The {{site.data.keyword.cpd_full}} automated installation makes the following changes to ensure that services can be installed successfully:
- * Sets kernel parameters. For more information, see [Changing kernel parameter settings](https://www.ibm.com/docs/SSNFH6_5.2.x/hub/install/prep-cluster-node-kernel.html).
- * Enables `noroot squash` on worker nodes for Network File System (NFS). For more information, see [Storage considerations](https://www.ibm.com/docs/SSNFH6_5.2.x/hub/plan/storage_considerations.html).
+ * Sets kernel parameters. For more information, see [Changing kernel parameter settings](https://www.ibm.com/docs/SSNFH6_latest/hub/install/prep-cluster-node-kernel.html).
+ * Enables `noroot squash` on worker nodes for Network File System (NFS). For more information, see [Storage considerations](https://www.ibm.com/docs/SSNFH6_latest/hub/plan/storage_considerations.html).
 
 
 ## Step 7. Launch your instance of {{site.data.keyword.cpd_full_notm}}
@@ -163,8 +163,8 @@ The {{site.data.keyword.cpd_full}} automated installation makes the following ch
 ## Next steps
 {: #next-steps}
 
-- To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing IMB Software Hub users](https://www.ibm.com/docs/SSNFH6_5.2.x/hub/admin/users.html).
+- To add users to your {{site.data.keyword.cpd_full_notm}} deployment, see [Managing IMB Software Hub users](https://www.ibm.com/docs/SSNFH6_latest/hub/admin/users.html).
 - To install more services to a deployed cluster, repeat the steps to install from IBM Cloud Catalog and set the required service value to **true** in the **Deployment values** section.
-- To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, Decision Optimization, Db2 Data Gate, Execution Engine for Hadoop, Open Pages or SPSS Modeler, which cannot be automatically installed when you install {{site.data.keyword.cpd_full_notm}} on IBM Cloud, see [Services](https://www.ibm.com/docs/SSNFH6_5.2.x/svc-nav/head/services.html).
-- To install and configure global image pull secrets on your cluster, set the value of configchanges to `Required` and provide your `IBM Cloud API Key` and your `IBM entitlement API` key. See [Updating the global image pull secret for IBM Software Hub](https://www.ibm.com/docs/SSNFH6_5.2.x/hub/install/prep-cluster-global-image-pull-secret.html).
+- To install other supported services, such as DataStage, MongoDB, Db2, Db2 Big SQL, Cognos Analytics, Decision Optimization, Db2 Data Gate, Execution Engine for Hadoop, Open Pages or SPSS Modeler, which cannot be automatically installed when you install {{site.data.keyword.cpd_full_notm}} on IBM Cloud, see [Services](https://www.ibm.com/docs/SSNFH6_latest/svc-nav/head/services.html).
+- To install and configure global image pull secrets on your cluster, set the value of configchanges to `Required` and provide your `IBM Cloud API Key` and your `IBM entitlement API` key. See [Updating the global image pull secret for IBM Software Hub](https://www.ibm.com/docs/SSNFH6_latest/hub/install/prep-cluster-global-image-pull-secret.html).
 - To uninstall {{site.data.keyword.cpd_full_notm}} or {{site.data.keyword.cpd_full_notm}} services see [Uninstalling](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-uninstalling).
