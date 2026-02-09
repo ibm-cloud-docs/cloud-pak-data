@@ -42,9 +42,9 @@ The current release of {{site.data.keyword.cpd_full_notm}} on IBM Cloud is {{sit
 ## Before you begin
 {: #prereqs}
 
-Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html) or register for a 60-day trial license. See [Step 1. Assign the license](#assign_license).
+Before you can install {{site.data.keyword.cpd_full_notm}}, you must purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage) or register for a 60-day trial license. See [Step 1. Assign the license](#assign_license).
 
-You can deploy Cloud Pak for Data on Virtual Private Cloud (VPC) Gen2 infrastructure. You can use either a single or multi zone deployment. For more information, see [Getting started with Red Hat OpenShift on IBM Cloud](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started).
+You can deploy Cloud Pak for Data on Virtual Private Cloud (VPC) Gen2 infrastructure. You can use either a single or multi zone deployment. For more information, see [Getting started with Red Hat OpenShift on IBM Cloud](/docs/openshift?topic=openshift-getting-started).
 
 You must ensure that you have sufficient resources for the services that you plan to install. For more information, see the [prerequisites](https://cloud.ibm.com/catalog/content/ibm-cp-datacore-6825cc5d-dbf8-4ba2-ad98-690e6f221701-global#about) for {{site.data.keyword.cpd_full_notm}}.{: note}
 
@@ -62,7 +62,7 @@ To install {{site.data.keyword.cpd_full}} on IBM Cloud, a user must have the fol
 | Classic Infrastructure > Services > Storage Manage , Classic Infrastructure > Account > Add/Upgrade Storage   | Manage > Access (IAM) > Users       | Modify the image registry volume. |
 {: caption="IBM Cloud Identity and Access Management roles required for Cloud Pak for Data" caption-side="bottom"}
 
-For more information, see [IAM roles and actions](https://cloud.ibm.com/docs/openshift?topic=openshift-iam-platform-access-roles).
+For more information, see [IAM roles and actions](/docs/openshift?topic=openshift-iam-platform-access-roles).
 
 ### Storage
 {: #storage}
@@ -78,8 +78,8 @@ You must also ensure that your cluster has sufficient resources and is configure
 {: #assign_license}
 
 If you don't already have a license, you can:
-* Purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/index.html).
-* [Register](https://www.ibm.com/account/us-en/) for a 60-day trial license of IBM Cloud Pak for Data.
+* Purchase a license through [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage).
+* [Register](https://www.ibm.com/account) for a 60-day trial license of IBM Cloud Pak for Data.
 
 **Important**: The trial is for {{site.data.keyword.cpd_full_notm}} software only. The trial does not include entitlement to the Red Hat OpenShift Container Platform.
 
@@ -128,7 +128,7 @@ If the cluster administrator is not allowed to modify the storage, or the infras
 ## Step 5. Set the deployment values
 {: #set-deploy-values}
 
-Choose the Block Storage for VPC ODF storage class that you want to use to provision storage volumes. For multizone clusters, use a storage class with theVolumeBindingModeofWaitForFirstConsumer. For more information, see [Setting up Block Storage for VPC](https://cloud.ibm.com/docs/openshift?topic=openshift-vpc-block).
+Choose the Block Storage for VPC ODF storage class that you want to use to provision storage volumes. For multizone clusters, use a storage class with theVolumeBindingModeofWaitForFirstConsumer. For more information, see [Setting up Block Storage for VPC](/docs/openshift?topic=openshift-vpc-block).
 
 
 Specify which services to install when you install {{site.data.keyword.cpd_full_notm}}. For example, to install Watson OpenScale, set `aiopenscale` to `true`.
