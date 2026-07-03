@@ -9,7 +9,7 @@
       {
         "title": "Getting started with IBM Cloud Pak for Data",
         "href": "/docs/cloud-pak-data?topic=cloud-pak-data-getting-started"
-      },      
+      },
       {
         "title": "Installing services",
         "href": "/docs/cloud-pak-data?topic=cloud-pak-data-install-services"
@@ -20,7 +20,7 @@
       }
     ]
   },
-  "section_highlights": [    
+  "section_highlights": [
     {
       "title": "Introducing Cloud Pak for Data v5.2",
       "description": "Cloud Pak for Data continues to evolve as a unified framework that lets you connect to your data, govern it, find it, and use it for analysis.",
@@ -37,11 +37,11 @@
   ],
   "section_devtools": {
     "api": "/apidocs/software-hub/software-hub-5.3.0",
-    "cli": "/docs/account/account-manage-catalogs-plugin"    
+    "cli": "/docs/account/account-manage-catalogs-plugin"
   },
   "section_updates": {
     "view_more": "/docs/cloud-pak-data?topic=cloud-pak-data-getting-started",
-    "tiles": [      
+    "tiles": [
       {
         "date": "16 December 2025",
         "title": "Release of Cloud Pak for Data 5.3.0"
